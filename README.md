@@ -1,14 +1,17 @@
 # Kjemi 1 — interaktive kapittelsider
 
-To selvstendige nettsider for Kjemi 1 (KJE01-02), én per kapittel. Alt ligger i hver sin
-HTML-fil. Åpne fila i en nettleser, eller publiser mappa. Ingen byggesteg, ingen avhengigheter.
+Nettsider for Kjemi 1 (KJE01-02). Alt ligger i HTML-filene — ingen byggesteg, ingen
+avhengigheter. Åpne en fil i nettleseren, eller publiser mappa.
 
-| Fil | Kapittel |
+| Fil | Innhold |
 | --- | --- |
-| `index.html` | Kapittel 1: Atomer, molekyler og ioner |
-| `kapittel2.html` | Kapittel 2: Kjemiske bindinger |
+| `kjemi1.html` | **Hele sida: kapittel 1 og 2 samlet.** Denne er den anbefalte. |
+| `index.html` | Kapittel 1 alene: Atomer, molekyler og ioner |
+| `kapittel2.html` | Kapittel 2 alene: Kjemiske bindinger |
 
-Sidene lenker til hverandre nederst i sidemenyen.
+Den samlede sida har begge kapitlene i samme sidemeny, én sjekkliste på 33 punkter, 97
+flashcards, 57 quizspørsmål og 21 påstander på tvers av kapitlene, og ett søk som dekker alt.
+Kapittelfilene er de samme sidene delt i to, for den som heller vil ha én fil per kapittel.
 
 ## Søk
 
@@ -33,7 +36,7 @@ Enter styrer trefflista. Tall skrevet med komma og punktum finner det samme.
 
 Alle oppgavene fra kapitlet med løsning, aktivitetene A 1.1–A 1.10, øvingene Ø 1.1–Ø 1.5,
 laboratoriehåndbok med feilkilder og måleusikkerhet, temasidene om grunnstoffer, formelark,
-59 flashcards, 32 quizspørsmål og 10 sant/usant-påstander med forklaring.
+58 flashcards, 32 quizspørsmål og 10 sant/usant-påstander med forklaring.
 
 **Seks interaktive verktøy:** interaktivt periodisk system med alle 118 grunnstoffene,
 skallbygger for de 20 første, isotopregner, saltbygger som balanserer ladningene,

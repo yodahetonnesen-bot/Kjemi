@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Interaktiv læringsside for Kjemi 1, kapittel 1: atomer, molekyler og ioner. Interaktivt periodisk system, skallbygger, flammeprøver, oppgaver med løsning, quiz og flashcards.">
+<meta name="description" content="Interaktiv læringsside for Kjemi 1, kapittel 1 og 2: atomer, molekyler, ioner og kjemiske bindinger. Interaktivt periodisk system, VSEPR, flammeprøver, oppgaver med løsning, quiz og flashcards.">
 <meta name="color-scheme" content="light dark">
-<title>Kjemi 1 — Kapittel 1: Atomer, molekyler og ioner</title>
+<title>Kjemi 1 — Atomer og bindinger</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b1020'/%3E%3Cpath d='M42 18 L42 44 L20 80 Q17 86 24 86 L76 86 Q83 86 80 80 L58 44 L58 18' stroke='%237c6cff' stroke-width='8' fill='none' stroke-linejoin='round'/%3E%3Ccircle cx='50' cy='72' r='7' fill='%23ff8f5e'/%3E%3C/svg%3E">
 <style>
 /* ==========================================================================
-   KJEMI 1 · KAPITTEL 1 — designsystem
+   KJEMI 1 · KAPITTEL 1 OG 2 — designsystem
    ========================================================================== */
 
 /* ---------- 1. tokens ---------- */
@@ -1190,15 +1190,18 @@ body.searchopen{overflow:hidden;}
       </span>
       <span class="brandtext">
         <b>Kjemi 1</b>
-        <span>Kapittel 1 · Atomet</span>
+        <span>Kapittel 1 og 2</span>
       </span>
     </div>
 
     <nav class="sidebar__scroll" aria-label="Kapittelnavigasjon">
       <div class="navgroup">
-        <span class="navgroup__label">Lærestoff</span>
+        <span class="navgroup__label">Start</span>
         <button class="tab active" data-tab="oversikt" data-title="Oversikt"><span class="tab__dot" aria-hidden="true">01</span>Oversikt</button>
         <button class="tab" data-tab="start" data-title="Kjemi — et viktig fag"><span class="tab__dot" aria-hidden="true">00</span>Kjemi som fag</button>
+      </div>
+      <div class="navgroup">
+        <span class="navgroup__label">Kapittel 1 · Atomet</span>
         <button class="tab" data-tab="a" data-title="1.1 · Atomet og elementærpartiklene"><span class="tab__dot" aria-hidden="true">1.1</span>Elementærpartiklene</button>
         <button class="tab" data-tab="b" data-title="1.2 · Grunnstoffer og isotoper"><span class="tab__dot" aria-hidden="true">1.2</span>Grunnstoff &amp; isotop</button>
         <button class="tab" data-tab="c" data-title="1.3 · Elektronstruktur og oktettregelen"><span class="tab__dot" aria-hidden="true">1.3</span>Skall &amp; oktett</button>
@@ -1209,16 +1212,29 @@ body.searchopen{overflow:hidden;}
         <button class="tab" data-tab="h" data-title="1.11–1.12 · Orbitaler og elektronkonfigurasjon"><span class="tab__dot" aria-hidden="true">1.11</span>Orbitaler</button>
       </div>
       <div class="navgroup">
+        <span class="navgroup__label">Kapittel 2 · Bindinger</span>
+        <button class="tab" data-tab="2a" data-title="2.1 · Periodiske egenskaper"><span class="tab__dot" aria-hidden="true">2.1</span>Periodiske egenskaper</button>
+        <button class="tab" data-tab="2b" data-title="2.2 · Elektronegativitet og bindingstype"><span class="tab__dot" aria-hidden="true">2.2</span>Bindingstype</button>
+        <button class="tab" data-tab="2c" data-title="2.3 · Dipoler og molekylgeometri"><span class="tab__dot" aria-hidden="true">2.3</span>Dipoler &amp; geometri</button>
+        <button class="tab" data-tab="2d" data-title="2.4 · Metallbinding"><span class="tab__dot" aria-hidden="true">2.4</span>Metallbinding</button>
+        <button class="tab" data-tab="2e" data-title="2.5 · Bindinger mellom molekyler"><span class="tab__dot" aria-hidden="true">2.5</span>Mellom molekyler</button>
+        <button class="tab" data-tab="2f" data-title="2.6 · Bindingsforholdene i vann og is"><span class="tab__dot" aria-hidden="true">2.6</span>Vann og is</button>
+        <button class="tab" data-tab="2g" data-title="2.7 · Oversikt over bindingstyper"><span class="tab__dot" aria-hidden="true">2.7</span>Oversikt bindinger</button>
+      </div>
+      <div class="navgroup">
         <span class="navgroup__label">Øving</span>
-        <button class="tab" data-tab="oppgaver" data-title="Oppgaver"><span class="tab__dot" aria-hidden="true">OP</span>Oppgaver</button>
-        <button class="tab" data-tab="aktiv" data-title="Aktiviteter og påstander"><span class="tab__dot" aria-hidden="true">AK</span>Aktiviteter</button>
+        <button class="tab" data-tab="oppgaver" data-title="Oppgaver til kapittel 1"><span class="tab__dot" aria-hidden="true">O1</span>Oppgaver kap. 1</button>
+        <button class="tab" data-tab="oppgaver2" data-title="Oppgaver til kapittel 2"><span class="tab__dot" aria-hidden="true">O2</span>Oppgaver kap. 2</button>
+        <button class="tab" data-tab="aktiv" data-title="Aktiviteter"><span class="tab__dot" aria-hidden="true">AK</span>Aktiviteter</button>
+        <button class="tab" data-tab="pastander" data-title="Har du forstått det?"><span class="tab__dot" aria-hidden="true">PÅ</span>Påstander</button>
         <button class="tab" data-tab="flash" data-title="Flashcards"><span class="tab__dot" aria-hidden="true">FC</span>Flashcards</button>
         <button class="tab" data-tab="quiz" data-title="Quiz"><span class="tab__dot" aria-hidden="true">QZ</span>Quiz</button>
       </div>
       <div class="navgroup">
         <span class="navgroup__label">Referanse</span>
         <button class="tab" data-tab="lab" data-title="I kjemilaboratoriet"><span class="tab__dot" aria-hidden="true">LA</span>Laboratoriet</button>
-        <button class="tab" data-tab="tema" data-title="Tema: grunnstoffer"><span class="tab__dot" aria-hidden="true">TE</span>Tema</button>
+        <button class="tab" data-tab="tema" data-title="Tema: grunnstoffer"><span class="tab__dot" aria-hidden="true">T1</span>Tema: grunnstoffer</button>
+        <button class="tab" data-tab="kjerne" data-title="Tema: kjernekrefter"><span class="tab__dot" aria-hidden="true">T2</span>Tema: kjernekrefter</button>
         <button class="tab" data-tab="formler" data-title="Formelark og oppslag"><span class="tab__dot" aria-hidden="true">FS</span>Formelark</button>
       </div>
     </nav>
@@ -1234,10 +1250,9 @@ body.searchopen{overflow:hidden;}
         </span>
         <div>
           <small>Framdrift</small>
-          <span id="ringText">0 av 16 punkter</span>
+          <span id="ringText">0 av 33 punkter</span>
         </div>
       </div>
-      <a class="chapterlink" href="kapittel2.html">Kapittel 2: Kjemiske bindinger →</a>
     </div>
   </aside>
 
@@ -1247,7 +1262,7 @@ body.searchopen{overflow:hidden;}
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
       <div class="topbar__crumb">
-        <span class="kicker">Kapittel 1</span>
+        <span class="kicker">Kjemi 1</span>
         <span class="sep">/</span>
         <span class="now" id="crumbNow">Oversikt</span>
       </div>
@@ -1255,7 +1270,7 @@ body.searchopen{overflow:hidden;}
         <span class="bar"><i id="topFill"></i></span>
         <span id="topPct">0 %</span>
       </div>
-      <button class="searchbtn" id="searchBtn" type="button" aria-label="Søk i kapitlet" title="Søk (trykk /)">
+      <button class="searchbtn" id="searchBtn" type="button" aria-label="Søk i kapitlene" title="Søk (trykk /)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
         <span class="searchbtn__label">Søk</span>
         <kbd>/</kbd>
@@ -1272,9 +1287,9 @@ body.searchopen{overflow:hidden;}
   <div class="hero">
     <div class="herogrid">
       <div>
-        <span class="eyebrow">Atomer, molekyler og ioner</span>
-        <h1>Alt er bygd opp av <span class="grad">atomer</span></h1>
-        <p class="lede">Se deg rundt. Ingenting du ser — levende eller dødt — er noe annet enn atomer satt sammen på ulike måter. Dette kapitlet går inn i atomet, ut igjen til det periodiske systemet, og viser hvorfor grunnstoffene oppfører seg så forskjellig.</p>
+        <span class="eyebrow">Kjemi 1 · kapittel 1 og 2</span>
+        <h1>Fra atomet til <span class="grad">bindingene</span></h1>
+        <p class="lede">Kapittel 1 går inn i atomet og ut igjen til det periodiske systemet. Kapittel 2 bruker det samme systemet til å forklare hvorfor stoffene henger sammen — og hvorfor is flyter. Alt fagstoffet, oppgavene med løsning og verktøyene ligger på denne ene sida.</p>
         <div class="btnrow" style="margin-top:22px;">
           <button class="btn btn--go" data-goto="a">Start på 1.1</button>
           <button class="btn btn--paper" data-goto="d">Periodisk system</button>
@@ -1288,61 +1303,91 @@ body.searchopen{overflow:hidden;}
     </div>
   </div>
 
-  <div class="card">
-    <h2>Den røde tråden i kapitlet</h2>
-    <p>Kapitlet er én lang historie: vi begynner med å spørre hva et stoff består av, og ender med å kunne lese elektronstrukturen rett ut av det periodiske systemet.</p>
-    <div class="timeline">
-      <div class="timeline__item">
-        <span class="timeline__year">1.1 &middot; Elementærpartiklene</span>
-        <p>Demokrit trodde atomet var udelelig. Thomson fant <strong>elektronet</strong>, Rutherford <strong>protonet</strong> og kjernen, Chadwick <strong>nøytronet</strong>. Atomet er nesten bare tomrom.</p>
+  <div class="grid2">
+    <div class="card">
+      <h2>Kapittel 1 — Atomer, molekyler og ioner</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <span class="timeline__year">1.1 &middot; Elementærpartiklene</span>
+          <p>Demokrit trodde atomet var udelelig. Thomson fant <strong>elektronet</strong>, Rutherford <strong>protonet</strong> og kjernen, Chadwick <strong>nøytronet</strong>. Atomet er nesten bare tomrom.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">1.2 &middot; Grunnstoffer og isotoper</span>
+          <p>Antall <strong>protoner</strong> bestemmer grunnstoffet. Antall <strong>nøytroner</strong> kan variere — da har vi isotoper.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">1.3 &middot; Skall og oktettregelen</span>
+          <p>Elektronene ligger i skall med plass til 2<span class="math">n</span>² elektroner. Åtte i ytterste skall er målet.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">1.4 &middot; Det periodiske systemet</span>
+          <p>Mendelejev sorterte grunnstoffene etter egenskaper og lot det stå tomme plasser til grunnstoffer ingen hadde sett.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">1.5–1.8 &middot; Salter og ioner</span>
+          <p>Atomene gir fra seg eller tar opp elektroner og blir <strong>ioner</strong>. Gruppenummeret gir deg ioneladningen og saltformelen.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">1.9–1.12 &middot; Lys og orbitaler</span>
+          <p>Lys er både bølge og partikkel. Elektronene holder til i <strong>orbitaler</strong>, og rekkefølgen de fylles i, er selve formen på det periodiske systemet.</p>
+        </div>
       </div>
-      <div class="timeline__item">
-        <span class="timeline__year">1.2 &middot; Grunnstoffer og isotoper</span>
-        <p>Antall <strong>protoner</strong> bestemmer hvilket grunnstoff vi har. Antall <strong>nøytroner</strong> kan variere — da har vi isotoper av samme grunnstoff.</p>
-      </div>
-      <div class="timeline__item">
-        <span class="timeline__year">1.3 &middot; Skall og oktettregelen</span>
-        <p>Elektronene ligger i skall med plass til 2<span class="math">n</span>² elektroner. Åtte i ytterste skall er målet — det er <strong>oktettregelen</strong>, og den forklarer nesten all kjemi i Kjemi 1.</p>
-      </div>
-      <div class="timeline__item">
-        <span class="timeline__year">1.4 &middot; Det periodiske systemet</span>
-        <p>Mendelejev sorterte grunnstoffene etter egenskaper og lot det stå tomme plasser. Egenskapene til de manglende grunnstoffene traff nesten blink da de ble funnet.</p>
-      </div>
-      <div class="timeline__item">
-        <span class="timeline__year">1.5–1.8 &middot; Forbindelser, salter og ioner</span>
-        <p>Atomene gir fra seg eller tar opp elektroner og blir <strong>ioner</strong>. Positive og negative ioner bygger <strong>salter</strong>. Gruppenummeret gir deg ioneladningen og dermed saltformelen.</p>
-      </div>
-      <div class="timeline__item">
-        <span class="timeline__year">1.9–1.10 &middot; Lys og Bohrs modell</span>
-        <p>Lys er både bølge og partikkel. Når et eksitert elektron faller tilbake, sendes energien ut som et <strong>foton</strong> med bestemt farge. Det er derfor flammeprøver virker.</p>
-      </div>
-      <div class="timeline__item">
-        <span class="timeline__year">1.11–1.12 &middot; Orbitaler</span>
-        <p>Elektronene går ikke i sirkelbaner. De holder til i <strong>orbitaler</strong> — områder der sannsynligheten for å treffe på dem er stor. Rekkefølgen på orbitalene er selve oppbygningen av det periodiske systemet.</p>
+    </div>
+
+    <div class="card">
+      <h2>Kapittel 2 — Kjemiske bindinger</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <span class="timeline__year">2.1 &middot; Periodiske egenskaper</span>
+          <p><strong>Coulombs lov</strong> forklarer nesten alt: kreftene mellom ladninger øker med ladningens størrelse og med kortere avstand.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">2.2 &middot; Bindingstype</span>
+          <p>Forskjellen i <strong>elektronegativitet</strong> avgjør om du får ionebinding, polar elektronparbinding eller ren elektronparbinding.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">2.3 &middot; Dipoler og geometri</span>
+          <p>Elektronskyene frastøter hverandre og bestemmer <strong>formen</strong> på molekylet — og om molekylet blir en dipol.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">2.4 &middot; Metallbinding</span>
+          <p>Positive metallioner i et hav av frie elektroner. Det forklarer smeltepunkt, strømledning og at metaller kan valses.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">2.5 &middot; Mellom molekyler</span>
+          <p>Van der Waalske krefter, dipol-dipolkrefter, ion-dipolkrefter og <strong>hydrogenbindinger</strong> bestemmer smelte- og kokepunkt.</p>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__year">2.6–2.7 &middot; Vann og oversikt</span>
+          <p>Hydrogenbindingene gjør vann spesielt: is flyter, vannet er tyngst ved 4 °C, og innsjøene fryser ovenfra.</p>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="card">
-    <h2>Utforsk kapitlet</h2>
-    <p class="small dim">Åtte deler med lærestoff, fire øvingsverktøy og tre oppslagsverk. Velg der du vil begynne.</p>
+    <h2>Utforsk</h2>
+    <p class="small dim">Femten deler med lærestoff, seks øvingsverktøy og fire oppslagsverk. Velg der du vil begynne.</p>
     <div class="chapters">
       <button class="chapcard" data-goto="start"><span class="num">00</span><b>Kjemi som fag</b><small>Hva kjemi er, hva en modell er, og hva som skjer i en kjemisk reaksjon.</small></button>
       <button class="chapcard" data-goto="a"><span class="num">1.1</span><b>Elementærpartiklene</b><small>Elektron, proton og nøytron — og forsøkene som avslørte dem.</small></button>
-      <button class="chapcard" data-goto="b"><span class="num">1.2</span><b>Grunnstoff &amp; isotop</b><small>Atomnummer, massetall og isotopregneren.</small></button>
       <button class="chapcard" data-goto="c"><span class="num">1.3</span><b>Skall &amp; oktett</b><small>2n²-regelen og skallbyggeren for de 20 første grunnstoffene.</small></button>
       <button class="chapcard" data-goto="d"><span class="num">1.4</span><b>Periodisk system</b><small>Interaktivt system med alle 118 grunnstoffene.</small></button>
       <button class="chapcard" data-goto="e"><span class="num">1.5</span><b>Salter &amp; ioner</b><small>Saltbyggeren gir formel, navn og ionespalting.</small></button>
-      <button class="chapcard" data-goto="f"><span class="num">1.9</span><b>Lys</b><small>Bølgelengde, frekvens og energi — med regnemaskin.</small></button>
-      <button class="chapcard" data-goto="g"><span class="num">1.10</span><b>Bohrs modell</b><small>Eksitasjon, atomspektre og flammeprøver.</small></button>
-      <button class="chapcard" data-goto="h"><span class="num">1.11</span><b>Orbitaler</b><small>s, p, d og f — og hvorfor 4s fylles før 3d.</small></button>
+      <button class="chapcard" data-goto="g"><span class="num">1.10</span><b>Bohrs modell</b><small>Eksitasjon, atomspektre og flammeprøver med linjespekter.</small></button>
+      <button class="chapcard" data-goto="2a"><span class="num">2.1</span><b>Periodiske egenskaper</b><small>Coulombs lov og trendgrafen for radius, ioniseringsenergi og EN.</small></button>
+      <button class="chapcard" data-goto="2b"><span class="num">2.2</span><b>Bindingstype</b><small>Velg to grunnstoffer og se hvilken binding du får.</small></button>
+      <button class="chapcard" data-goto="2c"><span class="num">2.3</span><b>Dipoler &amp; geometri</b><small>VSEPR-verktøy for åtte molekyler og ioner.</small></button>
+      <button class="chapcard" data-goto="2f"><span class="num">2.6</span><b>Vann og is</b><small>Massetetthetskurven som forklarer høst- og vårsirkulasjonen.</small></button>
+      <button class="chapcard" data-goto="lab"><span class="num">LA</span><b>Laboratoriet</b><small>Utstyr, feilkilder, måleusikkerhet, laboratorievett og øvingene.</small></button>
+      <button class="chapcard" data-goto="flash"><span class="num">98</span><b>Flashcards</b><small>Begreper fra begge kapitlene, med statistikk på hvert kort.</small></button>
     </div>
   </div>
 
   <div class="grid2">
     <div class="card">
       <h2>De tre partiklene</h2>
-      <p>Hele kapitlet handler om tre partikler og hvor de er. Lær denne tabellen nå, så blir resten enklere.</p>
+      <p>Hele kapittel 1 handler om tre partikler og hvor de er. Lær denne tabellen nå, så blir resten enklere.</p>
       <table class="data">
         <thead><tr><th>Partikkel</th><th>Symbol</th><th>Ladning</th><th>Masse</th><th>Hvor</th></tr></thead>
         <tbody>
@@ -1353,12 +1398,12 @@ body.searchopen{overflow:hidden;}
       </table>
       <div class="box box--key">
         <span class="box__label">Hovedpoeng</span>
-        <p>Massen til atomet ligger i kjernen. Kjemien bestemmes av elektronene i ytterste skall.</p>
+        <p>Massen ligger i kjernen. Kjemien bestemmes av elektronene i ytterste skall — og i kapittel 2 av hvor hardt kjernen trekker på dem.</p>
       </div>
     </div>
 
     <div class="card">
-      <h2>Sjekkliste for kapitlet</h2>
+      <h2>Sjekkliste for begge kapitlene</h2>
       <p class="small dim">Kryss av når du kan noe uten å slå opp. Framdriften vises øverst på siden.</p>
       <div id="checklist"></div>
       <div class="progress-shell" style="background:var(--paper-2); border-color:var(--paper-line);"><div class="progress-fill" id="listFill"></div></div>
@@ -1370,21 +1415,21 @@ body.searchopen{overflow:hidden;}
   </div>
 
   <div class="card">
-    <h2>Fem feil nesten alle gjør i kapittel 1</h2>
+    <h2>Feil nesten alle gjør</h2>
     <div class="grid2">
       <div>
-        <h3>1. Blander atomnummer og massetall</h3>
-        <p class="small">Atomnummeret er <em>bare</em> protontallet, og det står nederst til venstre. Massetallet er protoner + nøytroner, og står øverst. Nøytrontallet må du regne ut: <span class="math">A</span> − <span class="math">Z</span>.</p>
-        <h3>2. Tror isotoper er forskjellige grunnstoffer</h3>
-        <p class="small">¹²C og ¹⁴C er begge karbon. De har samme antall protoner og oppfører seg kjemisk likt. Bare kjernen er forskjellig.</p>
-        <h3>3. Glemmer ladningen i ionespaltingen</h3>
-        <p class="small">CaCl₂ → Ca²⁺ + 2Cl⁻. Både tallet foran og ladningen oppe til høyre må være riktige, ellers stemmer ikke ladningsregnskapet.</p>
+        <h3>Kapittel 1</h3>
+        <p class="small"><strong>Blander atomnummer og massetall.</strong> Atomnummeret er bare protontallet. Nøytrontallet må du regne ut: <span class="math">A</span> − <span class="math">Z</span>.</p>
+        <p class="small"><strong>Tror isotoper er ulike grunnstoffer.</strong> ¹²C og ¹⁴C er begge karbon og oppfører seg kjemisk likt.</p>
+        <p class="small"><strong>Glemmer ladningen i ionespaltingen.</strong> CaCl₂ → Ca²⁺ + 2Cl⁻. Både antall og ladning må stemme.</p>
+        <p class="small"><strong>Sier «molekyl» om et salt.</strong> NaCl er en formelenhet — den minste enheten som går igjen i gitteret.</p>
       </div>
       <div>
-        <h3>4. Sier «molekyl» om et salt</h3>
-        <p class="small">Et salt består av ioner i et gitter, ikke av molekyler. NaCl er en <strong>formelenhet</strong> — den minste enheten som går igjen i hele krystallen.</p>
-        <h3>5. Tror elektronene går i sirkelbaner</h3>
-        <p class="small">Bohrs skallmodell er en modell, og den er god nok til å regne på oktettregelen. Men elektronene ligger i orbitaler, og vi kan bare snakke om sannsynligheten for å finne dem et sted.</p>
+        <h3>Kapittel 2</h3>
+        <p class="small"><strong>Tror alle molekyler med polare bindinger er dipoler.</strong> CO₂ har polare bindinger, men er symmetrisk — ingen dipol.</p>
+        <p class="small"><strong>Blander bindinger i molekylet med bindinger mellom molekyler.</strong> Når vann koker, brytes hydrogenbindingene, ikke O–H-bindingene.</p>
+        <p class="small"><strong>Glemmer ledige elektronpar.</strong> De presser bindingsvinkelen ned: 109,5° → 108° → 104,5°.</p>
+        <p class="small"><strong>Tror hydrogenbindinger er sterke.</strong> De er de sterkeste av de <em>svake</em> bindingene.</p>
       </div>
     </div>
   </div>
@@ -2717,6 +2762,755 @@ body.searchopen{overflow:hidden;}
   </div>
 </section>
 
+<!-- ============================================================ 2.1 -->
+<section class="panel" id="panel-2a">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.1</span>
+    <h1>Periodiske egenskaper</h1>
+    <p class="lede">Coulombs lov er nøkkelen: kreftene mellom ladninger øker med ladningens størrelse og med kortere avstand. Alt annet i dette delkapitlet følger av den.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-a-utforsk">Utforsk</a>
+    <a href="#k2-a-metall">Metaller og ikke-metaller</a>
+    <a href="#k2-a-coulomb">Coulombs lov</a>
+    <a href="#k2-a-radius">Atomradius</a>
+    <a href="#k2-a-en">Elektronegativitet</a>
+    <a href="#k2-a-ion">Ioniseringsenergi</a>
+    <a href="#k2-a-graf">Trendgrafen</a>
+  </nav>
+
+  <div class="card" id="k2-a-utforsk">
+    <div class="box box--explore" style="margin-top:0;">
+      <span class="box__label">Utforsk — krefter mellom ladninger</span>
+      <ol>
+        <li>Klipp ut to smale remser av tynn plast, ca. 1 × 5 cm. Gni begge én gang med et ullplagg. Hold én i hver hånd, først ca. 5 cm fra hverandre, og før dem sakte nærmere. Hva ser du?</li>
+        <li>Gni nå begge remsene fem ganger med ullplagget og før dem sammen igjen. Forklar forskjellen fra det første forsøket.</li>
+        <li>Gni en glasstav fem ganger med silkepapir og en plastremse fem ganger med ullplagget, og før dem sakte mot hverandre. Hva ser du nå?</li>
+        <li>Hvilke to ting er kreftene mellom ladde legemer avhengige av? Formuler en lov.</li>
+      </ol>
+      <details class="fasit"><summary>Vis svar</summary><div class="fasit__body">
+        <p><strong>1.</strong> Remsene frastøter hverandre — de har fått lik ladning. Frastøtingen blir tydeligere jo nærmere de kommer.</p>
+        <p><strong>2.</strong> Med mer gniing blir ladningen større, og frastøtingen kraftigere.</p>
+        <p><strong>3.</strong> De trekkes mot hverandre. Glass gnidd med silke får positiv ladning, plast gnidd med ull negativ — ulike ladninger tiltrekker hverandre.</p>
+        <p><strong>4.</strong> Kreftene avhenger av <strong>ladningenes størrelse</strong> og <strong>avstanden mellom dem</strong>. Det er Coulombs lov.</p>
+      </div></details>
+    </div>
+  </div>
+
+  <div class="card" id="k2-a-metall">
+    <h2>Metaller, halvmetaller og ikke-metaller</h2>
+    <p>Grunnstoffer med mange felles egenskaper har samme antall elektroner i ytterste skall, og står derfor i samme gruppe. Men egenskapene — de <strong>periodiske egenskapene</strong> — endrer seg gradvis både nedover i en gruppe og mot høyre i en periode.</p>
+    <p>Overgangen fra metall til ikke-metall er ikke skarp. Grunnstoffene som ligger akkurat i overgangen, har både metalliske og ikke-metalliske egenskaper, og kalles <strong>halvmetaller</strong>.</p>
+    <div class="box box--think">
+      <span class="box__label">Hydrogen — det vanskelige grunnstoffet</span>
+      <p>Hydrogen er et ikke-metall, men står i samme gruppe som alkalimetallene fordi det har ett elektron i ytterste skall. Andre egenskaper har det ikke felles med dem. Hydrogen har også vært plassert i gruppe VII, siden det mangler ett elektron på fullt K-skall. Elektronegativitet og ioniseringsenergi ville plassert det omtrent på midten, over karbon. Egentlig hører hydrogen ikke skikkelig hjemme noe sted.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-a-coulomb">
+    <h2>Coulombs lov</h2>
+    <p>Like ladninger frastøter hverandre, ulike ladninger tiltrekker hverandre. <strong>Charles Augustin de Coulomb</strong> (1736–1806) formulerte på slutten av 1700-tallet loven om hva kreftene avhenger av:</p>
+    <div class="box box--key">
+      <span class="box__label">Coulombs lov</span>
+      <p>Kreftene mellom ladde partikler øker med <strong>ladningenes størrelse</strong> og med <strong>kortere avstand</strong> mellom partiklene.</p>
+    </div>
+    <p>Hold fast på denne setningen. Den forklarer atomradius, elektronegativitet, ioniseringsenergi, hvorfor ionebindinger er sterke, hvorfor hydrogenbindinger er sterkere enn andre dipolkrefter, og hvorfor kjernen holder sammen.</p>
+  </div>
+
+  <div class="card" id="k2-a-radius">
+    <h2>Atomradius</h2>
+    <p>Det er ikke så enkelt å definere radien til et atom. Bare edelgassene finnes som frie atomer under vanlige forhold; i alle andre grunnstoffer er atomene bundet sammen. Derfor definerer vi atomradius som <strong>halvparten av avstanden mellom to nabokjerner</strong>:</p>
+    <div class="formula">
+      <span class="line"><span class="math">r</span> = <span class="frac"><span class="math">a</span>2</span></span>
+      <span class="name">a = avstanden mellom atomkjernene · radien oppgis i pikometer, 1 pm = 10⁻¹² m</span>
+    </div>
+    <table class="data">
+      <thead><tr><th>Retning</th><th>Atomradien</th><th>Forklaring</th></tr></thead>
+      <tbody>
+        <tr><td>Nedover i en gruppe</td><td>øker</td><td>det kommer et nytt elektronskall for hvert steg</td></tr>
+        <tr><td>Mot høyre i en periode</td><td>minker</td><td>samme skall fylles, men kjerneladningen øker og trekker elektronene nærmere</td></tr>
+      </tbody>
+    </table>
+    <h3>Ioneradius</h3>
+    <div class="grid2">
+      <div>
+        <h3>Kationer er mindre</h3>
+        <p class="small">Na⁺ har mistet hele det ytterste skallet sitt. Da er det ett skall mindre igjen, og radien blir tydelig mindre enn hos Na-atomet.</p>
+      </div>
+      <div>
+        <h3>Anioner er større</h3>
+        <p class="small">Cl⁻ har ett elektron mer enn Cl. De åtte elektronene i ytre skall frastøter hverandre mer enn sju gjorde, og radien øker. Coulombs lov igjen.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="k2-a-en">
+    <h2>Elektronegativitet</h2>
+    <p>Edelgassene har allerede åtte elektroner ytterst og er svært lite reaktive. Halogenene, med sju, er desto mer reaktive og prøver å trekke til seg et ekstra elektron. Grunnstoffer som er elektrontiltrekkende, sier vi er <strong>elektronegative</strong>.</p>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p>Med <strong>elektronegativiteten</strong> til et atom mener vi den relative evnen atomet har til å tiltrekke seg et felles elektronpar som deles med et annet atom.</p>
+    </div>
+    <h3>Hvilket halogen er mest elektronegativt?</h3>
+    <p>Coulombs lov gir svaret. Det lille fluoratomet har mye kortere avstand fra kjernen ut til ytterste skall enn det store jodatomet. Tiltrekningskraften — og dermed elektronegativiteten — blir sterkere hos fluor. Selv om jod har flere protoner i kjernen, betyr den korte avstanden mye mer. I tillegg skjermer de mange elektronskallene hos jod for kjernens tiltrekning.</p>
+    <div class="box box--key">
+      <span class="box__label">To trender</span>
+      <p>Elektronegativiteten <strong>øker oppover i en gruppe</strong> og <strong>øker mot høyre i en periode</strong>. Mot høyre minker atomradien samtidig som kjernen blir mer positiv, mens det ytterste skallet er det samme.</p>
+    </div>
+    <p>Den amerikanske kjemikeren <strong>Linus Pauling</strong> (1901–1994) satte elektronegativiteten til fluor lik 4,0 og beregnet de andre verdiene i forhold til den. Vi betegner den vanligvis med EN. Edelgassene er lite relevante her.</p>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>Gruppe I</th><th>II</th><th>III</th><th>IV</th><th>V</th><th>VI</th><th>VII</th></tr></thead>
+        <tbody>
+          <tr><td>H 2,1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td>Li 1,0</td><td>Be 1,5</td><td>B 2,0</td><td>C 2,5</td><td>N 3,0</td><td>O 3,5</td><td>F 4,0</td></tr>
+          <tr><td>Na 0,9</td><td>Mg 1,3</td><td>Al 1,6</td><td>Si 1,9</td><td>P 2,2</td><td>S 2,6</td><td>Cl 3,2</td></tr>
+          <tr><td>K 0,8</td><td>Ca 1,0</td><td></td><td></td><td></td><td></td><td>Br 3,0</td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>I 2,7</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small dim">Pauling innførte begrepet elektronegativitet i 1932 og fikk nobelprisen i kjemi i 1954. Han ble etter hvert pasifist og fikk Nobels fredspris i 1962 for arbeidet mot prøvesprengninger av atomvåpen — den eneste som har fått to udelte nobelpriser, der den ene er fredsprisen.</p>
+  </div>
+
+  <div class="card" id="k2-a-ion">
+    <h2>Ioniseringsenergi</h2>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p><strong>1. ioniseringsenergi</strong> er energien som må tilføres et nøytralt atom for å fjerne ett elektron fullstendig, slik at det dannes et positivt ion.</p>
+      <div class="formula formula--inset">
+        <span class="line">Mg + energi → Mg⁺ + e⁻</span>
+      </div>
+    </div>
+    <p>Ioniseringsenergien varierer sterkt fra grunnstoff til grunnstoff. Den <strong>stiger bortover i en periode</strong> og <strong>synker markert når vi begynner på et nytt elektronskall</strong>. Coulombs lov forklarer begge deler: bortover i perioden minker atomradien, tiltrekningen på de ytterste elektronene øker, og det blir vanskeligere å rive løs et elektron.</p>
+    <ul>
+      <li><strong>Edelgassene</strong> danner toppunktene på grafen. Verdien synker jo høyere atomnummeret — og dermed atomradien — blir.</li>
+      <li><strong>Alkalimetallene</strong> danner bunnpunktene, med samme tendens nedover i gruppa.</li>
+    </ul>
+    <p><strong>2. ioniseringsenergi</strong> er energien som må til for å fjerne det andre elektronet, altså fra et ion som allerede er positivt. Den er alltid større enn den første — du river nå et elektron løs fra en partikkel som er positivt ladd og som trekker sterkere på elektronene som er igjen.</p>
+  </div>
+
+  <div class="card" id="k2-a-graf">
+    <h2>Trendgrafen</h2>
+    <p class="small dim">De tre periodiske egenskapene tegnet opp for grunnstoff 1–20. Se hvordan de henger sammen: der atomradien er stor, er ioniseringsenergien og elektronegativiteten lave.</p>
+    <div class="tool" id="trendTool">
+      <div class="tool__head">
+        <span class="t">Periodiske egenskaper for grunnstoff 1–20</span>
+        <span class="s">velg egenskap</span>
+      </div>
+      <div class="segs" id="trendSegs">
+        <button class="seg on" data-k="radius">Atomradius</button>
+        <button class="seg" data-k="ion">1. ioniseringsenergi</button>
+        <button class="seg" data-k="en">Elektronegativitet</button>
+      </div>
+      <canvas id="trendCanvas" height="320" aria-label="Graf som viser hvordan den valgte egenskapen varierer med atomnummeret"></canvas>
+      <div class="readout" id="trendOut"></div>
+    </div>
+    <div class="box box--think">
+      <span class="box__label">Les grafen</span>
+      <p>Toppene og bunnene gjentar seg — det er dette som gjør egenskapene <em>periodiske</em>. Alkalimetallene (Li, Na, K) ligger alltid på samme sted i mønsteret, og edelgassene (He, Ne, Ar) på samme sted i det motsatte.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 2.2 -->
+<section class="panel" id="panel-2b">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.2</span>
+    <h1>Elektronegativitet og bindingstype</h1>
+    <p class="lede">Forskjellen i elektronegativitet mellom to atomer avgjør hva slags binding du får. Stor forskjell: ionebinding. Liten: polar. Ingen: ren elektronparbinding.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-b-utforsk">Utforsk</a>
+    <a href="#k2-b-ione">Ionebinding</a>
+    <a href="#k2-b-kovalent">Elektronparbinding</a>
+    <a href="#k2-b-nettverk">Nettverksforbindelser</a>
+    <a href="#k2-b-polar">Polar elektronparbinding</a>
+    <a href="#k2-b-verktoy">Bindingstypeverktøyet</a>
+    <a href="#k2-b-oversikt">Oversikt</a>
+  </nav>
+
+  <div class="card" id="k2-b-utforsk">
+    <div class="box box--explore" style="margin-top:0;">
+      <span class="box__label">Utforsk</span>
+      <ol>
+        <li>Legg litt natriumklorid i ett reagensrør og litt sukker i et annet. Varm opp begge rørene forsiktig i gassflammen. Hva skjer?</li>
+        <li>Er bindingene mellom partiklene sterkest i salt eller i sukker? Lag en forklaring.</li>
+      </ol>
+      <details class="fasit"><summary>Vis svar</summary><div class="fasit__body">
+        <p>Sukkeret smelter raskt, blir brunt og lukter karamell — det brytes ned. Saltet skjer det ingenting med; smeltepunktet er 801 °C og langt over det en skolebrenner klarer.</p>
+        <p>Bindingene er sterkest i saltet. I NaCl holder sterke ionebindinger hvert ion fast til nabolagene sine i et gitter. I sukker er molekylene sterkt bundet <em>inne i</em> molekylet, men bare svakt bundet <em>til hverandre</em> — og det er de svake bindingene som brytes når stoffet smelter.</p>
+      </div></details>
+    </div>
+  </div>
+
+  <div class="card" id="k2-b-ione">
+    <h2>Ionebinding</h2>
+    <p>Klor har EN = 3,2 og natrium EN = 0,9. Forskjellen er <strong>2,3</strong> — så stor at det ytterste elektronet til natrium langt på vei overføres fullstendig til kloratomet. Det dannes et positivt natriumion og et negativt kloridion, og oktettregelen er oppfylt for begge.</p>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p>Bindingen mellom to motsatt ladde ioner kaller vi en <strong>ionebinding</strong>. Vi får den når et metall (til venstre for trappa) reagerer med et ikke-metall (til høyre for trappa).</p>
+    </div>
+    <p>Et enkelt energidiagram viser at natriumklorid har <strong>lavere energi</strong> enn grunnstoffene natrium og klor hver for seg. Et stoff med lav energi er mer stabilt. Gjør en reaksjon at oktettregelen blir oppfylt, er energien til stoffene lavere etter reaksjonen enn før.</p>
+    <div class="box box--ex">
+      <span class="box__label">Hvor sterk er den?</span>
+      <p>Prøv å smelte vanlig kjøkkensalt. Smeltepunktet er <strong>801 °C</strong>. Det viser at ionene holdes sammen av sterke krefter. I saltsmelta har vi frie ioner — og da leder stoffet strøm.</p>
+    </div>
+    <p class="small dim">Når vi tegner atomene med prikker for valenselektronene, sier vi at vi har tegnet <strong>elektronprikkmodellen</strong> til atomene eller ionene.</p>
+  </div>
+
+  <div class="card" id="k2-b-kovalent">
+    <h2>Elektronparbinding (kovalent binding)</h2>
+    <p>En rekke stoffer består av grunnstoffer som begge har mange elektroner i ytterste skall — særlig ikke-metallene til høyre i systemet. Karbon, med fire valenselektroner, danner en uendelighet av forbindelser. Og mange vanlige gasser har binding mellom to helt like atomer: O₂, H₂, N₂ og Cl₂.</p>
+    <p>Klor har sju elektroner ytterst og mangler ett. To kloratomer løser det ved å <strong>dele ett elektronpar</strong>. Begge har nå åtte elektroner rundt seg: ett felles elektronpar og tre ledige elektronpar hver.</p>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p>En <strong>elektronparbinding</strong> (kovalent binding) er en binding der to atomer deler ett eller flere elektronpar. Vi finner den mellom to like ikke-metaller, og den er svært sterk.</p>
+    </div>
+    <p>Vi bruker ofte en strek for et elektronpar i en binding, så klormolekylet skrives <span class="mono">Cl–Cl</span>. Her er det ingen forskjell i elektronegativitet, så atomene trekker like sterkt på elektronene i bindingen. Ordet <em>kovalent</em> betyr «samme verdi» og peker på at begge atomene har ladningen 0.</p>
+    <div class="box box--think">
+      <span class="box__label">Egentlig er også dette elektrostatikk</span>
+      <p>Den kovalente bindingen er også en elektrostatisk tiltrekning mellom motsatte ladninger: den negative ladningen på elektronene <em>mellom</em> atomene, og den positive ladningen på atomkjernene.</p>
+    </div>
+    <h3>Enkelt-, dobbelt- og trippelbinding</h3>
+    <table class="data">
+      <thead><tr><th>Molekyl</th><th>Valenselektroner</th><th>Deler</th><th>Skrives</th></tr></thead>
+      <tbody>
+        <tr><td>H₂</td><td>1 + 1</td><td>ett elektronpar</td><td>H–H</td></tr>
+        <tr><td>Cl₂</td><td>7 + 7</td><td>ett elektronpar</td><td>Cl–Cl</td></tr>
+        <tr><td>O₂</td><td>6 + 6 = 12</td><td>to elektronpar</td><td>O=O</td></tr>
+        <tr><td>N₂</td><td>5 + 5 = 10</td><td>tre elektronpar</td><td>N≡N</td></tr>
+      </tbody>
+    </table>
+    <p>Hydrogen har bare ett elektron og vil ha to rundt seg, slik helium har. To hydrogenatomer deler derfor sine to elektroner som ett felles elektronpar.</p>
+  </div>
+
+  <div class="card" id="k2-b-nettverk">
+    <h2>Nettverksforbindelser</h2>
+    <p>Vi finner elektronparbindinger også i <strong>nettverksforbindelser</strong>, der atomene er bundet sammen til ett stort nettverk med sterke elektronparbindinger. Eksempler er karbon i form av diamant og grafitt, og mineralet kvarts.</p>
+    <table class="data">
+      <thead><tr><th>Stoff</th><th>Struktur</th><th>Smeltepunkt</th></tr></thead>
+      <tbody>
+        <tr><td>Diamant</td><td>alle bindinger er meget sterke elektronparbindinger i tre dimensjoner</td><td>over 4000 °C</td></tr>
+        <tr><td>Grafitt</td><td>lag av sekskantede ringer med sterke bindinger, men svake bindinger <em>mellom</em> lagene</td><td>over 4000 °C</td></tr>
+      </tbody>
+    </table>
+    <p>Alle nettverksforbindelser har høye smelte- og kokepunkter — nettopp fordi du må bryte selve nettverket for å smelte dem. At grafitt likevel er mykt og kan brukes i blyanter, skyldes de svake bindingene mellom lagene: lagene glir fra hverandre.</p>
+  </div>
+
+  <div class="card" id="k2-b-polar">
+    <h2>Polar elektronparbinding</h2>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p>En <strong>polar elektronparbinding</strong> er en binding mellom to atomer som har en liten forskjell i elektronegativitet. Det felles elektronparet er trukket nærmest det mest elektronegative atomet.</p>
+    </div>
+    <p>Denne bindingen er en mellomting mellom ionebinding og ren elektronparbinding. Eksempler er H₂O, CO₂, NH₃ og HCl. Generelt finner vi den mellom to <em>forskjellige</em> ikke-metaller.</p>
+    <p>I HCl har klor EN = 3,2 og hydrogen EN = 2,1 — en liten forskjell på 1,1. Klor trekker sterkere, så elektronparet sitter litt nærmere Cl enn H, men klor klarer ikke å dra elektronet helt over til seg.</p>
+    <table class="data">
+      <thead><tr><th>Bindingstype</th><th>Elektronparet</th><th>Ladning på atomene</th></tr></thead>
+      <tbody>
+        <tr><td>Ionebinding</td><td>overføres helt</td><td>hele ladninger: +1 og −1</td></tr>
+        <tr><td>Polar elektronparbinding</td><td>trekkes mot det mest elektronegative</td><td>delladninger: +δ og −δ</td></tr>
+        <tr><td>Ren elektronparbinding</td><td>sitter midt mellom</td><td>ingen ladning</td></tr>
+      </tbody>
+    </table>
+    <p>Delladningene gir bindingen et innslag av <strong>ionisk karakter</strong>, samtidig som delingen av elektronparet gir et innslag av <strong>kovalent karakter</strong>.</p>
+  </div>
+
+  <div class="card" id="k2-b-verktoy">
+    <h2>Bindingstypeverktøyet</h2>
+    <p class="small dim">Velg to grunnstoffer og se forskjellen i elektronegativitet — og hvilken bindingstype du får.</p>
+    <div class="tool" id="enTool">
+      <div class="tool__head">
+        <span class="t">ΔEN bestemmer bindingstypen</span>
+        <span class="s">Paulings skala</span>
+      </div>
+      <div class="pickrow">
+        <label for="enA">Grunnstoff A</label>
+        <select id="enA"></select>
+        <label for="enB">Grunnstoff B</label>
+        <select id="enB"></select>
+      </div>
+      <div class="segs" id="enPresets">
+        <button class="seg" data-a="11" data-b="17">NaCl</button>
+        <button class="seg" data-a="19" data-b="9">KF</button>
+        <button class="seg" data-a="20" data-b="8">CaO</button>
+        <button class="seg" data-a="1" data-b="17">HCl</button>
+        <button class="seg" data-a="1" data-b="8">H₂O</button>
+        <button class="seg" data-a="6" data-b="8">CO₂</button>
+        <button class="seg" data-a="17" data-b="17">Cl₂</button>
+      </div>
+      <canvas id="enCanvas" height="150" aria-label="Skala som viser hvor forskjellen i elektronegativitet plasserer bindingen"></canvas>
+      <div class="elfacts" style="margin-top:12px;">
+        <div class="elfact"><small>EN-verdier</small><b id="enVerdier"></b></div>
+        <div class="elfact"><small>Forskjell ΔEN</small><b id="enDiff"></b></div>
+        <div class="elfact"><small>Bindingstype</small><b id="enType"></b></div>
+      </div>
+      <p class="small" id="enNote" style="margin-top:10px;"></p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-b-oversikt">
+    <h2>Oversikt over bindinger mellom atomer</h2>
+    <p>Når to grunnstoffer A og B reagerer og lager forbindelsen AB:</p>
+    <div class="facts">
+      <div class="fact"><p><strong>Stor forskjell i elektronegativitet (over 2,0):</strong> elektronovergang fra det minst til det mest elektronegative grunnstoffet, og det dannes en <strong>ionebinding</strong>. Grovt sett mellom metaller og ikke-metaller: NaCl, KF, CaO.</p></div>
+      <div class="fact"><p><strong>Liten forskjell (0,5–2,0):</strong> delvis elektronovergang, og det blir en <strong>polar elektronparbinding</strong>. Stort sett mellom forskjellige ikke-metaller: H₂O, CO₂, HCl, NO.</p></div>
+      <div class="fact"><p><strong>Ingen forskjell (under 0,5):</strong> A og B er samme grunnstoff, og vi får en <strong>ren elektronparbinding</strong>: H₂, Cl₂, O₂, S₈, P₄.</p></div>
+    </div>
+    <div class="box box--warn">
+      <span class="box__label">Ingen brå overganger</span>
+      <p>Den ene bindingstypen glir jevnt over i den andre. Mange forbindelser mellom metaller og ikke-metaller har en stor grad av kovalent natur. <strong>Helt rene ionebindinger finnes ikke</strong> — alle atomer har en viss elektronegativitet, også alkalimetallene, så elektronoverføringen er aldri helt fullstendig. Helt rene kovalente bindinger finnes derimot, blant annet i H₂, O₂, N₂ og Cl₂.</p>
+    </div>
+    <div class="box box--key">
+      <span class="box__label">Hovedpoeng</span>
+      <p>Bindingens polare karakter øker med økende forskjell i elektronegativitet.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 2.3 -->
+<section class="panel" id="panel-2c">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.3</span>
+    <h1>Dipoler og molekylgeometri</h1>
+    <p class="lede">Elektronskyene frastøter hverandre og stiller seg så langt fra hverandre som mulig. Det bestemmer formen på molekylet — og formen avgjør om molekylet blir en dipol.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-c-utforsk">Utforsk</a>
+    <a href="#k2-c-dipol">Hva er en dipol?</a>
+    <a href="#k2-c-fire">Fire molekyler</a>
+    <a href="#k2-c-verktoy">VSEPR-verktøyet</a>
+    <a href="#k2-c-vsepr">VSEPR-metoden</a>
+    <a href="#k2-c-nitrat">Eksempel: nitrationet</a>
+  </nav>
+
+  <div class="card" id="k2-c-utforsk">
+    <div class="box box--explore" style="margin-top:0;">
+      <span class="box__label">Utforsk</span>
+      <p>Kokepunkter for tre stoffer: CH₄ −183 °C, HCl −85 °C, H₂O +100 °C. Alle er bygd opp av små molekyler. Hvilken egenskap ved stoffene forteller disse verdiene oss noe om?</p>
+      <details class="fasit"><summary>Vis svar</summary><div class="fasit__body">
+        <p>Kokepunktet forteller hvor sterke kreftene <em>mellom</em> molekylene er. CH₄ er ingen dipol og har bare svake van der Waalske krefter. HCl er en dipol og har dipol-dipolkrefter i tillegg. H₂O er en sterk dipol og har dessuten hydrogenbindinger — derfor det enormt høye kokepunktet for et så lite molekyl.</p>
+      </div></details>
+    </div>
+  </div>
+
+  <div class="card" id="k2-c-dipol">
+    <h2>Hva er en dipol?</h2>
+    <p>I hydrogenklorid er bindingselektronene trukket over mot kloratomet, som er mest elektronegativt. Det gir en liten negativ ladning på klor og en liten positiv ladning på hydrogen.</p>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p>En <strong>dipol</strong> er et molekyl der sentrene for positiv og negativ ladning ikke faller sammen.</p>
+    </div>
+    <div class="box box--warn">
+      <span class="box__label">Merk godt</span>
+      <p>Polare bindinger er ikke nok. Molekylet må også ha en form som gjør at ladningssentrene ikke faller sammen. CO₂ har svært polare bindinger, men er ingen dipol.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-c-fire">
+    <h2>Fire molekyler, fire former</h2>
+
+    <h3>Metan, CH₄</h3>
+    <p>Karbon har fire valenselektroner, hvert hydrogen har ett — til sammen åtte elektroner som skal fordeles. Atomet i midten kaller vi <strong>sentralatomet</strong>. De negative elektronskyene stiller seg med maksimal avstand fra hverandre på grunn av frastøtingen. Resultatet er en <strong>tetraederstruktur</strong> med C inni og H i hjørnene, og vinkelen <strong>109,5°</strong>.</p>
+
+    <h3>Ammoniakk, NH₃</h3>
+    <p>Nitrogen har fem valenselektroner og hvert hydrogen ett — åtte til sammen. Men her brukes ikke alle til bindinger: ett elektronpar står alene som et <strong>ledig elektronpar</strong>. Dette paret ligger nær N-atomet, og den negative ladningen frastøter de tre bindingsskyene slik at de kommer noe nærmere hverandre. Vinkelen blir ca. <strong>108°</strong>.</p>
+
+    <h3>Vann, H₂O</h3>
+    <p>Oksygen har seks valenselektroner, hydrogenene ett hver — åtte til sammen. Fire av dem er bindingselektroner mellom H og O, de fire andre danner <strong>to ledige elektronpar</strong>. Begge frastøter bindingene, og vinkelen blir <strong>104,5°</strong> — enda mindre enn hos NH₃.</p>
+
+    <h3>Karbondioksid, CO₂</h3>
+    <p>Karbon har fire valenselektroner og hvert oksygen seks — til sammen 16. Prøver vi med enkeltbindinger, trenger vi 20 elektroner for å oppfylle oktettregelen overalt. Så mange har vi ikke, så vi må legge inn <strong>dobbeltbindinger</strong>. Da går regnestykket opp, og det er <em>ingen</em> ledige elektronpar på sentralatomet. Maksimal frastøting gir <strong>180°</strong> — molekylet er lineært.</p>
+
+    <div class="box box--key">
+      <span class="box__label">Regelen om ledige elektronpar</span>
+      <p>Ledige elektronpar på sentralatomet er viktige for molekylgeometrien, fordi de virker frastøtende på bindingselektronene. Jo flere ledige par, desto mindre bindingsvinkel.</p>
+    </div>
+
+    <h3>Hvilke av dem er dipoler?</h3>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>Molekyl</th><th>Form</th><th>Vinkel</th><th>Ledige par</th><th>Dipol?</th></tr></thead>
+        <tbody>
+          <tr><td>CH₄</td><td>tetraeder</td><td>109,5°</td><td>0</td><td>nei — senteret for de fire positive ladningene faller sammen med C</td></tr>
+          <tr><td>NH₃</td><td>trekantet pyramide</td><td>ca. 108°</td><td>1</td><td>ja — senteret for positiv ladning ligger i trekanten av H-atomer, ikke i N</td></tr>
+          <tr><td>H₂O</td><td>vinkelformet</td><td>104,5°</td><td>2</td><td>ja, en veldig sterk dipol</td></tr>
+          <tr><td>CO₂</td><td>lineært</td><td>180°</td><td>0</td><td>nei — ladningssentrene faller sammen i C</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small dim">Merk at NH₃ er en trekantet pyramide, ikke et tetraeder. Tetraederet beskriver hvor de fire elektronskyene peker, men molekylformen beskriver bare hvor <em>atomene</em> er.</p>
+  </div>
+
+  <div class="card" id="k2-c-verktoy">
+    <h2>VSEPR-verktøyet</h2>
+    <p class="small dim">Velg et molekyl eller ion og se formen, bindingsvinkelen, de ledige elektronparene og om det blir en dipol.</p>
+    <div class="tool" id="vseprTool">
+      <div class="tool__head">
+        <span class="t">Molekylgeometri</span>
+        <span class="s">elektronskyene frastøter hverandre maksimalt</span>
+      </div>
+      <div class="segs" id="vseprSegs">
+        <button class="seg on" data-m="CH4">CH₄</button>
+        <button class="seg" data-m="NH3">NH₃</button>
+        <button class="seg" data-m="H2O">H₂O</button>
+        <button class="seg" data-m="CO2">CO₂</button>
+        <button class="seg" data-m="HCN">HCN</button>
+        <button class="seg" data-m="NO3">NO₃⁻</button>
+        <button class="seg" data-m="SO3">SO₃</button>
+        <button class="seg" data-m="O3">O₃</button>
+      </div>
+      <div class="tool__grid">
+        <canvas id="vseprCanvas" height="280" aria-label="Tegning av molekylets romlige form"></canvas>
+        <div>
+          <div class="elcard" style="margin-top:0;">
+            <div class="elcard__top">
+              <span class="elcard__sym" style="width:auto; min-width:86px; padding:0 14px;"><b id="vsNavnKort">CH₄</b></span>
+              <span>
+                <span class="elcard__name" id="vsNavn">Metan</span><br>
+                <span class="elcard__meta" id="vsForm"></span>
+              </span>
+            </div>
+            <div class="elfacts">
+              <div class="elfact"><small>Valenselektroner</small><b id="vsVal"></b></div>
+              <div class="elfact"><small>Bindingsvinkel</small><b id="vsVinkel"></b></div>
+              <div class="elfact"><small>Ledige elektronpar</small><b id="vsLedig"></b></div>
+              <div class="elfact"><small>Dipol?</small><b id="vsDipol"></b></div>
+            </div>
+            <p class="small" id="vsNote" style="margin:12px 0 0;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="k2-c-vsepr">
+    <h2>VSEPR-metoden</h2>
+    <p>Måten å bestemme molekylgeometrien på kaller vi <strong>VSEPR</strong> — <em>Valence Shell Electron Pair Repulsion</em>. Elektronskyene til bindingselektronene frastøter hverandre maksimalt, og i tillegg kan sentralatomet ha ett eller flere ledige elektronpar som også påvirker frastøtingen.</p>
+    <div class="box box--key">
+      <span class="box__label">Framgangsmåte</span>
+      <ol>
+        <li>Tell opp det totale antallet valenselektroner (husk ladningen på et ion).</li>
+        <li>Sett sentralatomet i midten og de andre atomene rundt.</li>
+        <li>Tegn elektronprikkformelen med enkeltbindinger først.</li>
+        <li>Går regnestykket ikke opp, legg inn dobbelt- eller trippelbindinger til oktettregelen er oppfylt og elektrontallet stemmer.</li>
+        <li>Tell elektronskyene rundt sentralatomet — bindinger og ledige par — og still dem så langt fra hverandre som mulig.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="card" id="k2-c-nitrat">
+    <h2>Eksempel: nitrationet NO₃⁻</h2>
+    <div class="box box--ex">
+      <span class="box__label">Eksempel</span>
+      <ol>
+        <li>Antall valenselektroner: 5 + 3 · 6 + 1 = <strong>24</strong>. Det siste elektronet kommer fra den negative ladningen.</li>
+        <li>Sentralatomet N settes i midten med de tre O-atomene rundt.</li>
+        <li>Vi tegner elektronprikkformelen med enkeltbindinger først.</li>
+        <li>Den strukturen krever 26 elektroner, og vi har bare 24. Altså må vi inn med én dobbeltbinding.</li>
+      </ol>
+      <p>Vi kan tegne dobbeltbindingen på tre forskjellige steder, og alle tre er like sannsynlige. Det viser seg at de tre bindingene i virkeligheten er helt like, og at bindingselektronene er fordelt likt. Dette fenomenet kalles <strong>resonans</strong>, og er vanlig i mange organiske forbindelser.</p>
+      <p>Nå er oktettregelen oppfylt for alle atomene, elektrontallet 24 stemmer, og det er ingen ledige elektronpar på sentralatomet. Strukturen blir en <strong>likesidet trekant</strong>.</p>
+    </div>
+    <div class="box box--warn">
+      <span class="box__label">Unntak finnes</span>
+      <p>Det finnes unntak fra oktettregelen, der atomer kan ha både færre og flere enn åtte elektroner i ytre skall. Og det finnes forbindelser der den enkleste strukturen likevel ikke er den riktige.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 2.4 -->
+<section class="panel" id="panel-2d">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.4</span>
+    <h1>Metallbinding</h1>
+    <p class="lede">Positive metallioner i et hav av frie elektroner. Det forklarer høye smeltepunkter, strømledning, varmeledning — og at metaller kan valses ut til folie.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-d-utforsk">Utforsk</a>
+    <a href="#k2-d-smelte">Smeltepunkter</a>
+    <a href="#k2-d-binding">Metallbindingen</a>
+    <a href="#k2-d-egenskaper">Egenskapene</a>
+  </nav>
+
+  <div class="card" id="k2-d-utforsk">
+    <div class="box box--explore" style="margin-top:0;">
+      <span class="box__label">Utforsk</span>
+      <p>Lag en liste over metaller du kjenner. Ta med både generelle egenskaper for metaller og spesielle egenskaper for de metallene du har valgt.</p>
+      <details class="fasit"><summary>Vis momenter</summary><div class="fasit__body">
+        <p><strong>Generelt:</strong> metallglans, leder strøm og varme godt, kan formes og valses, høye smeltepunkter, danner positive ioner.</p>
+        <p><strong>Spesielt:</strong> kvikksølv er flytende ved romtemperatur, sølv er den beste strømlederen, wolfram har det høyeste smeltepunktet (3422 °C), jern er magnetisk, natrium er så mykt at det kan skjæres med kniv og reagerer voldsomt med vann.</p>
+      </div></details>
+    </div>
+  </div>
+
+  <div class="card" id="k2-d-smelte">
+    <h2>Metallene har høye smeltepunkter</h2>
+    <table class="data">
+      <thead><tr><th>Metall</th><th>Smeltepunkt (°C)</th><th>Kokepunkt (°C)</th></tr></thead>
+      <tbody>
+        <tr><td>Aluminium</td><td class="num">660</td><td class="num">2519</td></tr>
+        <tr><td>Jern</td><td class="num">1538</td><td class="num">2861</td></tr>
+        <tr><td>Kobber</td><td class="num">1085</td><td class="num">2927</td></tr>
+        <tr><td>Sølv</td><td class="num">962</td><td class="num">2162</td></tr>
+        <tr><td>Wolfram</td><td class="num">3422</td><td class="num">5555</td></tr>
+      </tbody>
+    </table>
+    <p>Det finnes unntak — alkalimetallene, bly og tinn — men hovedregelen er at det skal mye energi til for å få et metall til å smelte, og ikke minst til å koke. Hva er årsaken?</p>
+  </div>
+
+  <div class="card" id="k2-d-binding">
+    <h2>Metallbindingen</h2>
+    <p>I metallene ligger atomene tett sammen, som tettpakkede klinkekuler. <strong>Hvert metallatom er omgitt av 12 andre</strong>: seks i samme plan, tre i planet over og tre i planet under. Siden atomene ligger så tett, overlapper elektronskyene til de ytterste elektronene hverandre.</p>
+    <div class="box box--key">
+      <span class="box__label">Modellen</span>
+      <p>Et metall består av <strong>positive metallioner</strong>, der de ytterste elektronene kan bevege seg fritt mellom ionene. Mellom de positive ionene og den negative elektronskyen blir det tiltrekningskrefter — og det er disse kreftene som holder metallet sammen.</p>
+    </div>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p>En <strong>metallbinding</strong> er en binding mellom positivt ladde metallioner og de negativt ladde elektronskyene rundt ionene.</p>
+    </div>
+    <p>Når metallet smelter, brytes noen av bindingene mellom metallatomene. <strong>Jo høyere ladning på ionene, desto sterkere metallbinding</strong> — og desto høyere smeltepunkt, forutsatt at avstanden mellom ionene er den samme. Derfor venter vi at metaller som danner enverdige ioner, som alkalimetallene, har relativt lave smeltepunkter, mens jordalkalimetallene med toverdige ioner ligger atskillig høyere.</p>
+  </div>
+
+  <div class="card" id="k2-d-egenskaper">
+    <h2>Egenskapene følger av modellen</h2>
+    <div class="grid3">
+      <div>
+        <h3>Leder strøm</h3>
+        <p class="small">De ytterste elektronene tilhører ikke noe bestemt atom. Kobler du en metalltråd mellom polene på et batteri, beveger elektronene seg nesten fritt mot den positive polen, mens nye elektroner kommer inn fra den negative.</p>
+      </div>
+      <div>
+        <h3>Leder varme</h3>
+        <p class="small">De frie elektronene frakter også energi gjennom metallet, og derfor er metaller gode varmeledere.</p>
+      </div>
+      <div>
+        <h3>Kan valses ut</h3>
+        <p class="small">Metaller kan presses til svært tynne plater. Da skyver vi lagene av metallioner i forhold til hverandre — og elektronhavet følger med, så bindingen brytes ikke.</p>
+      </div>
+    </div>
+    <div class="box box--think">
+      <span class="box__label">Sammenlikn med et salt</span>
+      <p>Et salt kan ikke valses. Skyver du et lag ioner i forhold til nabolaget, kommer like ladninger inntil hverandre, de frastøter — og krystallen sprekker. Derfor er salter sprø, mens metaller er formbare.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 2.5 -->
+<section class="panel" id="panel-2e">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.5</span>
+    <h1>Bindinger mellom molekyler</h1>
+    <p class="lede">De svake bindingene bestemmer om et stoff er gass, væske eller fast ved romtemperatur. Sterkest av dem er hydrogenbindingen.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-e-vdw">Van der Waalske krefter</a>
+    <a href="#k2-e-dipol">Dipol-dipolkrefter</a>
+    <a href="#k2-e-iondipol">Ion-dipolkrefter</a>
+    <a href="#k2-e-hydrogen">Hydrogenbindinger</a>
+  </nav>
+
+  <div class="card" id="k2-e-vdw">
+    <h2>Van der Waalske krefter</h2>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p><strong>Van der Waalske krefter</strong> er krefter som skyldes forskyving av elektronskyen rundt atomet.</p>
+    </div>
+    <p>Elektronskyen er i stadig bevegelse. Er den et øyeblikk skjevt fordelt, får molekylet en kortvarig dipol, som igjen påvirker nabomolekylet. Kreftene er svake, men de finnes mellom <em>alle</em> molekyler, og de blir sterkere jo større molekylet er — da er det mer elektronsky å forskyve.</p>
+    <p class="small dim"><strong>Johannes van der Waals</strong> (1837–1923), nederlandsk fysiker, ville finne sammenhengen mellom trykk, volum og temperatur i gasser. Han skjønte at man måtte ta hensyn både til molekylenes eget volum og til tiltrekningskreftene mellom dem. Nobelprisen i fysikk i 1910.</p>
+  </div>
+
+  <div class="card" id="k2-e-dipol">
+    <h2>Dipol-dipolkrefter</h2>
+    <p>Er det forskjell i elektronegativitet mellom atomene i et molekyl, får atomene små ladninger. Mellom slike molekyler oppstår det tiltrekningskrefter, og styrken avhenger — som alltid — av ladningenes størrelse og avstanden mellom molekylene.</p>
+    <div class="box box--key">
+      <span class="box__label">Merk</span>
+      <p>Dette er krefter mellom <strong>permanente</strong> dipoler, og de er vanligvis sterkere enn van der Waalske krefter.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-e-iondipol">
+    <h2>Ion-dipolkrefter</h2>
+    <p>Når et salt løser seg i vann, trekker vannmolekylene til seg ionene. Vannmolekylet er en dipol, så kreftene mellom ionet og vannmolekylene kalles <strong>ion-dipolkrefter</strong>.</p>
+    <p>Disse kreftene er årsaken til at vann er et så godt løsningsmiddel for salter og polare molekyler. Både de positive og de negative ionene i løsningen er bundet til vannmolekyler. Slike ioner kaller vi <strong>hydratiserte ioner</strong>, for eksempel Cu(H₂O)₅²⁺.</p>
+    <div class="box box--ex">
+      <span class="box__label">Krystallvann</span>
+      <p>Er kreftene sterke nok, følger vannmolekylene med inn i saltet når vi damper inn løsningen. Vannet som da inngår i saltet, kalles <strong>krystallvann</strong>. I kobbersulfat er det fem vannmolekyler per formelenhet: CuSO₄ · 5H₂O.</p>
+      <p>Prikken er <em>ikke</em> et gangetegn — det er en vedtatt skrivemåte for at ett eller flere molekyler er bundet til et annet stoff. Varmer vi saltet sterkt, spaltes krystallvannet ut. Kobbersulfat med krystallvann har den vanlige blåfargen, mens vannfritt CuSO₄ er grått.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-e-hydrogen">
+    <h2>Hydrogenbindinger</h2>
+    <p>Når et stoff går fra væske til gass, brytes bindingene mellom væskemolekylene. Jo sterkere kreftene er, desto høyere temperatur trengs for å koke væsken.</p>
+    <h3>Kokepunktene til hydrogenhalogenidene</h3>
+    <table class="data">
+      <thead><tr><th>Stoff</th><th>Kokepunkt</th><th>Forventet ut fra størrelsen</th></tr></thead>
+      <tbody>
+        <tr><td>HI</td><td>−35 °C</td><td>stemmer</td></tr>
+        <tr><td>HBr</td><td>−67 °C</td><td>stemmer</td></tr>
+        <tr><td>HCl</td><td>−85 °C</td><td>stemmer</td></tr>
+        <tr><td>HF</td><td><strong>+20 °C</strong></td><td>skulle vært omkring −90 °C</td></tr>
+      </tbody>
+    </table>
+    <p>Fra HI til HBr til HCl synker kokepunktet, fordi molekylene blir mindre og de van der Waalske kreftene svakere. Selv om HCl er en sterkere dipol enn HBr og HI, betyr den svekkede van der Waals-effekten mer enn de sterkere dipol-dipolkreftene. Men <strong>HF skiller seg helt ut</strong>.</p>
+    <div class="box box--key">
+      <span class="box__label">To grunner til at HF er så spesiell</span>
+      <ol>
+        <li><strong>Fluor er svært elektronegativt.</strong> Elektronparet trekkes mye lenger mot fluor i HF enn mot klor i HCl. Større ladninger på atomene betyr sterkere binding.</li>
+        <li><strong>Fluor er et lite atom.</strong> Avstanden mellom H og F er mindre enn mellom H og Cl, og dermed blir avstanden mellom F i ett molekyl og H i et annet også kortere. Kortere avstand betyr sterkere binding — Coulombs lov igjen.</li>
+      </ol>
+    </div>
+    <div class="box box--key">
+      <span class="box__label">Definisjon</span>
+      <p><strong>Hydrogenbindinger</strong> er bindinger mellom et H-atom bundet til N, O eller F i ett molekyl, og N, O eller F i et annet molekyl.</p>
+    </div>
+    <p>N, O og F er de eneste aktuelle atomene, fordi de er små og sterkt elektronegative. Hydrogenbindinger er særdeles viktige — vi finner dem overalt i naturen og i biologiske molekyler som proteiner og DNA.</p>
+  </div>
+</section>
+
+<!-- ============================================================ 2.6 -->
+<section class="panel" id="panel-2f">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.6</span>
+    <h1>Bindingsforholdene i vann og is</h1>
+    <p class="lede">Is flyter, vannet er tyngst ved 4 °C, og innsjøene fryser ovenfra. Alt sammen kommer av hydrogenbindingene mellom vannmolekylene.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-f-utforsk">Utforsk</a>
+    <a href="#k2-f-vann">Flytende vann</a>
+    <a href="#k2-f-is">Is</a>
+    <a href="#k2-f-graf">Massetetthetskurven</a>
+    <a href="#k2-f-natur">Følgene i naturen</a>
+  </nav>
+
+  <div class="card" id="k2-f-utforsk">
+    <div class="box box--explore" style="margin-top:0;">
+      <span class="box__label">Utforsk</span>
+      <p>Se på en graf som viser hvordan temperaturen endrer seg når vi varmer kald is helt til vanndamp. Bruk de forskjellige områdene av grafen til å forklare hva som skjer.</p>
+      <details class="fasit"><summary>Vis svar</summary><div class="fasit__body">
+        <p>De skrå partiene er oppvarming: energien øker bevegelsen til partiklene, og temperaturen stiger. De to vannrette platåene er faseoverganger — smelting ved 0 °C og fordamping ved 100 °C. Der går all energien med til å bryte bindinger mellom molekylene, ikke til å øke temperaturen. Platået ved 100 °C er klart lengst, fordi det krever mye mer energi å rive molekylene helt fra hverandre enn å løsne opp strukturen i isen.</p>
+      </div></details>
+    </div>
+  </div>
+
+  <div class="card" id="k2-f-vann">
+    <h2>Flytende vann</h2>
+    <p>I vann er alle betingelsene for hydrogenbinding oppfylt: et lite og sterkt elektronegativt atom (O) bundet til et knøttlite H-atom.</p>
+    <p>I flytende vann er mange molekyler bundet sammen i en uregelmessig struktur. Noen molekyler er frie, noen er bundet til ett annet, andre til to eller flere. For å bryte hydrogenbindingene må det tilføres energi — derfor gjelder at <strong>jo høyere temperatur, desto færre hydrogenbindinger</strong>.</p>
+    <p>Synker temperaturen, får molekylene lavere kinetisk energi og danner lettere bindinger med hverandre. Strukturen blir mer regelmessig, og ved lav nok temperatur fryser vannet til is.</p>
+  </div>
+
+  <div class="card" id="k2-f-is">
+    <h2>Is</h2>
+    <p>I is er hvert vannmolekyl bundet til opptil <strong>fire</strong> andre. To bindinger går fra H-atomene til O-atomer i nabomolekylene, og to går fra de ledige elektronparene på O-atomet til H-atomer i nabomolekylene.</p>
+    <div class="box box--key">
+      <span class="box__label">Den åpne strukturen</span>
+      <p>Resultatet er en veldig åpen struktur med nesten bikubeliknende celler. Tomrommene gjør at antallet vannmolekyler per volumenhet blir lavt — og massetettheten til is blir derfor <strong>lavere enn til vann</strong>. Is legger seg oppå vannet.</p>
+    </div>
+    <p>Dette er spesielt: den faste fasen av et stoff har vanligvis høyere massetetthet enn den flytende. Vann har massetetthet omtrent 1,0 g/mL, litt avhengig av temperaturen.</p>
+    <p class="small dim">Læreboka oppgir massetettheten til is som ca. 0,80 g/mL. Den målte verdien for vanlig is ved 0 °C er 0,917 g/mL — poenget er uansett at is er lettere enn vann, og at forskjellen skyldes den åpne strukturen.</p>
+  </div>
+
+  <div class="card" id="k2-f-graf">
+    <h2>Massetetthetskurven</h2>
+    <p>Når isen smelter, brytes strukturen ned. Avstanden mellom molekylene blir mye kortere enn i is, og massetettheten øker sterkt fra is ved 0 °C til vann ved 0 °C. Varmer vi smeltevannet videre, virker <strong>to motsatte prosesser</strong> samtidig:</p>
+    <div class="grid2">
+      <div>
+        <h3>Volumminkende</h3>
+        <p class="small">Flere hydrogenbindinger brytes når temperaturen stiger. Molekylene kommer nærmere hverandre, og massetettheten øker.</p>
+      </div>
+      <div>
+        <h3>Volumøkende</h3>
+        <p class="small">Høyere temperatur gir molekylene større fart. Avstanden mellom dem øker, volumet øker, og massetettheten minker.</p>
+      </div>
+    </div>
+    <p>Rett over 0 °C er den volumminkende prosessen sterkest, så massetettheten <em>øker</em> med temperaturen. Ved høyere temperaturer er den volumøkende sterkest, og massetettheten minker. Et sted imellom må det finnes et maksimum — og det ligger ved ca. <strong>4 °C</strong> (nærmere bestemt 3,97 °C).</p>
+    <div class="tool" id="vannTool">
+      <div class="tool__head">
+        <span class="t">Massetettheten til vann</span>
+        <span class="s">maksimum ved 3,97 °C</span>
+      </div>
+      <canvas id="vannCanvas" height="300" aria-label="Graf som viser massetettheten til vann som funksjon av temperaturen, med maksimum ved fire grader"></canvas>
+      <div class="readout">
+        <span>Is ved 0 °C: <b>0,917 g/mL</b></span>
+        <span>Vann ved 0 °C: <b>0,9998 g/mL</b></span>
+        <span>Vann ved 4 °C: <b>1,0000 g/mL</b></span>
+        <span>Vann ved 20 °C: <b>0,9982 g/mL</b></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="k2-f-natur">
+    <h2>Følgene i naturen</h2>
+    <div class="facts">
+      <div class="fact"><p><strong>Høstsirkulasjonen.</strong> Om høsten kjøles overflatevannet ned, blir tyngre og synker — og frakter med seg oppløst oksygen til bunnen. Samtidig presses det gamle bunnvannet opp og får tilført nytt oksygen.</p></div>
+      <div class="fact"><p><strong>Vannet fryser ovenfra.</strong> Ved avkjøling under 4 °C synker ikke det kalde vannet, fordi massetettheten minker. Det blir liggende i overflata og fryser der. Andre væsker fryser vanligvis fra bunnen.</p></div>
+      <div class="fact"><p><strong>Bunnvannet holder 4 °C.</strong> Gjennom hele vinteren — i alle fall hvis innsjøen ikke er for grunn. Det har stor betydning for fisk og bunndyr.</p></div>
+      <div class="fact"><p><strong>Vårsirkulasjonen.</strong> Når overflatetemperaturen stiger fra 0 mot 4 °C etter issmeltingen, øker massetettheten, vannet synker, og vi får en omrøring av vannmassene tilsvarende den om høsten.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 2.7 -->
+<section class="panel" id="panel-2g">
+  <div class="hero">
+    <span class="eyebrow">Delkapittel 2.7</span>
+    <h1>Oversikt over bindingstyper</h1>
+    <p class="lede">Alle bindingene fra kapitlet i én tabell — og den ene setningen som forklarer styrken på dem alle.</p>
+  </div>
+
+  <div class="card">
+    <h2>Alle bindingstypene</h2>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>Bindingstype</th><th>Binding mellom</th><th>Styrke</th><th>Eksempel</th></tr></thead>
+        <tbody>
+          <tr><td>Ionebinding</td><td>atomer</td><td>sterk</td><td>NaCl, CaO</td></tr>
+          <tr><td>Elektronparbinding</td><td>atomer</td><td>sterk</td><td>Cl₂, O₂, N₂</td></tr>
+          <tr><td>Polar elektronparbinding</td><td>atomer</td><td>sterk</td><td>H₂O, HCl, CO₂</td></tr>
+          <tr><td>Metallbinding</td><td>atomer</td><td>sterk</td><td>Fe, Cu, Al</td></tr>
+          <tr><td>Hydrogenbindinger</td><td>molekyler</td><td>svak</td><td>H₂O, HF, NH₃</td></tr>
+          <tr><td>Ion-dipolkrefter</td><td>ion og molekyl</td><td>svak</td><td>Na⁺ i vann</td></tr>
+          <tr><td>Dipol-dipolkrefter</td><td>molekyler</td><td>svak</td><td>HCl, NO</td></tr>
+          <tr><td>Van der Waalske krefter</td><td>molekyler</td><td>svak</td><td>Cl₂, CH₄, edelgasser</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small dim">De svake bindingene er oppført etter minkende styrke.</p>
+    <div class="box box--key">
+      <span class="box__label">Den ene setningen</span>
+      <p>Sterkere dipoler og kortere avstand mellom dem gir økt styrke på de svake bindingene. Det er Coulombs lov om igjen — helt fra 2.1.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Hvordan du velger riktig binding</h2>
+    <div class="facts">
+      <div class="fact"><p>Er det <strong>metall + ikke-metall</strong>? Da er det ionebinding, og stoffet er et salt.</p></div>
+      <div class="fact"><p>Er det <strong>to like ikke-metaller</strong>? Da er det en ren elektronparbinding.</p></div>
+      <div class="fact"><p>Er det <strong>to ulike ikke-metaller</strong>? Da er det en polar elektronparbinding — og du må sjekke formen for å avgjøre om molekylet er en dipol.</p></div>
+      <div class="fact"><p>Er det <strong>bare metall</strong>? Da er det metallbinding.</p></div>
+      <div class="fact"><p>Spør de om <strong>smeltepunkt, kokepunkt eller løselighet</strong>? Da handler spørsmålet om bindingene <em>mellom</em> molekylene, ikke inne i dem.</p></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Oppsummering kapittel 2</h2>
+    <ul>
+      <li><strong>Coulombs lov:</strong> kreftene mellom ladde partikler øker med ladningenes størrelse og med minkende avstand.</li>
+      <li><strong>Periodiske egenskaper</strong> endrer seg jevnt i gruppene og periodene: atomradius (øker nedover, minker mot høyre), elektronegativitet (øker oppover og mot høyre) og ioniseringsenergi (øker mot høyre, faller ved nytt skall).</li>
+      <li><strong>Elektronegativitetsforskjellen</strong> bestemmer bindingstypen: stor forskjell gir ionebinding, liten gir polar elektronparbinding, ingen gir ren elektronparbinding.</li>
+      <li><strong>Metallbinding</strong> er binding mellom positive metallioner og elektroner som beveger seg fritt mellom dem.</li>
+      <li>En <strong>dipol</strong> er et molekyl der sentrene for positiv og negativ ladning ikke faller sammen.</li>
+      <li>Fordelingen av valenselektronene rundt sentralatomet gir oss <strong>molekylgeometrien</strong> (VSEPR).</li>
+      <li><strong>Bindinger mellom molekyler</strong> er mye svakere enn bindinger mellom atomer i et molekyl, men de bestemmer de fysiske egenskapene: van der Waalske krefter, dipol-dipolkrefter, ion-dipolkrefter og hydrogenbindinger.</li>
+      <li><strong>Vann</strong> er spesielt på grunn av hydrogenbindingene: is har lavere massetetthet enn vann, vannet fryser ovenfra, og massetettheten er størst ved 4 °C.</li>
+    </ul>
+  </div>
+</section>
+
 <!-- ============================================================ OPPGAVER -->
 <section class="panel" id="panel-oppgaver">
   <div class="hero">
@@ -3296,7 +4090,6 @@ else:
       </div>
     </details>
   </div>
-
   <div class="card" id="o-15">
     <h2>1.5–1.7 Forbindelser, salter og formelenhet</h2>
 
@@ -3724,7 +4517,6 @@ if f is not None:
       </div>
     </details>
   </div>
-
   <div class="card" id="o-112">
     <h2>1.12 Det periodiske systemet</h2>
 
@@ -4050,23 +4842,446 @@ else:
   </div>
 </section>
 
+<!-- ============================================================ OPPGAVER -->
+<section class="panel" id="panel-oppgaver2">
+  <div class="hero">
+    <span class="eyebrow">Øving</span>
+    <h1>Oppgaver</h1>
+    <p class="lede">Oppgaver til delkapitlene 2.1–2.5, med løsning. Der oppgaveteksten var ufullstendig i kilden, er den fylt ut slik at den gir mening.</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-o-21">2.1</a>
+    <a href="#k2-o-22">2.2</a>
+    <a href="#k2-o-23">2.3</a>
+    <a href="#k2-o-24">2.4</a>
+    <a href="#k2-o-25">2.5</a>
+  </nav>
+
+  <div class="card" id="k2-o-21">
+    <h2>2.1 Periodiske egenskaper</h2>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.1</span> Hvordan lyder Coulombs lov?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Kreftene mellom ladde partikler øker med ladningenes størrelse og med kortere avstand mellom partiklene.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.2</span> Sorter parene etter kraft</summary>
+      <div class="opg__body">
+        <p>Seks par med ladde partikler påvirker hverandre. Sett dem i rekkefølge fra dem som frastøter hverandre mest til dem som tiltrekker hverandre mest.</p>
+        <details class="fasit"><summary>Vis framgangsmåte</summary><div class="fasit__body">
+          <p>Bruk to spørsmål i denne rekkefølgen:</p>
+          <ol>
+            <li><strong>Fortegn:</strong> like ladninger frastøter, ulike tiltrekker. Det avgjør hvilken ende av rekka paret havner i.</li>
+            <li><strong>Størrelse:</strong> innenfor hver gruppe rangerer du etter produktet av ladningene (større ladninger gir sterkere kraft) og avstanden (kortere avstand gir sterkere kraft).</li>
+          </ol>
+          <p>Et par med +2 og +2 tett sammen frastøter altså mest, mens et par med +2 og −2 tett sammen tiltrekker mest.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.3</span> Hvilket par har sterkest frastøting?</summary>
+      <div class="opg__body">
+        <p>A: Na⁺ og K⁺ (langt fra hverandre) &nbsp; B: Mg²⁺ og Ca²⁺ (tett sammen) &nbsp; C: Na⁺ og Cl⁻ &nbsp; D: Li⁺ og Na⁺ (tett sammen)</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>B.</strong> Begge er toverdige (størst ladninger) og de står tett. C tiltrekker hverandre, ikke frastøter. A og D har mindre ladninger, og i A er avstanden dessuten stor.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.4</span> Hvilket atom har størst atomradius?</summary>
+      <div class="opg__body">
+        <p><strong>a)</strong> Li eller K &nbsp; <strong>b)</strong> Na eller Cl &nbsp; <strong>c)</strong> F eller I &nbsp; <strong>d)</strong> Mg eller Ba</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>a)</strong> K — lenger ned i gruppa, flere elektronskall.</p>
+          <p><strong>b)</strong> Na — lengst til venstre i perioden, minst kjerneladning som trekker på det samme skallet.</p>
+          <p><strong>c)</strong> I — lenger ned i gruppa.</p>
+          <p><strong>d)</strong> Ba — lenger ned i gruppa.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.5</span> Hvorfor er kationer mindre og anioner større?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>Kationet</strong> har gitt fra seg hele det ytterste skallet sitt, og har dermed ett elektronskall mindre enn det nøytrale atomet.</p>
+          <p><strong>Anionet</strong> har fått ett eller flere elektroner ekstra i det samme skallet. Elektronene frastøter hverandre mer enn før, mens kjerneladningen er uendret, og radien øker. Cl⁻ har åtte elektroner i ytre skall der Cl hadde sju.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.6</span> Forklar begrepene</summary>
+      <div class="opg__body">
+        <ol><li>atomradius</li><li>elektronegativitet</li><li>ioniseringsenergi</li></ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1. Atomradius:</strong> halvparten av avstanden mellom kjernene i to naboatomer av samme grunnstoff. Oppgis i pikometer.</p>
+          <p><strong>2. Elektronegativitet:</strong> den relative evnen et atom har til å tiltrekke seg et felles elektronpar det deler med et annet atom. Fluor har den høyeste verdien, 4,0.</p>
+          <p><strong>3. Ioniseringsenergi:</strong> energien som må tilføres et nøytralt atom for å fjerne ett elektron fullstendig, slik at det dannes et positivt ion.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.7</span> Hvordan endres elektronegativiteten?</summary>
+      <div class="opg__body">
+        <ol><li>når vi går nedover i en gruppe</li><li>når vi går mot høyre i en periode</li></ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1. Minker.</strong> Avstanden fra kjernen til ytterste skall øker, og de indre skallene skjermer for kjernen. Tiltrekningen på et felles elektronpar blir svakere.</p>
+          <p><strong>2. Øker.</strong> Kjerneladningen øker mens elektronene fylles i det samme skallet. Atomradien minker, og kjernen trekker sterkere.</p>
+          <p>Begge deler følger av Coulombs lov.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.8</span> 1. ioniseringsenergi i periode 3</summary>
+      <div class="opg__body">
+        <ol>
+          <li>Hva er 1. ioniseringsenergi?</li>
+          <li>Se på verdiene for atomene fra natrium til klor. Forklar hvorfor de endrer seg slik de gjør.</li>
+        </ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1.</strong> Energien som må tilføres et nøytralt atom for å fjerne ett elektron.</p>
+          <p><strong>2.</strong> Verdiene stiger jevnt fra Na til Cl (496 → 1251 kJ/mol). Bortover i perioden fylles det samme M-skallet, mens kjerneladningen øker fra 11 til 17. Atomradien minker, kjernen trekker sterkere, og det blir vanskeligere å rive løs et elektron. Går vi videre til kalium i neste periode, faller verdien brått (419 kJ/mol), fordi det ytterste elektronet nå ligger i et nytt skall lenger ute.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.9</span> 1., 2. og 3. ioniseringsenergi</summary>
+      <div class="opg__body">
+        <p>Bruk Coulombs lov til å forutsi størrelsesforholdet mellom disse energiene for ett bestemt grunnstoff.</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>De øker: 1. &lt; 2. &lt; 3. ioniseringsenergi. Etter at det første elektronet er fjernet, er partikkelen positivt ladd, og den trekker sterkere på elektronene som er igjen. Radien har dessuten minket. Å fjerne neste elektron krever derfor mer energi — og det blir et ekstra stort hopp når du må begynne å tære på et fullt indre skall.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.1.10</span> Kjemiolympiaden: hva øker fra natrium til klor?</summary>
+      <div class="opg__body">
+        <p>A: elektronegativiteten &nbsp; B: atomradien &nbsp; C: antall elektronskall &nbsp; D: metallkarakteren</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>A.</strong> Elektronegativiteten øker mot høyre. Atomradien minker, antall skall er det samme (tre) for alle i perioden, og metallkarakteren avtar mot høyre.</p>
+        </div></details>
+      </div>
+    </details>
+  </div>
+
+  <div class="card" id="k2-o-22">
+    <h2>2.2 Elektronegativitet og bindingstype</h2>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.1</span> Sorter etter økende forskjell i elektronegativitet</summary>
+      <div class="opg__body">
+        <p>LiCl · HCl · Cl₂ · NaF · HBr</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Cl₂ (0) &lt; HBr (0,9) &lt; HCl (1,1) &lt; LiCl (2,2) &lt; NaF (3,1).</p>
+          <p>Cl₂ har ren elektronparbinding, HBr og HCl polare elektronparbindinger, mens LiCl og NaF har ionebinding.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.2</span> Hvilken bindingstype?</summary>
+      <div class="opg__body">
+        <p><strong>a)</strong> Br₂(l) &nbsp; <strong>b)</strong> KBr(s) &nbsp; <strong>c)</strong> MgCl₂(s) &nbsp; <strong>d)</strong> NO(g) &nbsp; <strong>e)</strong> Na₂O(s) &nbsp; <strong>f)</strong> Fe(s)</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>a) ren elektronparbinding (to like ikke-metaller) &nbsp; b) ionebinding &nbsp; c) ionebinding &nbsp; d) polar elektronparbinding (to ulike ikke-metaller) &nbsp; e) ionebinding &nbsp; f) metallbinding</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.3</span> Sterkest ionebinding: NaCl eller KCl?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>NaCl.</strong> Ladningene er de samme (+1 og −1) i begge saltene, men Na⁺ er mindre enn K⁺. Kortere avstand mellom ionene gir sterkere krefter — Coulombs lov. Det stemmer med smeltepunktene: NaCl 801 °C mot KCl 770 °C.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.4</span> Enkelt-, dobbelt- eller trippelbinding?</summary>
+      <div class="opg__body">
+        <p>CO₂ · F₂ · N₂ · HCl · H₂S · C₂H₄</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>a) Enkeltbindinger:</strong> F₂, HCl, H₂S og C₂H₄ (de fire C–H-bindingene).</p>
+          <p><strong>b) Dobbeltbindinger:</strong> CO₂ (to stykker, O=C=O) og C₂H₄ (mellom de to karbonatomene).</p>
+          <p><strong>c) Trippelbinding:</strong> N₂ (N≡N).</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.5</span> Hva skjer på figuren?</summary>
+      <div class="opg__body">
+        <p>Figuren viser et litiumatom og et fluoratom med valenselektronene tegnet som prikker, og en pil fra litium til fluor.</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Litium gir fra seg sitt ene valenselektron til fluor. Litium får da heliumstruktur og blir Li⁺, mens fluor får neonstruktur og blir F⁻. Forskjellen i elektronegativitet er 4,0 − 1,0 = 3,0, altså stor — og bindingen mellom ionene blir en <strong>ionebinding</strong>. Saltet er LiF.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.6</span> Magnesium brenner i oksygengass</summary>
+      <div class="opg__body">
+        <p>Hvilke sterke bindinger brytes, og hvilke dannes?</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p class="mono">2 Mg(s) + O₂(g) → 2 MgO(s)</p>
+          <p><strong>Brytes:</strong> metallbindingene i magnesium og dobbeltbindingen (elektronparbindingen) i O₂-molekylet.</p>
+          <p><strong>Dannes:</strong> ionebindinger mellom Mg²⁺ og O²⁻ i magnesiumoksid. Energien som frigjøres, er grunnen til det kraftige hvite lyset.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.7</span> Hvorfor leder smeltet salt strøm?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Strøm krever ladde partikler som kan bevege seg. I fast salt sitter ionene bundet i faste posisjoner i gitteret, og selv om de er ladde, kommer de ingen vei. I smelta er gitteret brutt ned, og ionene beveger seg fritt — da leder stoffet strøm. Det samme gjelder når saltet løses i vann.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.2.8</span> Magnesium eller sink — hvilket avgir elektroner først?</summary>
+      <div class="opg__body">
+        <p>To metallplater i vakuum bestråles med lys, og vi øker frekvensen.</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>Magnesium.</strong> Magnesium har lavere ioniseringsenergi enn sink, altså holder det svakere på de ytterste elektronene. Da trengs det lavere frekvens — mindre energi per foton — for å slå løs et elektron, og amperemeteret gjør utslag først for magnesiumplata.</p>
+        </div></details>
+      </div>
+    </details>
+  </div>
+
+  <div class="card" id="k2-o-23">
+    <h2>2.3 Dipoler og molekylgeometri</h2>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.1</span> Polare bindinger og dipoler</summary>
+      <div class="opg__body">
+        <ol>
+          <li>Hva slags atomer kan danne polare bindinger med hverandre? Hva slags atomer danner rene elektronparbindinger?</li>
+          <li>Hva menes med en dipol, og hva er forutsetningen for at en forbindelse blir en dipol?</li>
+        </ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1.</strong> Polare bindinger dannes mellom to <em>forskjellige</em> ikke-metaller, der forskjellen i elektronegativitet er liten (0,5–2,0). Rene elektronparbindinger dannes mellom to <em>like</em> ikke-metallatomer.</p>
+          <p><strong>2.</strong> En dipol er et molekyl der sentrene for positiv og negativ ladning ikke faller sammen. Det krever både polare bindinger <em>og</em> en form som gjør at ladningssentrene ikke havner på samme sted.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.2</span> Hvilke molekyler er dipoler?</summary>
+      <div class="opg__body">
+        <p>H₂O · CO₂ · NH₃ · CH₄ · HCl · CCl₄</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>Dipoler:</strong> H₂O (vinkelformet), NH₃ (trekantet pyramide) og HCl (to ulike atomer).</p>
+          <p><strong>Ikke dipoler:</strong> CO₂ (lineært), CH₄ og CCl₄ (tetraeder) — her faller ladningssentrene sammen, selv om de enkelte bindingene er polare.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.3</span> Hvorfor er vann et polart molekyl?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Oksygen har EN 3,5 og hydrogen 2,1 — forskjellen er 1,4, så begge O–H-bindingene er polare. Oksygenatomet får en liten negativ ladning (−δ) og hvert hydrogenatom en liten positiv ladning (+δ). Molekylet er vinkelformet med 104,5°, så senteret for positiv ladning ligger midt mellom H-atomene og faller ikke sammen med O. Derfor er vann en sterk dipol.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.4</span> Elektronprikkformler for NH₃ og CCl₄</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>NH₃:</strong> 5 + 3 · 1 = 8 valenselektroner. Tre bindingspar til hydrogen og ett ledig elektronpar på nitrogen. Trekantet pyramide, ca. 108°. <strong>Er en dipol</strong> — det ledige paret gir molekylet en «tung» negativ ende.</p>
+          <p><strong>CCl₄:</strong> 4 + 4 · 7 = 32 valenselektroner. Fire bindingspar og tre ledige par på hvert kloratom. Tetraeder, 109,5°. <strong>Ikke en dipol</strong> — de fire like bindingene peker symmetrisk ut, og ladningssentrene faller sammen i karbonatomet.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.5</span> Hvorfor er ikke CO₂ en dipol?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Karbon har ingen ledige elektronpar, og de to dobbeltbindingene stiller seg 180° fra hverandre. Molekylet blir lineært og helt symmetrisk. Begge oksygenatomene trekker like sterkt i hver sin retning, så senteret for negativ ladning havner midt i molekylet — samme sted som senteret for positiv ladning.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.6</span> Blåsyre, HCN</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Valenselektroner: 1 + 4 + 5 = 10. Karbon er sentralatom, med enkeltbinding til H og trippelbinding til N: <span class="mono">H–C≡N</span>. Nitrogen har ett ledig elektronpar.</p>
+          <p>Karbon har to elektronskyer rundt seg, og de stiller seg 180° fra hverandre. Molekylet er <strong>lineært</strong>. Det <em>er</em> en dipol, siden nitrogenenden er klart mer negativ enn hydrogenenden.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.7</span> Ozon (O₃) og svoveltrioksid (SO₃)</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>O₃:</strong> 18 valenselektroner. Sentralatomet har én enkeltbinding, én dobbeltbinding og <strong>ett ledig elektronpar</strong>. Tre elektronskyer, men bare to bindinger: molekylet blir <strong>vinkelformet</strong> (ca. 117°) og <strong>er en dipol</strong>. Ozon har resonans, som nitrationet.</p>
+          <p><strong>SO₃:</strong> 24 valenselektroner. Tre bindinger og <strong>ingen</strong> ledige par på svovel. Molekylet blir en <strong>likesidet trekant</strong> (120°) og er <strong>ikke</strong> en dipol — det er symmetrisk.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.8</span> Kloritt-, klorat- og perklorationet</summary>
+      <div class="opg__body">
+        <p><strong>a)</strong> ClO₂⁻ &nbsp; <strong>b)</strong> ClO₃⁻ &nbsp; <strong>c)</strong> ClO₄⁻</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>a) ClO₂⁻:</strong> 7 + 2 · 6 + 1 = 20 valenselektroner. To bindinger og to ledige par på klor. Fire elektronskyer, to av dem bindinger → <strong>vinkelformet</strong>.</p>
+          <p><strong>b) ClO₃⁻:</strong> 7 + 3 · 6 + 1 = 26. Tre bindinger og ett ledig par. Fire skyer, tre bindinger → <strong>trekantet pyramide</strong>.</p>
+          <p><strong>c) ClO₄⁻:</strong> 7 + 4 · 6 + 1 = 32. Fire bindinger og ingen ledige par → <strong>tetraeder</strong>, 109,5°.</p>
+          <p>Legg merke til mønsteret: for hvert oksygen som kommer til, forsvinner ett ledig elektronpar, og geometrien blir mer symmetrisk.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.3.9</span> Karbonationet, CO₃²⁻</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Valenselektroner: 4 + 3 · 6 + 2 = 24 — nøyaktig som i nitrationet. Karbon er sentralatom med to enkeltbindinger og én dobbeltbinding, og ingen ledige elektronpar. Tre elektronskyer som frastøter hverandre maksimalt gir 120° og en <strong>likesidet trekant</strong>. Også her har vi resonans: de tre bindingene er i virkeligheten helt like.</p>
+        </div></details>
+      </div>
+    </details>
+  </div>
+
+  <div class="card" id="k2-o-24">
+    <h2>2.4 Metallbinding</h2>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.4.1</span> Smeltepunktene til alkalimetallene</summary>
+      <div class="opg__body">
+        <table class="data">
+          <thead><tr><th>Metall</th><th>Li</th><th>Na</th><th>K</th><th>Rb</th><th>Cs</th></tr></thead>
+          <tbody><tr><td>Smeltepunkt (°C)</td><td>181</td><td>98</td><td>63</td><td>39</td><td>28</td></tr></tbody>
+        </table>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Smeltepunktet synker nedover i gruppa. Ionene har samme ladning (+1) hele veien, men de blir stadig større. Større ioner betyr lengre avstand mellom den positive kjernen og elektronhavet, og dermed svakere metallbinding — Coulombs lov. Cesium smelter i hånda di.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.4.2</span> Hvorfor er metallene gode strømledere?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Fordi de ytterste elektronene ikke tilhører noe bestemt atom, men beveger seg fritt mellom metallionene. Kobles metallet til et batteri, kan elektronene bevege seg mot den positive polen, mens nye elektroner kommer inn fra den negative.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.4.3</span> Hvorfor har sølv høyere smeltepunkt enn natrium?</summary>
+      <div class="opg__body">
+        <p>Begge danner enverdige ioner: Ag⁺ og Na⁺. Sølv smelter ved 962 °C, natrium ved 98 °C.</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Ag⁺ er et mindre ion enn Na⁺ til tross for at sølv har langt høyere atomnummer — d-elektronene skjermer dårlig for kjernen. Atomene ligger tettere sammen, avstanden mellom ionene og elektronhavet blir kortere, og metallbindingen blir sterkere. I tillegg bidrar d-elektronene til bindingen, noe alkalimetallene ikke har.</p>
+        </div></details>
+      </div>
+    </details>
+  </div>
+
+  <div class="card" id="k2-o-25">
+    <h2>2.5 Bindinger mellom molekyler</h2>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.5.1</span> Hva er forskjellen?</summary>
+      <div class="opg__body">
+        <ol>
+          <li>bindinger mellom atomer i et molekyl</li>
+          <li>bindinger mellom molekyler</li>
+        </ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1.</strong> Elektronparbindinger — sterke bindinger som holder selve molekylet sammen.</p>
+          <p><strong>2.</strong> Van der Waalske krefter, dipol-dipolkrefter og hydrogenbindinger — svake bindinger som holder molekylene til hverandre. Det er disse som brytes når et stoff smelter eller koker.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.5.2</span> Krefter mellom molekyler</summary>
+      <div class="opg__body">
+        <p>Forklar kort: <strong>a)</strong> van der Waalske krefter <strong>b)</strong> dipol-dipolkrefter <strong>c)</strong> hydrogenbindinger</p>
+        <p><strong>d)</strong> Hvilke krefter har vi mellom molekylene i hvert av disse stoffene: 1 Cl₂ · 2 O₂ · 3 HCl · 4 NH₃? Hvilken av de to første gassene har høyest kokepunkt?</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>a)</strong> Svake krefter som skyldes at elektronskyen rundt atomet forskyves. Finnes mellom alle molekyler, og blir sterkere jo større molekylet er.</p>
+          <p><strong>b)</strong> Tiltrekningskrefter mellom permanente dipoler. Sterkere enn van der Waalske krefter.</p>
+          <p><strong>c)</strong> Bindinger mellom et H-atom bundet til N, O eller F i ett molekyl og N, O eller F i et annet. De sterkeste av de svake bindingene.</p>
+          <p><strong>d)</strong> Cl₂ og O₂: bare van der Waalske krefter (begge er upolare). HCl: van der Waalske krefter + dipol-dipolkrefter. NH₃: van der Waalske krefter + dipol-dipolkrefter + hydrogenbindinger.</p>
+          <p><strong>Cl₂ har høyest kokepunkt</strong> (−34 °C mot −183 °C for O₂), fordi klormolekylet er større og har mer elektronsky å forskyve.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.5.3</span> Hva betyr kreftene for fordamping og kokepunkt?</summary>
+      <div class="opg__body">
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Når et stoff går fra væske til gass, må bindingene mellom molekylene brytes. Jo sterkere kreftene er, desto mer energi må til — altså høyere temperatur og høyere kokepunkt. Stoffer med svake krefter fordamper lett og har lave kokepunkter. Bindingene <em>inne i</em> molekylet brytes ikke ved koking.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.5.4</span> Van der Waalske krefter og molekylstørrelse</summary>
+      <div class="opg__body">
+        <p>Bruk edelgassene He, Ne, Ar, Kr og Xe som eksempler.</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Kreftene øker med størrelsen på atomet eller molekylet, fordi det da er mer elektronsky som kan forskyves. Kokepunktene viser det tydelig: He −269 °C, Ne −246 °C, Ar −186 °C, Kr −153 °C og Xe −108 °C. Dette er atomer helt uten dipolmoment, så van der Waalske krefter er det eneste som holder dem sammen.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.5.5</span> Cl₂ mot Kr</summary>
+      <div class="opg__body">
+        <p>Klorgassmolekylet har formelmassen 71 u, mens kryptonatomet har 84 u. Likevel har klorgass mye høyere kokepunkt. Forklar.</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p>Det er ikke massen, men elektronskyens <em>form og utstrekning</em> som avgjør. Cl₂ er et avlangt molekyl der elektronskyen lett lar seg forskyve, og der to molekyler får stor kontaktflate mot hverandre. Krypton er et lite, kuleformet atom med en tett bundet, fullt fylt elektronsky som er vanskelig å polarisere. Derfor blir de van der Waalske kreftene sterkere i klorgass: kokepunktet er −34 °C mot −153 °C for krypton.</p>
+        </div></details>
+      </div>
+    </details>
+
+    <details class="opg">
+      <summary><span class="opg__num">2.5.6</span> Hvilke krefter finnes mellom molekylene?</summary>
+      <div class="opg__body">
+        <p><strong>a)</strong> HBr &nbsp; <strong>b)</strong> S₈ &nbsp; <strong>c)</strong> CO &nbsp; <strong>d)</strong> I₂ &nbsp; <strong>e)</strong> NO₂</p>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>a) HBr:</strong> van der Waalske krefter og dipol-dipolkrefter (ΔEN = 0,9).</p>
+          <p><strong>b) S₈:</strong> bare van der Waalske krefter — molekylet består av like atomer. Men molekylet er stort, så kreftene er merkbare, og svovel er fast ved romtemperatur.</p>
+          <p><strong>c) CO:</strong> van der Waalske krefter og svake dipol-dipolkrefter (ΔEN = 1,0, men molekylet er lite og dipolmomentet svakt).</p>
+          <p><strong>d) I₂:</strong> bare van der Waalske krefter, men de er sterke fordi jodmolekylet er stort. Derfor er jod fast ved romtemperatur, mens Cl₂ er gass.</p>
+          <p><strong>e) NO₂:</strong> van der Waalske krefter og dipol-dipolkrefter — molekylet er vinkelformet og dermed en dipol.</p>
+          <p>Ingen av dem har hydrogenbindinger: det krever H bundet til N, O eller F.</p>
+        </div></details>
+      </div>
+    </details>
+  </div>
+</section>
+
 <!-- ============================================================ AKTIVITETER -->
 <section class="panel" id="panel-aktiv">
   <div class="hero">
     <span class="eyebrow">Øving</span>
     <h1>Aktiviteter og påstander</h1>
-    <p class="lede">Tenkeskriving, rollespill, utekjemi — og ti påstander du skal ta stilling til før du sjekker fasiten.</p>
-  </div>
-  <nav class="subnav">
-    <a href="#ak-forstatt">Har du forstått det?</a>
-    <a href="#ak-liste">Aktiviteter A1.1–A1.10</a>
-  </nav>
-
-  <div class="card" id="ak-forstatt">
-    <h2>Har du forstått det?</h2>
-    <p class="small dim">Ti påstander fra kapittel 1. Bestem deg først, og les så forklaringen.</p>
-    <div id="tfList"></div>
-    <p class="small dim" id="tfScore" style="margin-top:14px;"></p>
+    <p class="lede">Tenkeskriving, rollespill, utekjemi og modellbygging. Påstandene fra begge kapitlene ligger i sin egen fane.</p>
   </div>
 
   <div class="card" id="ak-liste">
@@ -4213,6 +5428,30 @@ else:
         </div></details>
       </div>
     </details>
+  </div>
+</section>
+
+<!-- ============================================================ PÅSTANDER -->
+<section class="panel" id="panel-pastander">
+  <div class="hero">
+    <span class="eyebrow">Øving</span>
+    <h1>Har du forstått det?</h1>
+    <p class="lede">21 påstander fra begge kapitlene. Bestem deg først, og les så forklaringen.</p>
+  </div>
+  <div class="card">
+    <h2>Sant eller usant?</h2>
+    <p class="small dim">De ti første hører til kapittel 1, de elleve siste til kapittel 2.</p>
+    <div id="tfList"></div>
+    <p class="small dim" id="tfScore" style="margin-top:14px;"></p>
+  </div>
+  <div class="card">
+    <h2>Til diskusjon</h2>
+    <div class="facts">
+      <div class="fact"><p>Hvorfor er is lettere enn vann, mens nesten alle andre stoffer er tyngst i fast form? Bruk hydrogenbindingene i forklaringen.</p></div>
+      <div class="fact"><p>Salt og sukker ser nokså like ut. Hvordan kan du med enkle midler avgjøre hvilket av dem som har ionebinding?</p></div>
+      <div class="fact"><p>Hvorfor løser salt seg i vann, men ikke i bensin? Bruk begrepene dipol og ion-dipolkrefter.</p></div>
+      <div class="fact"><p>Metaller kan valses ut til folie, mens saltkrystaller sprekker. Forklar forskjellen ut fra de to bindingsmodellene.</p></div>
+    </div>
   </div>
 </section>
 
@@ -4649,19 +5888,242 @@ else:
   </div>
 </section>
 
+<!-- ============================================================ TEMA -->
+<section class="panel" id="panel-kjerne">
+  <div class="hero">
+    <span class="eyebrow">Tema</span>
+    <h1>Kjernekrefter</h1>
+    <p class="lede">Hvorfor sprenges ikke atomkjernen når alle protonene er positive? Og hvor kommer energien fra i sola, i et kjernekraftverk og i en atombombe?</p>
+  </div>
+  <nav class="subnav">
+    <a href="#k2-t-krefter">Hva er kjernekrefter?</a>
+    <a href="#k2-t-energi">Hvor kommer energien fra?</a>
+    <a href="#k2-t-regner">Energiregneren</a>
+    <a href="#k2-t-fisjon">Fisjon og fusjon</a>
+    <a href="#k2-t-bombe">Atombomben</a>
+    <a href="#k2-t-kraftverk">Kjernekraftverk</a>
+    <a href="#k2-t-sol">Solenergi</a>
+    <a href="#k2-t-fakta">5 fakta</a>
+    <a href="#k2-t-fisk">Tema: fiskeråstoff</a>
+  </nav>
+
+  <div class="card" id="k2-t-krefter">
+    <h2>Hva er kjernekrefter?</h2>
+    <p>Atomkjernen er satt sammen av positivt ladde protoner og nøytrale nøytroner som ligger svært tett. Coulombs lov sier at like ladninger frastøter hverandre. Hvorfor går ikke kjernen i stykker?</p>
+    <div class="box box--key">
+      <span class="box__label">Svaret</span>
+      <p>Det finnes svært sterke krefter mellom nukleonene — <strong>kjernekrefter</strong>. De overvinner frastøtingen mellom protonene, men virker bare over veldig korte avstander, omtrent 10⁻¹² mm. Nøytronene i kjernen øker i tillegg avstanden mellom protonene.</p>
+    </div>
+    <p>Derfor kreves det mye energi for å rive nukleonene fra hverandre i for eksempel en kjerne av <sup>4</sup><sub>2</sub>He. Og omvendt: klarer vi å slå sammen to protoner og to nøytroner til en heliumkjerne, frigjøres den samme energimengden. Men det er ikke enkelt — nukleonene må helt inntil hverandre for at kjernekreftene skal overvinne frastøtingen. Enkelt sagt er det en vekselvirkning der det stadig sendes små partikler (mesoner) mellom nukleonene.</p>
+  </div>
+
+  <div class="card" id="k2-t-energi">
+    <h2>Hvor kommer energien fra?</h2>
+    <p>To protoner og to nøytroner har til sammen massen 4,0330 u, mens en heliumkjerne <sup>4</sup><sub>2</sub>He har massen 4,0026 u. Det ser ut som om masse er blitt borte:</p>
+    <div class="formula">
+      <span class="line">Δ<span class="math">m</span> = (4,0330 − 4,0026) u = 0,0304 u</span>
+    </div>
+    <p>I en vanlig kjemisk reaksjon er det alltid like mye masse på begge sider av reaksjonspila. Men Einstein fant at masse og energi er likeverdige størrelser:</p>
+    <div class="formula">
+      <span class="line"><span class="math">E</span> = <span class="math">m</span> · <span class="math">c</span>²</span>
+      <span class="name">m er massen som blir borte, c er lysfarten</span>
+    </div>
+    <p>Massetapet på 0,0304 u tilsvarer <strong>4,54 · 10⁻¹² J</strong> per heliumatom som dannes. Regner vi om til 4,0 g helium, blir energimengden <strong>2,7 · 10¹² J</strong> — omtrent like mye som 650 tonn TNT.</p>
+    <div class="box box--think">
+      <span class="box__label">Hvorfor jern er spesielt</span>
+      <p>Nukleonene er ikke bundet like sterkt sammen i alle kjerner. <strong>Jern har de sterkeste bindingene</strong> og er dermed mest stabilt. Fra jern synker bindingsstyrken både mot mindre og mot større kjerner — og det er nettopp derfor små kjerner frigjør energi når de smelter sammen, mens store frigjør energi når de spaltes.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-regner">
+    <h2>Energiregneren</h2>
+    <p class="small dim">Sett inn massetapet og se hvor mye energi det tilsvarer — per partikkel, per mol og i tonn TNT.</p>
+    <div class="tool" id="kjerneTool">
+      <div class="tool__head">
+        <span class="t">E = m · c²</span>
+        <span class="s">1 u = 1,66054 · 10⁻²⁷ kg</span>
+      </div>
+      <div class="segs" id="kjernePresets">
+        <button class="seg on" data-dm="0.0304" data-n="1">fusjon til helium (1 mol He)</button>
+        <button class="seg" data-dm="0.2117" data-n="1">fisjon av uran-235 (1 mol U)</button>
+      </div>
+      <div class="pickrow">
+        <label for="kjDm">Massetap per kjerne (u)</label>
+        <input type="number" id="kjDm" value="0.0304" step="0.0001" min="0" style="width:120px">
+        <label for="kjM">Stoffmengde (mol)</label>
+        <input type="number" id="kjM" value="1" step="0.1" min="0.01" style="width:120px">
+      </div>
+      <div class="elfacts">
+        <div class="elfact"><small>Energi per kjerne</small><b id="kjE1"></b></div>
+        <div class="elfact"><small>Energi for stoffmengden</small><b id="kjEtot"></b></div>
+        <div class="elfact"><small>Tilsvarer TNT</small><b id="kjTnt"></b></div>
+        <div class="elfact"><small>Tilsvarer strøm til</small><b id="kjHus"></b></div>
+      </div>
+      <p class="small dim" style="margin-top:10px;">1 mol helium er 4,0 g, 1 mol uran-235 er 235 g. Regner med 4,184 · 10⁹ J per tonn TNT og 16 000 kWh i årsforbruk for en enebolig.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-fisjon">
+    <h2>Fisjon og fusjon</h2>
+    <div class="grid2">
+      <div>
+        <h3>Fisjon — store kjerner deles</h3>
+        <p>Når store kjerner som uran og thorium deler seg i to omtrent like deler, får vi mindre og mer stabile kjerner. En kjerne av <sup>235</sup>U kan fisjonere dersom den tar opp et nøytron:</p>
+        <p class="mono small">²³⁵₉₂U + ¹₀n → ⁹⁰₃₈Sr + ¹⁴³₅₄Xe + 3 ¹₀n</p>
+        <p>Også her får vi et massetap. Spaltes 235 g, blir energien <strong>1,9 · 10¹³ J</strong>.</p>
+      </div>
+      <div>
+        <h3>Fusjon — små kjerner slås sammen</h3>
+        <p>Små kjerner kan stabilisere seg ved å slå seg sammen til en større. All fusjon gir massetap og dermed stor energigevinst. Litt forenklet skjer dette på sola:</p>
+        <p class="mono small">4 ¹₁H → ⁴₂He + 2 e⁺ + energi</p>
+        <p>Massetapet er stort, og sola gir fra seg enorme mengder energi.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-bombe">
+    <h2>Atombomben</h2>
+    <p>Det første menneskene tenkte på da fisjonen ble oppdaget rett før 2. verdenskrig, var å bruke den militært. Der var det ingen sikkerhetsproblem at reaksjonen kunne løpe løpsk — det var hele poenget.</p>
+    <div class="box box--warn">
+      <span class="box__label">Tallene fra 1945</span>
+      <p>Det var ikke store mengder uran og plutonium som eksploderte over Hiroshima og Nagasaki. Av hele bomben på 64 kg uran fisjonerte bare <strong>700 g</strong> — og av denne massen ble bare <strong>0,6 g</strong> omdannet til energi. Også fusjon er brukt i store atombomber; både USA og Russland sprengte fusjonsbomber på 1960-tallet.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-kraftverk">
+    <h2>Kjernekraftverk</h2>
+    <p>Til nå er det bare fisjon som er utnyttet til energiproduksjon. Fusjon krever tilstander som ingen vanlige materialer kan overleve.</p>
+    <p>I fisjonskraftverk er det vanligvis <sup>235</sup><sub>92</sub>U som er brenselet. Den finnes bare i små mengder (0,7 %) i naturlig uran, så uranet må først <strong>anrikes</strong> på denne isotopen. Også tyngre kjerner som plutonium kan fisjonere.</p>
+    <div class="box box--key">
+      <span class="box__label">Kjedereaksjonen</span>
+      <p>Det trengs ett nøytron for å starte fisjonen, men det dannes to til tre nøytroner i spaltingen — og de kan spalte nye urankjerner. Det er en <strong>kjedereaksjon</strong>. For at den ikke skal løpe løpsk, har reaktoren nøytronabsorberende staver av kadmium mellom brenselet.</p>
+    </div>
+    <h3>Thoriumkraftverk</h3>
+    <p>Thorium bestråles med nøytroner med høy energi, fra en akselerator eller fra litt uran. Da omdannes <sup>232</sup><sub>90</sub>Th til <sup>233</sup><sub>92</sub>U, som kan fisjonere på liknende måte som vanlig uran. En slik reaksjon kan ikke løpe løpsk: stopper man nøytronstrålen, stopper alle fisjoner momentant.</p>
+    <div class="facts">
+      <div class="fact"><p>Thorium er <strong>fire ganger så vanlig</strong> som uran, og nesten alt thorium i naturen er <sup>232</sup>Th.</p></div>
+      <div class="fact"><p><strong>99 %</strong> av thorium blir omsatt til energi i et kraftverk, mot bare omtrent 1 % av <sup>235</sup>U.</p></div>
+      <div class="fact"><p>En thoriumreaktor krever meget høy temperatur, men <strong>svært lavt trykk</strong>. Den kan derfor ikke eksplodere av for høyt trykk, slik som i Tsjernobylulykken i 1986.</p></div>
+      <div class="fact"><p>Avfallsproduktene har <strong>langt kortere halveringstid</strong> enn avfallet fra uran.</p></div>
+    </div>
+    <div class="box box--warn">
+      <span class="box__label">Utfordringen</span>
+      <p>Avfallet fra thorium er svært aktivt på gammastråling.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-sol">
+    <h2>Bruk av solenergi</h2>
+    <p>Den enorme energimengden vi mottar fra sola, bør utnyttes mye mer enn i dag.</p>
+    <div class="grid3">
+      <div>
+        <h3>Solceller</h3>
+        <p class="small">Solenergien omdannes direkte til elektrisk energi. Cellene består av silisiumplater, noen dopet med fosfor og noen med bor. Fotoner fra sollyset treffer elektroner i den ene plata og sender dem over til den andre. For å komme tilbake må elektronene gå gjennom en strømkrets.</p>
+      </div>
+      <div>
+        <h3>Solkraftverk</h3>
+        <p class="small">Solstråler reflekteres i trauformede speil inn mot et rørsystem med olje. Oljen varmes til 400 grader, varmen overføres til vann gjennom varmevekslere, vannet fordamper, og dampen driver turbiner.</p>
+      </div>
+      <div>
+        <h3>Solvarmeanlegg</h3>
+        <p class="small">En væske som sirkulerer i et rørsystem, varmes direkte opp av sola og gir varmen videre til vann via en varmeveksler.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-fakta">
+    <h2>5 fakta om sola og kjernekreftene</h2>
+    <div class="facts">
+      <div class="fact"><p>Grensa for hvor mange protoner en kjerne kan ha før frastøtingen overvinner kjernekreftene, går ved <strong>83 protoner</strong>. Alle kjerner med flere enn 83 protoner (vismut) er ustabile og kan stabilisere seg ved å sende ut radioaktiv stråling.</p></div>
+      <div class="fact"><p>Hvert sekund omdannes ca. <strong>700 millioner tonn hydrogen</strong> på sola til 695 millioner tonn helium. De resterende 5 millioner tonnene blir til energi.</p></div>
+      <div class="fact"><p>Fusjon krever svært høy temperatur og svært høyt trykk. Solkjernen holder <strong>15 millioner grader</strong> og et gasstrykk på omtrent 350 milliarder atmosfærer.</p></div>
+      <div class="fact"><p>Hvert år mottar jorda omtrent <strong>15 000 ganger</strong> mer energi fra sola enn menneskene bruker. Selv i Norge mottar vi om lag 1500 ganger mer enn vi bruker.</p></div>
+      <div class="fact"><p>Norge har en av verdens største forekomster av thorium på <strong>Fensfeltet</strong> ved Ulefoss i Telemark. Energimengden bare fra dette feltet er anslått til mellom 10 og 120 ganger høyere enn alle olje- og gassfunn på norsk sokkel.</p></div>
+    </div>
+  </div>
+
+  <div class="card" id="k2-t-fisk">
+    <h2>Tema: klarer å utnytte hvert eneste gram av fisken</h2>
+    <p class="small dim">Etter en artikkel av Håvard Egge, frilanser i Gemini.no, publisert 21.07.2020.</p>
+    <p>Etter at fisken er filetert, står man igjen med rest-råstoff som tilsvarer <strong>over 60 prosent</strong> av slaktet. Snart kan dette bli til høykvalitetsolje, smaksnøytrale fiskeproteiner og fiskegelatin eller flammehemmere — uten at så mye som ett eneste gram går i søpla.</p>
+    <p>Arbeidet er en del av EUs forskningsprosjekt DAFIA, som de siste tre årene har sett på hvordan man kan utnytte fiskeråstoff smartere. Teknologien er rimelig og enkel å ta i bruk, og gir bedre utbytte — og bedre kvalitet — enn dagens metoder.</p>
+
+    <h3>Lavere temperatur gir bedre resultat</h3>
+    <p>Det første som gjøres med rest-råstoffet, er å skille ut oljen. I dag varmes råstoffet gjerne til 90 grader, men den høye temperaturen skader både olje og proteiner — og proteinene kan da bare brukes til dyrefôr.</p>
+    <p>— Spesielt fiskesmaken er ofte problematisk når man jobber med marine helsekostprodukter. Derfor har vi jobbet fram en mer skånsom metode med lavere temperatur, sier SINTEF-forsker Rasa Slizyte. Metoden tar først ut oljen, og bruker deretter en vasketeknologi som fjerner uønskede smakskomponenter fra proteinene.</p>
+    <p>Proteinene holder samme smaksintensitetsnivå som erte- og myseproteiner, som er populære i helsekostprodukter. Den marine oljen kan selges som eget høykvalitetsprodukt eller blandes i helsekostprodukter.</p>
+
+    <h3>Fiskegelatin eller naturlig flammehemmer</h3>
+    <p>Etter at olje og proteiner er utvunnet, står man igjen med rene fiskebein. Av dem foreslår forskerne å lage enten fiskegelatin eller flammehemmere — produkter som reduserer brannfare i alt fra biler og bygninger til leketøy.</p>
+    <p>— Fiskegelatin er populært blant vegetarianere og folk som av religiøse grunner ikke spiser produkter av svin, men det produseres for lite av det i dag. Behovet er stort, sier SINTEF-forsker Revilija Mozuraityte.</p>
+    <p>Mange flammehemmere som brukes i dag, inneholder farlige kjemikalier som kan hemme hormonene og er giftige for miljøet. At fiskebein kunne brukes til flammehemmere, oppdaget forskerne nærmest på slump, sammen med samarbeidspartnere ved Daren Laboratories &amp; Scientific Consultants Ltd. i Israel.</p>
+
+    <h3>Går mot storskala</h3>
+    <p>All teknologi og produksjon er testet ut i labskala, og forskerne arbeider nå med å øke volumene slik at industrien kan ta den i bruk — enten det er på oppdrettsanlegg eller på fiskere som fileterer om bord.</p>
+
+    <h3>Arbeidsoppgaver</h3>
+    <details class="opg">
+      <summary><span class="opg__num">1</span> Les teksten og svar</summary>
+      <div class="opg__body">
+        <ol>
+          <li>Hvor mye rest-råstoff er igjen etter at fisken er filetert?</li>
+          <li>Hva er problemet med mange av dagens flammehemmere?</li>
+        </ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1.</strong> Over 60 prosent av slaktet.</p>
+          <p><strong>2.</strong> De inneholder farlige kjemikalier som kan hemme hormonene, og som er giftige for miljøet.</p>
+        </div></details>
+      </div>
+    </details>
+    <details class="opg">
+      <summary><span class="opg__num">2</span> Hvilke setninger støttes av teksten?</summary>
+      <div class="opg__body">
+        <ol>
+          <li>Det er positivt at fiskeproteinene har fiskesmak.</li>
+          <li>Fiskebein kan brukes til å lage fiskegelatin.</li>
+        </ol>
+        <details class="fasit"><summary>Vis løsning</summary><div class="fasit__body">
+          <p><strong>1. Nei.</strong> Teksten sier tvert imot at fiskesmaken er problematisk i marine helsekostprodukter, og at målet er smaksnøytrale proteiner.</p>
+          <p><strong>2. Ja.</strong> Det står eksplisitt at fiskebein kan bli til fiskegelatin eller flammehemmere.</p>
+        </div></details>
+      </div>
+    </details>
+    <details class="opg">
+      <summary><span class="opg__num">3</span> Hvilke påstander virker fornuftige? Begrunn valgene</summary>
+      <div class="opg__body">
+        <ol>
+          <li>Det er mer bærekraftig å utnytte mer av fisken enn bare fiskefileten.</li>
+          <li>For enkelte religiøse personer kan fiskegelatin være et godt alternativ til produkter av svin.</li>
+        </ol>
+        <details class="fasit"><summary>Vis momenter</summary><div class="fasit__body">
+          <p><strong>1.</strong> Rimelig. Samme mengde fisk gir flere nyttige produkter, avfallet minker, og vi slipper å bruke nye ressurser på å lage olje, proteiner og gelatin fra andre kilder. Det treffer flere av prinsippene i grønn kjemi.</p>
+          <p><strong>2.</strong> Rimelig. Gelatin lages tradisjonelt av svin eller storfe. Fiskegelatin er et alternativ for dem som av religiøse grunner ikke spiser svin — og teksten sier at behovet er stort.</p>
+        </div></details>
+      </div>
+    </details>
+  </div>
+
+</section>
+
 <!-- ============================================================ FORMELARK -->
 <section class="panel" id="panel-formler">
   <div class="hero">
     <span class="eyebrow">Oppslag</span>
     <h1>Formelark og begreper</h1>
-    <p class="lede">Alt du trenger å slå opp fra kapittel 1 på én side.</p>
+    <p class="lede">Alt du trenger å slå opp fra begge kapitlene på én side.</p>
   </div>
   <nav class="subnav">
     <a href="#fs-formler">Formler</a>
     <a href="#fs-ioner">Vanlige ioner</a>
-    <a href="#fs-begrep">Begreper</a>
-    <a href="#fs-konst">Konstanter og enheter</a>
+    <a href="#fs-begrep">Begreper kap. 1</a>
+    <a href="#fs-konst">Konstanter</a>
+    <a href="#k2-fs-trender">Trender</a>
+    <a href="#k2-fs-binding">Bindingstyper</a>
+    <a href="#k2-fs-geometri">Molekylgeometri</a>
+    <a href="#k2-fs-en">EN-verdier</a>
+    <a href="#k2-fs-begrep">Begreper kap. 2</a>
   </nav>
+
 
   <div class="card" id="fs-formler">
     <h2>Formler</h2>
@@ -4753,6 +6215,128 @@ else:
       </tbody>
     </table>
   </div>
+
+
+  <div class="card" id="k2-fs-trender">
+    <h2>Periodiske trender</h2>
+    <table class="data">
+      <thead><tr><th>Egenskap</th><th>Nedover i gruppe</th><th>Mot høyre i periode</th><th>Fordi</th></tr></thead>
+      <tbody>
+        <tr><td>Atomradius</td><td>øker</td><td>minker</td><td>nytt skall / større kjerneladning på samme skall</td></tr>
+        <tr><td>Elektronegativitet</td><td>minker</td><td>øker</td><td>lengre avstand og skjerming / kortere avstand</td></tr>
+        <tr><td>1. ioniseringsenergi</td><td>minker</td><td>øker</td><td>elektronet ligger lenger ute / trekkes sterkere inn</td></tr>
+        <tr><td>Metallkarakter</td><td>øker</td><td>minker</td><td>lettere å gi fra seg elektroner nedover og til venstre</td></tr>
+      </tbody>
+    </table>
+    <div class="box box--key">
+      <span class="box__label">Coulombs lov</span>
+      <p>Kreftene mellom ladde partikler øker med ladningenes størrelse og med kortere avstand mellom partiklene. Bruk den i alle forklaringer i dette kapitlet.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-fs-binding">
+    <h2>Bindingstyper</h2>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>ΔEN</th><th>Bindingstype</th><th>Mellom</th><th>Eksempel</th></tr></thead>
+        <tbody>
+          <tr><td>over 2,0</td><td>ionebinding</td><td>metall + ikke-metall</td><td>NaCl, KF, CaO</td></tr>
+          <tr><td>0,5–2,0</td><td>polar elektronparbinding</td><td>ulike ikke-metaller</td><td>H₂O, HCl, CO₂, NO</td></tr>
+          <tr><td>under 0,5</td><td>ren elektronparbinding</td><td>like ikke-metaller</td><td>H₂, O₂, N₂, Cl₂</td></tr>
+          <tr><td>—</td><td>metallbinding</td><td>metallatomer</td><td>Fe, Cu, Na</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Svake bindinger, etter minkende styrke</h3>
+    <table class="data">
+      <thead><tr><th>Binding</th><th>Mellom</th><th>Krever</th></tr></thead>
+      <tbody>
+        <tr><td>Hydrogenbinding</td><td>molekyler</td><td>H bundet til N, O eller F</td></tr>
+        <tr><td>Ion-dipolkrefter</td><td>ion og molekyl</td><td>et ion og en dipol</td></tr>
+        <tr><td>Dipol-dipolkrefter</td><td>molekyler</td><td>permanente dipoler</td></tr>
+        <tr><td>Van der Waalske krefter</td><td>molekyler</td><td>ingenting — finnes alltid</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" id="k2-fs-geometri">
+    <h2>Molekylgeometri (VSEPR)</h2>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>Elektronskyer</th><th>Ledige par</th><th>Form</th><th>Vinkel</th><th>Eksempel</th></tr></thead>
+        <tbody>
+          <tr><td>2</td><td>0</td><td>lineær</td><td>180°</td><td>CO₂, HCN</td></tr>
+          <tr><td>3</td><td>0</td><td>likesidet trekant</td><td>120°</td><td>SO₃, NO₃⁻, CO₃²⁻</td></tr>
+          <tr><td>3</td><td>1</td><td>vinkelformet</td><td>ca. 117°</td><td>O₃</td></tr>
+          <tr><td>4</td><td>0</td><td>tetraeder</td><td>109,5°</td><td>CH₄, CCl₄, ClO₄⁻</td></tr>
+          <tr><td>4</td><td>1</td><td>trekantet pyramide</td><td>ca. 108°</td><td>NH₃, ClO₃⁻</td></tr>
+          <tr><td>4</td><td>2</td><td>vinkelformet</td><td>104,5°</td><td>H₂O, ClO₂⁻</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="box box--key">
+      <span class="box__label">Dipol eller ikke?</span>
+      <p>Polare bindinger + usymmetrisk form = dipol. Polare bindinger + symmetrisk form = ingen dipol. Ledige elektronpar på sentralatomet bryter symmetrien og presser bindingsvinkelen ned.</p>
+    </div>
+  </div>
+
+  <div class="card" id="k2-fs-en">
+    <h2>Elektronegativitet (Pauling)</h2>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>Grunnstoff</th><th>EN</th><th>Grunnstoff</th><th>EN</th><th>Grunnstoff</th><th>EN</th></tr></thead>
+        <tbody>
+          <tr><td>H</td><td>2,1</td><td>C</td><td>2,5</td><td>S</td><td>2,6</td></tr>
+          <tr><td>Li</td><td>1,0</td><td>Si</td><td>1,9</td><td>F</td><td>4,0</td></tr>
+          <tr><td>Na</td><td>0,9</td><td>N</td><td>3,0</td><td>Cl</td><td>3,2</td></tr>
+          <tr><td>K</td><td>0,8</td><td>P</td><td>2,2</td><td>Br</td><td>3,0</td></tr>
+          <tr><td>Be</td><td>1,5</td><td>O</td><td>3,5</td><td>I</td><td>2,7</td></tr>
+          <tr><td>Mg</td><td>1,3</td><td>B</td><td>2,0</td><td>Ca</td><td>1,0</td></tr>
+          <tr><td>Al</td><td>1,6</td><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small dim">Fluor er satt til 4,0, og alle andre verdier er beregnet i forhold til den. Edelgassene er lite relevante i denne sammenhengen.</p>
+  </div>
+
+  <div class="card" id="k2-fs-begrep">
+    <h2>Begreper</h2>
+    <div class="tablescroll">
+      <table class="data">
+        <thead><tr><th>Begrep</th><th>Betyr</th></tr></thead>
+        <tbody>
+          <tr><td>Coulombs lov</td><td>kreftene øker med ladning og minker med avstand</td></tr>
+          <tr><td>Atomradius</td><td>halve avstanden mellom to nabokjerner, oppgitt i pm</td></tr>
+          <tr><td>Elektronegativitet</td><td>evnen til å tiltrekke seg et felles elektronpar</td></tr>
+          <tr><td>Ioniseringsenergi</td><td>energien som må til for å fjerne ett elektron fra et atom</td></tr>
+          <tr><td>Halvmetall</td><td>grunnstoff langs skråtrappa med egenskaper fra begge sider</td></tr>
+          <tr><td>Ionebinding</td><td>binding mellom to motsatt ladde ioner</td></tr>
+          <tr><td>Elektronparbinding</td><td>to atomer deler ett eller flere elektronpar</td></tr>
+          <tr><td>Polar elektronparbinding</td><td>elektronparet er trukket mot det mest elektronegative atomet</td></tr>
+          <tr><td>Delladning (δ)</td><td>den lille ladningen atomene får i en polar binding</td></tr>
+          <tr><td>Nettverksforbindelse</td><td>atomer bundet i ett stort nettverk, som diamant og kvarts</td></tr>
+          <tr><td>Metallbinding</td><td>positive metallioner i et hav av frie elektroner</td></tr>
+          <tr><td>Dipol</td><td>molekyl der ladningssentrene ikke faller sammen</td></tr>
+          <tr><td>Ledig elektronpar</td><td>elektronpar på sentralatomet som ikke inngår i en binding</td></tr>
+          <tr><td>VSEPR</td><td>metoden der elektronskyene frastøter hverandre maksimalt</td></tr>
+          <tr><td>Resonans</td><td>flere like sannsynlige strukturer; bindingene er i virkeligheten like</td></tr>
+          <tr><td>Hydratisert ion</td><td>ion omgitt av vannmolekyler i løsning</td></tr>
+          <tr><td>Krystallvann</td><td>vannmolekyler som inngår i saltet, som i CuSO₄ · 5H₂O</td></tr>
+          <tr><td>Kjernekrefter</td><td>svært sterke krefter mellom nukleonene, over veldig korte avstander</td></tr>
+          <tr><td>Fisjon / fusjon</td><td>store kjerner deles / små kjerner slås sammen</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Formler</h3>
+    <table class="data">
+      <thead><tr><th>Formel</th><th>Betyr</th></tr></thead>
+      <tbody>
+        <tr><td>r = a / 2</td><td>atomradius av avstanden mellom nabokjerner</td></tr>
+        <tr><td>ΔEN = EN(B) − EN(A)</td><td>forskjellen som bestemmer bindingstypen</td></tr>
+        <tr><td>E = m · c²</td><td>energien som svarer til et massetap</td></tr>
+      </tbody>
+    </table>
+  </div>
 </section>
 
     </main>
@@ -4784,7 +6368,7 @@ else:
 
     <footer class="sitefoot">
       <div class="wrap">
-        <p>Læringsside for Kjemi 1, kapittel 1. Fagstoffet følger norsk læreplan i kjemi (KJE01-02).</p>
+        <p>Læringsside for Kjemi 1, kapittel 1 og 2. Fagstoffet følger norsk læreplan i kjemi (KJE01-02).</p>
         <p>Framdrift og flashcard-statistikk ligger lagret lokalt i nettleseren og sendes ingen steder.</p>
       </div>
     </footer>
@@ -4832,7 +6416,22 @@ const CHECKS = [
   ['1.9','Jeg kan regne mellom bølgelengde, frekvens og fotonenergi'],
   ['1.10','Jeg kan forklare eksitasjon, deeksitasjon og hvorfor flammeprøver gir farge'],
   ['1.11','Jeg vet hva en orbital er, og forskjellen på s og p'],
-  ['1.12','Jeg kan skrive elektronkonfigurasjonen og forklare hvorfor 4s fylles før 3d']
+  ['1.12','Jeg kan skrive elektronkonfigurasjonen og forklare hvorfor 4s fylles før 3d'],
+  ['2.1','Jeg kan Coulombs lov og kan bruke den i forklaringer'],
+  ['2.1','Jeg vet hvordan atomradien endrer seg i en gruppe og i en periode, og hvorfor'],
+  ['2.1','Jeg kan forklare hvorfor kationer er mindre og anioner større enn atomet'],
+  ['2.1','Jeg vet hva elektronegativitet er, og hvordan den varierer i systemet'],
+  ['2.1','Jeg kan forklare hvordan 1. ioniseringsenergi varierer, og hvorfor'],
+  ['2.2','Jeg kan bruke ΔEN til å avgjøre bindingstypen mellom to grunnstoffer'],
+  ['2.2','Jeg kan forskjellen på ionebinding, elektronparbinding og polar elektronparbinding'],
+  ['2.2','Jeg vet hva en nettverksforbindelse er, og hvorfor smeltepunktet er høyt'],
+  ['2.3','Jeg vet hva en dipol er, og kan avgjøre om et molekyl er en dipol'],
+  ['2.3','Jeg kan bruke VSEPR til å bestemme molekylgeometrien'],
+  ['2.3','Jeg husker at ledige elektronpar presser bindingsvinkelen ned'],
+  ['2.4','Jeg kan forklare metallbindingen og hvorfor metaller leder strøm'],
+  ['2.5','Jeg kan de fire svake bindingene og vet hvilken som er sterkest'],
+  ['2.5','Jeg vet hva som kreves for at det skal dannes en hydrogenbinding'],
+  ['2.6','Jeg kan forklare hvorfor is flyter, og hvorfor vann er tyngst ved 4 °C']
 ];
 const clEl = document.getElementById('checklist');
 CHECKS.forEach((c,i)=>{
@@ -4872,69 +6471,113 @@ clEl.addEventListener('change', e=>{
 
 /* ================= FLASHCARDS ================= */
 const CARDS = [
-  ['Partikler','Proton','Positivt ladd partikkel i atomkjernen. Antallet bestemmer hvilket grunnstoff atomet er.','masse ≈ 1 u, ladning +1'],
-  ['Partikler','Nøytron','Nøytral partikkel i atomkjernen. Antallet kan variere innenfor samme grunnstoff.','masse ≈ 1 u, ladning 0'],
-  ['Partikler','Elektron','Negativt ladd partikkel som befinner seg rundt atomkjernen.','masse ≈ 0,0005 u, ladning −1'],
-  ['Partikler','Nukleon','Fellesnavn på proton og nøytron — partiklene i kjernen.',''],
-  ['Partikler','Elementærpartiklene','Elektronet, protonet og nøytronet, altså de tre partiklene som bygger opp et atom.',''],
-  ['Partikler','Alfapartikkel','Positivt ladd partikkel som sendes ut av noen grunnstoffer. Rutherford brukte den mot gullfolien.',''],
+  ['K1 · Partikler','Proton','Positivt ladd partikkel i atomkjernen. Antallet bestemmer hvilket grunnstoff atomet er.','masse ≈ 1 u, ladning +1'],
+  ['K1 · Partikler','Nøytron','Nøytral partikkel i atomkjernen. Antallet kan variere innenfor samme grunnstoff.','masse ≈ 1 u, ladning 0'],
+  ['K1 · Partikler','Elektron','Negativt ladd partikkel som befinner seg rundt atomkjernen.','masse ≈ 0,0005 u, ladning −1'],
+  ['K1 · Partikler','Nukleon','Fellesnavn på proton og nøytron — partiklene i kjernen.',''],
+  ['K1 · Partikler','Elementærpartiklene','Elektronet, protonet og nøytronet, altså de tre partiklene som bygger opp et atom.',''],
+  ['K1 · Partikler','Alfapartikkel','Positivt ladd partikkel som sendes ut av noen grunnstoffer. Rutherford brukte den mot gullfolien.',''],
 
-  ['Begreper','Grunnstoff','Stoff der alle atomene har like mange protoner i kjernen.','118 kjente grunnstoffer'],
-  ['Begreper','Atomnummer','Antall protoner i atomkjernen. Skrives nederst til venstre for symbolet.','Co har atomnummer 27'],
-  ['Begreper','Massetall','Antall protoner + nøytroner. Kalles også nukleontall.','⁶⁰Co har massetall 60'],
-  ['Begreper','Isotoper','Atomslag med likt antall protoner, men ulikt antall nøytroner.','¹H, ²H og ³H'],
-  ['Begreper','Tungtvann','Vann der begge hydrogenatomene er isotopen ²H (deuterium).',''],
-  ['Begreper','Ion','Et ladd atom eller en ladd atomgruppe.','Na⁺, Cl⁻, O²⁻'],
-  ['Begreper','Kation','Positivt ladd ion. Dannes når atomet gir fra seg elektroner.','Na⁺, Mg²⁺, Al³⁺'],
-  ['Begreper','Anion','Negativt ladd ion. Dannes når atomet tar opp elektroner.','F⁻, O²⁻, S²⁻'],
-  ['Begreper','Salt','Fast stoff bygd opp av ioner, som oftest et metall og et ikke-metall.','NaCl, MgCl₂, Al₂O₃'],
-  ['Begreper','Formelenhet','Den minste enheten som går igjen i hele saltet.','NaCl er formelenheten i kjøkkensalt'],
-  ['Begreper','Molekyl','To eller flere atomer bundet sammen. Inneholder ikke ioner.','H₂O, CO₂, CH₄'],
-  ['Begreper','Kjemisk forbindelse','Det vi får når to eller flere grunnstoffer reagerer med hverandre.',''],
-  ['Begreper','Reaktant og produkt','Reaktantene er stoffene vi starter med, produktene er det som lages.',''],
-  ['Begreper','Modell','En forenklet framstilling bygd på en hypotese. Kan forkastes eller forsterkes av nye forsøk.',''],
+  ['K1 · Begreper','Grunnstoff','Stoff der alle atomene har like mange protoner i kjernen.','118 kjente grunnstoffer'],
+  ['K1 · Begreper','Atomnummer','Antall protoner i atomkjernen. Skrives nederst til venstre for symbolet.','Co har atomnummer 27'],
+  ['K1 · Begreper','Massetall','Antall protoner + nøytroner. Kalles også nukleontall.','⁶⁰Co har massetall 60'],
+  ['K1 · Begreper','Isotoper','Atomslag med likt antall protoner, men ulikt antall nøytroner.','¹H, ²H og ³H'],
+  ['K1 · Begreper','Tungtvann','Vann der begge hydrogenatomene er isotopen ²H (deuterium).',''],
+  ['K1 · Begreper','Ion','Et ladd atom eller en ladd atomgruppe.','Na⁺, Cl⁻, O²⁻'],
+  ['K1 · Begreper','Kation','Positivt ladd ion. Dannes når atomet gir fra seg elektroner.','Na⁺, Mg²⁺, Al³⁺'],
+  ['K1 · Begreper','Anion','Negativt ladd ion. Dannes når atomet tar opp elektroner.','F⁻, O²⁻, S²⁻'],
+  ['K1 · Begreper','Salt','Fast stoff bygd opp av ioner, som oftest et metall og et ikke-metall.','NaCl, MgCl₂, Al₂O₃'],
+  ['K1 · Begreper','Formelenhet','Den minste enheten som går igjen i hele saltet.','NaCl er formelenheten i kjøkkensalt'],
+  ['K1 · Begreper','Molekyl','To eller flere atomer bundet sammen. Inneholder ikke ioner.','H₂O, CO₂, CH₄'],
+  ['K1 · Begreper','Kjemisk forbindelse','Det vi får når to eller flere grunnstoffer reagerer med hverandre.',''],
+  ['K1 · Begreper','Reaktant og produkt','Reaktantene er stoffene vi starter med, produktene er det som lages.',''],
+  ['K1 · Begreper','Modell','En forenklet framstilling bygd på en hypotese. Kan forkastes eller forsterkes av nye forsøk.',''],
 
-  ['Skall','Valenselektroner','Elektronene i det ytterste elektronskallet. De bestemmer de kjemiske egenskapene.',''],
-  ['Skall','2n²-regelen','Maksimalt antall elektroner i skall nr. n.','K: 2, L: 8, M: 18, N: 32'],
-  ['Skall','Oktettregelen','Når grunnstoffer reagerer, søker de åtte elektroner i ytterste skall.','unntak: He med 2'],
-  ['Skall','Edelgass','Grunnstoff med fullt ytterskall. Fargeløs gass som nesten ikke reagerer.','He, Ne, Ar, Kr, Xe, Rn'],
-  ['Skall','Elektronkonfigurasjon','Hvordan elektronene er fordelt på underskallene.','Na: 1s²2s²2p⁶3s¹'],
-  ['Skall','Underskall','s, p, d og f — nivåene et hovedskall er splittet opp i.','s 2, p 6, d 10, f 14 elektroner'],
-  ['Skall','Atomorbital','Energinivå og område der sannsynligheten for å finne elektronet er stor. Plass til to elektroner.',''],
-  ['Skall','Aufbau-rekkefølgen','Elektronene fyller alltid det underskallet som har lavest energi først.','… 3p, 4s, 3d, 4p …'],
+  ['K1 · Skall','Valenselektroner','Elektronene i det ytterste elektronskallet. De bestemmer de kjemiske egenskapene.',''],
+  ['K1 · Skall','2n²-regelen','Maksimalt antall elektroner i skall nr. n.','K: 2, L: 8, M: 18, N: 32'],
+  ['K1 · Skall','Oktettregelen','Når grunnstoffer reagerer, søker de åtte elektroner i ytterste skall.','unntak: He med 2'],
+  ['K1 · Skall','Edelgass','Grunnstoff med fullt ytterskall. Fargeløs gass som nesten ikke reagerer.','He, Ne, Ar, Kr, Xe, Rn'],
+  ['K1 · Skall','Elektronkonfigurasjon','Hvordan elektronene er fordelt på underskallene.','Na: 1s²2s²2p⁶3s¹'],
+  ['K1 · Skall','Underskall','s, p, d og f — nivåene et hovedskall er splittet opp i.','s 2, p 6, d 10, f 14 elektroner'],
+  ['K1 · Skall','Atomorbital','Energinivå og område der sannsynligheten for å finne elektronet er stor. Plass til to elektroner.',''],
+  ['K1 · Skall','Aufbau-rekkefølgen','Elektronene fyller alltid det underskallet som har lavest energi først.','… 3p, 4s, 3d, 4p …'],
 
-  ['Periodisk system','Gruppe','Loddrett kolonne. Samme antall valenselektroner og liknende egenskaper.',''],
-  ['Periodisk system','Periode','Vannrett rad. Samme ytre skall fylles opp bortover.',''],
-  ['Periodisk system','Hovedgruppe','De to gruppene til venstre og de seks til høyre. Romertallet gir antall valenselektroner.',''],
-  ['Periodisk system','Bigruppe','De ti gruppene i midten — innskuddsmetallene som fyller d-underskall.',''],
-  ['Periodisk system','Alkalimetaller','Hovedgruppe I. Ett valenselektron, svært reaktive, gir basisk løsning i vann.','Li, Na, K, Rb, Cs'],
-  ['Periodisk system','Jordalkalimetaller','Hovedgruppe II. To valenselektroner, danner toverdige ioner.','Be, Mg, Ca, Sr, Ba'],
-  ['Periodisk system','Halogener','Hovedgruppe VII. Sju valenselektroner. Navnet betyr saltdannere.','F, Cl, Br, I'],
-  ['Periodisk system','Halvmetall','Grunnstoff langs skråtrappa med både metalliske og ikke-metalliske egenskaper.','B, Si, Ge, As'],
-  ['Periodisk system','Blokkene','s-blokken til venstre, p-blokken til høyre, d-blokken i midten og f-blokken nederst.',''],
+  ['K1 · Periodisk system','Gruppe','Loddrett kolonne. Samme antall valenselektroner og liknende egenskaper.',''],
+  ['K1 · Periodisk system','Periode','Vannrett rad. Samme ytre skall fylles opp bortover.',''],
+  ['K1 · Periodisk system','Hovedgruppe','De to gruppene til venstre og de seks til høyre. Romertallet gir antall valenselektroner.',''],
+  ['K1 · Periodisk system','Bigruppe','De ti gruppene i midten — innskuddsmetallene som fyller d-underskall.',''],
+  ['K1 · Periodisk system','Alkalimetaller','Hovedgruppe I. Ett valenselektron, svært reaktive, gir basisk løsning i vann.','Li, Na, K, Rb, Cs'],
+  ['K1 · Periodisk system','Jordalkalimetaller','Hovedgruppe II. To valenselektroner, danner toverdige ioner.','Be, Mg, Ca, Sr, Ba'],
+  ['K1 · Periodisk system','Halogener','Hovedgruppe VII. Sju valenselektroner. Navnet betyr saltdannere.','F, Cl, Br, I'],
+  ['K1 · Periodisk system','Halvmetall','Grunnstoff langs skråtrappa med både metalliske og ikke-metalliske egenskaper.','B, Si, Ge, As'],
+  ['K1 · Periodisk system','Blokkene','s-blokken til venstre, p-blokken til høyre, d-blokken i midten og f-blokken nederst.',''],
 
-  ['Lys','Frekvens','Antall bølger som passerer et sted per sekund.','f = c / λ'],
-  ['Lys','Foton','En energiporsjon av elektromagnetisk stråling.','E = h · f'],
-  ['Lys','Plancks konstant','Konstanten som knytter energi til frekvens.','h = 6,626 · 10⁻³⁴ J·s'],
-  ['Lys','Synlig lys','Stråling med bølgelengde mellom 380 og 780 nm.','fiolett kortest, rødt lengst'],
-  ['Lys','Fotoelektrisk effekt','Lys med høy nok frekvens slår løs elektroner fra en metallplate. Forklart av Einstein.',''],
-  ['Lys','Bølge-partikkeldualisme','At lys — og elektroner — må beskrives både som bølge og som partikkel.',''],
-  ['Lys','Grunntilstand','Det laveste energinivået elektronet kan være i.',''],
-  ['Lys','Eksitasjon','Elektronet løftes til et høyere energinivå ved at atomet tar opp energi.',''],
-  ['Lys','Atomspekter','Mønsteret av linjer et grunnstoff sender ut. Et fingeravtrykk brukt i kjemisk analyse.',''],
+  ['K1 · Lys','Frekvens','Antall bølger som passerer et sted per sekund.','f = c / λ'],
+  ['K1 · Lys','Foton','En energiporsjon av elektromagnetisk stråling.','E = h · f'],
+  ['K1 · Lys','Plancks konstant','Konstanten som knytter energi til frekvens.','h = 6,626 · 10⁻³⁴ J·s'],
+  ['K1 · Lys','Synlig lys','Stråling med bølgelengde mellom 380 og 780 nm.','fiolett kortest, rødt lengst'],
+  ['K1 · Lys','Fotoelektrisk effekt','Lys med høy nok frekvens slår løs elektroner fra en metallplate. Forklart av Einstein.',''],
+  ['K1 · Lys','Bølge-partikkeldualisme','At lys — og elektroner — må beskrives både som bølge og som partikkel.',''],
+  ['K1 · Lys','Grunntilstand','Det laveste energinivået elektronet kan være i.',''],
+  ['K1 · Lys','Eksitasjon','Elektronet løftes til et høyere energinivå ved at atomet tar opp energi.',''],
+  ['K1 · Lys','Atomspekter','Mønsteret av linjer et grunnstoff sender ut. Et fingeravtrykk brukt i kjemisk analyse.',''],
 
-  ['Personer','Demokrit','Gresk filosof, ca. 400 f.Kr. Innførte begrepet atom — «atomos» betyr udelelig.',''],
-  ['Personer','John Dalton','Britisk kjemiker. Hypotesen om at grunnstoffer består av like atomer.','1766–1844'],
-  ['Personer','J.J. Thomson','Påviste elektronet i 1897 i et evakuert rør med høy spenning.','nobelprisen 1906'],
-  ['Personer','Ernest Rutherford','Gullfolieforsøket i 1910 som avslørte atomkjernen.','nobelprisen 1908'],
-  ['Personer','James Chadwick','Oppdaget nøytronet i 1932 ved å bombardere beryllium med alfapartikler.','nobelprisen 1935'],
-  ['Personer','Dmitrij Mendelejev','Satte opp det første periodiske systemet i 1869 og forutsa ukjente grunnstoffer.','1834 — 1907'],
-  ['Personer','Niels Bohr','Forklarte atomspekteret med de to postulatene sine.','nobelprisen 1922'],
-  ['Personer','Max Planck','Energien sendes ut i porsjoner — kvanter. E = h·f.','nobelprisen 1918'],
-  ['Personer','Albert Einstein','Forklarte fotoelektrisk effekt med fotoner.','nobelprisen 1921'],
-  ['Personer','Louis de Broglie','Foreslo at også partikler som elektronet har bølgenatur.','nobelprisen 1929'],
-  ['Personer','Erwin Schrödinger','Satte opp bølgelikningen som gir orbitalene og energinivåene.','nobelprisen 1933'],
-  ['Personer','Werner Heisenberg','Usikkerhetsprinsippet: vi kan bare snakke om sannsynlighet for hvor elektronet er.','nobelprisen 1932']
+  ['K1 · Personer','Demokrit','Gresk filosof, ca. 400 f.Kr. Innførte begrepet atom — «atomos» betyr udelelig.',''],
+  ['K1 · Personer','John Dalton','Britisk kjemiker. Hypotesen om at grunnstoffer består av like atomer.','1766–1844'],
+  ['K1 · Personer','J.J. Thomson','Påviste elektronet i 1897 i et evakuert rør med høy spenning.','nobelprisen 1906'],
+  ['K1 · Personer','Ernest Rutherford','Gullfolieforsøket i 1910 som avslørte atomkjernen.','nobelprisen 1908'],
+  ['K1 · Personer','James Chadwick','Oppdaget nøytronet i 1932 ved å bombardere beryllium med alfapartikler.','nobelprisen 1935'],
+  ['K1 · Personer','Dmitrij Mendelejev','Satte opp det første periodiske systemet i 1869 og forutsa ukjente grunnstoffer.','1834 — 1907'],
+  ['K1 · Personer','Niels Bohr','Forklarte atomspekteret med de to postulatene sine.','nobelprisen 1922'],
+  ['K1 · Personer','Max Planck','Energien sendes ut i porsjoner — kvanter. E = h·f.','nobelprisen 1918'],
+  ['K1 · Personer','Albert Einstein','Forklarte fotoelektrisk effekt med fotoner.','nobelprisen 1921'],
+  ['K1 · Personer','Louis de Broglie','Foreslo at også partikler som elektronet har bølgenatur.','nobelprisen 1929'],
+  ['K1 · Personer','Erwin Schrödinger','Satte opp bølgelikningen som gir orbitalene og energinivåene.','nobelprisen 1933'],
+  ['K1 · Personer','Werner Heisenberg','Usikkerhetsprinsippet: vi kan bare snakke om sannsynlighet for hvor elektronet er.','nobelprisen 1932'],
+  ['K2 · Begreper','Coulombs lov','Kreftene mellom ladde partikler øker med ladningenes størrelse og med kortere avstand.','nøkkelen til hele kapitlet'],
+  ['K2 · Begreper','Periodiske egenskaper','Egenskaper som endrer seg jevnt nedover i en gruppe og bortover i en periode.','radius, EN, ioniseringsenergi'],
+  ['K2 · Begreper','Atomradius','Halvparten av avstanden mellom kjernene i to naboatomer av samme grunnstoff.','oppgis i pm, 1 pm = 10⁻¹² m'],
+  ['K2 · Begreper','Elektronegativitet','Den relative evnen et atom har til å tiltrekke seg et felles elektronpar.','F = 4,0 er høyest'],
+  ['K2 · Begreper','Ioniseringsenergi','Energien som må tilføres et nøytralt atom for å fjerne ett elektron.','Mg + energi → Mg⁺ + e⁻'],
+  ['K2 · Begreper','Halvmetall','Grunnstoff langs skråtrappa med både metalliske og ikke-metalliske egenskaper.','B, Si, Ge, As, Sb, Te'],
+  ['K2 · Begreper','Delladning δ','Den lille ladningen atomene får når elektronparet er skjevt fordelt.','+δ på H og −δ på Cl i HCl'],
+
+  ['K2 · Sterke bindinger','Ionebinding','Binding mellom to motsatt ladde ioner. Sterk.','NaCl smelter først ved 801 °C'],
+  ['K2 · Sterke bindinger','Elektronparbinding','To atomer deler ett eller flere elektronpar. Også kalt kovalent binding.','Cl–Cl, O=O, N≡N'],
+  ['K2 · Sterke bindinger','Polar elektronparbinding','Elektronparet er trukket nærmest det mest elektronegative atomet.','H₂O, HCl, CO₂'],
+  ['K2 · Sterke bindinger','Metallbinding','Binding mellom positive metallioner og de frie elektronene rundt dem.','forklarer strømledning'],
+  ['K2 · Sterke bindinger','Nettverksforbindelse','Atomer bundet i ett stort nettverk med elektronparbindinger. Høyt smeltepunkt.','diamant, grafitt, kvarts'],
+  ['K2 · Sterke bindinger','Dobbeltbinding','To atomer deler to elektronpar.','O=O i oksygengass'],
+  ['K2 · Sterke bindinger','Trippelbinding','To atomer deler tre elektronpar.','N≡N i nitrogengass'],
+
+  ['K2 · Svake bindinger','Van der Waalske krefter','Krefter som skyldes forskyving av elektronskyen. Finnes mellom alle molekyler.','sterkere jo større molekylet er'],
+  ['K2 · Svake bindinger','Dipol-dipolkrefter','Tiltrekning mellom permanente dipoler. Sterkere enn van der Waalske krefter.','HCl, NO'],
+  ['K2 · Svake bindinger','Ion-dipolkrefter','Krefter mellom et ion og et dipolmolekyl. Gjør at salter løser seg i vann.','Na⁺ omgitt av vannmolekyler'],
+  ['K2 · Svake bindinger','Hydrogenbinding','Binding mellom H bundet til N, O eller F i ett molekyl, og N, O eller F i et annet.','sterkest av de svake'],
+  ['K2 · Svake bindinger','Hydratisert ion','Ion som er omgitt av vannmolekyler i en løsning.','Cu(H₂O)₅²⁺'],
+  ['K2 · Svake bindinger','Krystallvann','Vannmolekyler som blir med inn i saltet når løsningen dampes inn.','CuSO₄ · 5H₂O er blått'],
+
+  ['K2 · Geometri','Dipol','Molekyl der sentrene for positiv og negativ ladning ikke faller sammen.','H₂O ja, CO₂ nei'],
+  ['K2 · Geometri','VSEPR','Valence Shell Electron Pair Repulsion — elektronskyene frastøter hverandre maksimalt.',''],
+  ['K2 · Geometri','Ledig elektronpar','Elektronpar på sentralatomet som ikke inngår i noen binding. Presser bindingsvinkelen ned.','NH₃ har ett, H₂O har to'],
+  ['K2 · Geometri','Tetraeder','Fire elektronskyer, ingen ledige par. Vinkel 109,5°.','CH₄, CCl₄'],
+  ['K2 · Geometri','Trekantet pyramide','Fire elektronskyer, ett ledig par. Vinkel ca. 108°.','NH₃'],
+  ['K2 · Geometri','Vinkelformet','Fire elektronskyer, to ledige par. Vinkel 104,5°.','H₂O'],
+  ['K2 · Geometri','Lineær','To elektronskyer, ingen ledige par. Vinkel 180°.','CO₂, HCN'],
+  ['K2 · Geometri','Likesidet trekant','Tre elektronskyer, ingen ledige par. Vinkel 120°.','SO₃, NO₃⁻, CO₃²⁻'],
+  ['K2 · Geometri','Resonans','Flere like sannsynlige strukturer; bindingene er i virkeligheten helt like.','NO₃⁻ og CO₃²⁻'],
+
+  ['K2 · Vann','Hvorfor is flyter','I is er hvert molekyl bundet til fire andre i en åpen struktur med tomrom. Færre molekyler per volum.',''],
+  ['K2 · Vann','Maksimal massetetthet','Vann har størst massetetthet ved ca. 4 °C (3,97 °C).',''],
+  ['K2 · Vann','Høstsirkulasjonen','Kaldt overflatevann synker og frakter oksygen til bunnen, mens bunnvannet presses opp.',''],
+  ['K2 · Vann','Vårsirkulasjonen','Overflatevannet varmes fra 0 mot 4 °C, blir tyngre og synker — ny omrøring.',''],
+
+  ['K2 · Kjernen','Kjernekrefter','Svært sterke krefter mellom nukleonene, men bare over veldig korte avstander.','overvinner frastøtingen mellom protonene'],
+  ['K2 · Kjernen','Massetap','Massen som blir borte når nukleoner bindes sammen, og som blir til energi.','E = m · c²'],
+  ['K2 · Kjernen','Fisjon','En stor kjerne deler seg i to mindre og mer stabile kjerner.','²³⁵U + n → Sr + Xe + 3n'],
+  ['K2 · Kjernen','Fusjon','Små kjerner slår seg sammen til en større. Skjer på sola.','4 ¹H → ⁴He + energi'],
+  ['K2 · Kjernen','Kjedereaksjon','Nøytronene fra én fisjon starter nye fisjoner. Styres med kadmiumstaver.',''],
+  ['K2 · Kjernen','Jern','Grunnstoffet med de mest stabile kjernene. Derfor frigjør både fisjon og fusjon energi på hver sin side av jern.','']
 ];
 let fcList = [], fcPos = 0, fcKnown = store.get('kj_fckn', {});
 const fcCard = document.getElementById('fcCard');
@@ -5090,7 +6733,82 @@ const QUIZ = [
    'Kalsium har 20 elektroner, og de to siste går inn i 4s — ikke i 3d, som har høyere energi.'],
   ['1.12','Hvilket ion har samme elektronstruktur som argon?',
    ['Ca²⁺','Na⁺','Mg²⁺','Li⁺'], 0,
-   'Ca²⁺ har 18 elektroner, akkurat som argon. Na⁺ og Mg²⁺ har 10 og likner på neon.']
+   'Ca²⁺ har 18 elektroner, akkurat som argon. Na⁺ og Mg²⁺ har 10 og likner på neon.'],
+  ['2.1','Hva sier Coulombs lov?',
+   ['Kreftene øker med ladningenes størrelse og med kortere avstand','Kreftene øker med avstanden','Kreftene avhenger bare av ladningen','Kreftene er alltid frastøtende'], 0,
+   'Loven forklarer atomradius, elektronegativitet, ioniseringsenergi og styrken på både sterke og svake bindinger.'],
+  ['2.1','Hvordan endrer atomradien seg mot høyre i en periode?',
+   ['Den minker','Den øker','Den er konstant','Den varierer tilfeldig'], 0,
+   'Elektronene fylles i det samme skallet mens kjerneladningen øker. Kjernen trekker sterkere, og radien minker.'],
+  ['2.1','Hvorfor er Cl⁻ større enn Cl?',
+   ['Det ekstra elektronet gir mer frastøting i ytterste skall','Ionet har fått et nytt skall','Ionet har flere protoner','Ionet har mistet et skall'], 0,
+   'Kjerneladningen er den samme, men de åtte elektronene i ytre skall frastøter hverandre mer enn sju gjorde.'],
+  ['2.1','Hvilket grunnstoff har høyest elektronegativitet?',
+   ['Fluor','Klor','Oksygen','Cesium'], 0,
+   'Pauling satte fluor til 4,0 og beregnet de andre i forhold til den. Fluoratomet er lite, så kjernen trekker sterkt på et felles elektronpar.'],
+  ['2.1','Hva skjer med 1. ioniseringsenergi når vi begynner på en ny periode?',
+   ['Den synker markert','Den stiger markert','Den er uendret','Den blir null'], 0,
+   'Det ytterste elektronet ligger nå i et nytt skall lenger fra kjernen, og skjermes av skallene innenfor. Alkalimetallene danner bunnpunktene på grafen.'],
+  ['2.2','Hvilken bindingstype får vi når ΔEN er større enn 2,0?',
+   ['Ionebinding','Polar elektronparbinding','Ren elektronparbinding','Metallbinding'], 0,
+   'Elektronet overføres langt på vei fullstendig, og det dannes ioner. Typisk mellom et metall og et ikke-metall.'],
+  ['2.2','Hvilken binding har O₂?',
+   ['Ren elektronparbinding med dobbeltbinding','Ionebinding','Polar elektronparbinding','Metallbinding'], 0,
+   'To like atomer trekker like sterkt. Hvert oksygenatom har seks valenselektroner, så de må dele to elektronpar for å oppfylle oktettregelen.'],
+  ['2.2','Hvorfor har diamant smeltepunkt over 4000 °C?',
+   ['Alle atomene er bundet i ett nettverk med sterke elektronparbindinger','Diamant er et salt','Diamant har hydrogenbindinger','Karbon er et metall'], 0,
+   'For å smelte en nettverksforbindelse må du bryte selve nettverket av sterke bindinger, ikke bare svake krefter mellom molekyler.'],
+  ['2.2','Hvorfor leder smeltet natriumklorid strøm, mens fast NaCl ikke gjør det?',
+   ['I smelta kan ionene bevege seg fritt','Smelta inneholder frie elektroner','Smelta har høyere temperatur','Fast NaCl har ingen ladninger'], 0,
+   'Strøm krever ladde partikler som kan bevege seg. I gitteret sitter ionene fast, i smelta er de frie.'],
+  ['2.3','Hvilket av disse molekylene er IKKE en dipol?',
+   ['CO₂','H₂O','NH₃','HCl'], 0,
+   'CO₂ har svært polare bindinger, men molekylet er lineært og symmetrisk. Ladningssentrene faller sammen i karbonatomet.'],
+  ['2.3','Hva er bindingsvinkelen i vann?',
+   ['104,5°','109,5°','120°','180°'], 0,
+   'To ledige elektronpar på oksygen presser de to bindingene tettere sammen enn i et tetraeder.'],
+  ['2.3','Hvorfor er vinkelen i NH₃ mindre enn i CH₄?',
+   ['Det ledige elektronparet på nitrogen frastøter bindingene','Nitrogen er større enn karbon','NH₃ har færre atomer','CH₄ har dobbeltbindinger'], 0,
+   'Ledige elektronpar tar større plass enn bindingspar og presser bindingene sammen: 108° mot 109,5°.'],
+  ['2.3','Hva står VSEPR for?',
+   ['Valence Shell Electron Pair Repulsion','Valence Structure Electron Pair Reaction','Very Strong Electron Pair Rule','Valence Shell Energy Pair Radius'], 0,
+   'Elektronparene i valensskallet frastøter hverandre og stiller seg så langt fra hverandre som mulig.'],
+  ['2.3','Hvilken form har nitrationet NO₃⁻?',
+   ['Likesidet trekant','Tetraeder','Vinkelformet','Lineært'], 0,
+   'Tre elektronskyer og ingen ledige par på nitrogen gir 120° mellom bindingene. Ionet har dessuten resonans.'],
+  ['2.4','Hva holder et metall sammen?',
+   ['Tiltrekning mellom positive metallioner og frie elektroner','Ionebindinger','Hydrogenbindinger','Van der Waalske krefter'], 0,
+   'De ytterste elektronene tilhører ikke noe bestemt atom, men beveger seg fritt mellom ionene.'],
+  ['2.4','Hvorfor har jordalkalimetaller stort sett høyere smeltepunkt enn alkalimetaller?',
+   ['Ionene er toverdige og gir sterkere metallbinding','De har flere nøytroner','De er mindre reaktive','De har fullt ytterskall'], 0,
+   'Høyere ladning på ionene gir sterkere tiltrekning til elektronhavet — Coulombs lov.'],
+  ['2.5','Hvilken av de svake bindingene er sterkest?',
+   ['Hydrogenbinding','Ion-dipolkrefter','Dipol-dipolkrefter','Van der Waalske krefter'], 0,
+   'Rekkefølgen etter minkende styrke er: hydrogenbinding, ion-dipolkrefter, dipol-dipolkrefter, van der Waalske krefter.'],
+  ['2.5','Hva kreves for at det skal dannes en hydrogenbinding?',
+   ['H må være bundet til N, O eller F','Molekylet må inneholde hydrogen','Molekylet må være et salt','Stoffet må være i væskeform'], 0,
+   'Bare N, O og F er små nok og elektronegative nok. Derfor har HF kokepunkt +20 °C, mens HCl har −85 °C.'],
+  ['2.5','Hvorfor har I₂ høyere kokepunkt enn Cl₂?',
+   ['Jodmolekylet er større, så van der Waalske krefter er sterkere','Jod er en dipol','Jod har hydrogenbindinger','Jod er et metall'], 0,
+   'Større molekyl betyr mer elektronsky som kan forskyves. Derfor er jod fast ved romtemperatur, mens klor er gass.'],
+  ['2.5','Hva er krystallvann?',
+   ['Vannmolekyler som inngår i saltet','Vann som er frosset','Svært rent vann','Vann med oppløst salt'], 0,
+   'Som i CuSO₄ · 5H₂O. Varmer vi saltet, spaltes krystallvannet ut, og blåfargen forsvinner.'],
+  ['2.6','Hvorfor flyter is på vann?',
+   ['Isstrukturen er åpen, med tomrom mellom molekylene','Is er kaldere enn vann','Is inneholder luft','Isen har færre hydrogenbindinger'], 0,
+   'Hvert vannmolekyl er bundet til fire andre i en åpen, bikubeliknende struktur. Det gir færre molekyler per volumenhet og lavere massetetthet.'],
+  ['2.6','Ved hvilken temperatur har vann størst massetetthet?',
+   ['Ca. 4 °C','0 °C','10 °C','100 °C'], 0,
+   'Nærmere bestemt 3,97 °C. Under dette dominerer den volumminkende prosessen, over dominerer den volumøkende.'],
+  ['2.6','Hvorfor holder bunnvannet i en innsjø omtrent 4 °C om vinteren?',
+   ['Vann ved 4 °C er tyngst og synker til bunns','Bunnen varmes opp av jorda','Isen isolerer','Saltet i vannet varmer'], 0,
+   'Kaldere vann enn 4 °C er lettere og blir liggende i overflata, der det fryser. Det har stor betydning for fisk og bunndyr.'],
+  ['Tema','Hva skjer med massen i en fusjonsreaksjon?',
+   ['Litt masse blir borte og omdannes til energi','Massen er uendret','Massen øker','All massen blir til energi'], 0,
+   'Massetapet Δm gir energien E = m · c². Fusjon av 4,0 g helium frigjør omtrent 2,7 · 10¹² J.'],
+  ['Tema','Hva er fisjon?',
+   ['En stor kjerne deler seg i to mindre','To kjerner slås sammen','Et elektron rives løs','Et atom sender ut lys'], 0,
+   'Uran og thorium kan fisjonere. Det dannes to til tre nøytroner som kan starte nye fisjoner — en kjedereaksjon.']
 ];
 let quizSet = [], quizAt = 0, quizRight = 0;
 function startQuiz(){
@@ -5885,8 +7603,376 @@ window.addEventListener('resize', redrawAll);
   oppdater();
 })();
 
+
 /* ==========================================================================
-   SANT ELLER USANT (aktiviteter)
+   TRENDGRAFEN (2.1)
+   ========================================================================== */
+const TRENDDATA = {
+  /* atomradius i pm, 1. ioniseringsenergi i kJ/mol, elektronegativitet (Pauling) */
+  radius: [37,31,152,112,85,77,75,73,72,71,186,160,143,118,110,103,100,98,227,197],
+  ion:    [1312,2372,520,899,801,1086,1402,1314,1681,2081,496,738,578,786,1012,1000,1251,1521,419,590],
+  en:     [2.1,null,1.0,1.5,2.0,2.5,3.0,3.5,4.0,null,0.9,1.3,1.6,1.9,2.2,2.6,3.2,null,0.8,1.0]
+};
+const TRENDINFO = {
+  radius: {navn:'Atomradius', enhet:'pm', d:0,
+    note:'Radien faller bortover hver periode og hopper opp igjen når et nytt skall tas i bruk. Alkalimetallene Li, Na og K er toppene.'},
+  ion: {navn:'1. ioniseringsenergi', enhet:'kJ/mol', d:0,
+    note:'Speilbildet av radiusgrafen: edelgassene He, Ne og Ar er toppene, alkalimetallene bunnene.'},
+  en: {navn:'Elektronegativitet', enhet:'', d:1,
+    note:'Øker mot høyre i hver periode og minker nedover i hver gruppe. Edelgassene er ikke oppgitt.'}
+};
+(function(){
+  const segs = document.getElementById('trendSegs');
+  if(!segs) return;
+  const cv = document.getElementById('trendCanvas');
+  let valgt = 'radius';
+
+  function tegn(){
+    const data = TRENDDATA[valgt], info = TRENDINFO[valgt];
+    const {g, w, h} = fitCanvas(cv, 320);
+    const th = TH();
+    const L = 54, R = w - 14, T = 26, B = h - 42;
+    const verdier = data.filter(v => v !== null);
+    const maks = Math.max.apply(null, verdier) * 1.08;
+    const x = i => L + (i / 19) * (R - L);
+    const y = v => B - (v / maks) * (B - T);
+
+    /* rutenett */
+    g.save(); g.strokeStyle = th.border; g.lineWidth = 1;
+    for(let k = 0; k <= 4; k++){
+      const yy = T + (k / 4) * (B - T);
+      g.beginPath(); g.moveTo(L, yy); g.lineTo(R, yy); g.stroke();
+      const v = maks * (1 - k/4);
+      ctext(g, v.toFixed(valgt === 'en' ? 1 : 0).replace('.', ','), L - 8, yy + 4, {col: th.text3, size: 10, mono: true, align: 'right'});
+    }
+    g.restore();
+
+    /* linje */
+    g.save();
+    g.strokeStyle = th.accent; g.lineWidth = 2.2; g.lineJoin = 'round';
+    g.beginPath();
+    let startet = false;
+    data.forEach((v, i) => {
+      if(v === null){ startet = false; return; }
+      if(!startet){ g.moveTo(x(i), y(v)); startet = true; }
+      else g.lineTo(x(i), y(v));
+    });
+    g.stroke(); g.restore();
+
+    /* punkter og symboler */
+    data.forEach((v, i) => {
+      const sym = ELNAMES[i].sym;
+      ctext(g, sym, x(i), B + 16, {col: th.text3, size: 9.5, mono: true, align: 'center'});
+      if(v === null) return;
+      g.beginPath(); g.arc(x(i), y(v), 3.4, 0, 7);
+      g.fillStyle = th.accent; g.fill();
+      const erTopp = (i === 0) || (i === 2) || (i === 10) || (i === 18);
+      if(erTopp) ctext(g, sym, x(i), y(v) - 10, {col: th.text2, size: 10, mono: true, align: 'center'});
+    });
+    ctext(g, info.navn + (info.enhet ? ' (' + info.enhet + ')' : ''), L, 16, {col: th.text2, size: 11, mono: true});
+    ctext(g, 'atomnummer 1–20', R, B + 34, {col: th.text3, size: 10, mono: true, align: 'right'});
+  }
+
+  function oppdater(){
+    const info = TRENDINFO[valgt], data = TRENDDATA[valgt];
+    const f = v => v === null ? '—' : v.toFixed(info.d).replace('.', ',');
+    document.getElementById('trendOut').innerHTML =
+      '<span>H: <b>' + f(data[0]) + '</b></span>' +
+      '<span>Li: <b>' + f(data[2]) + '</b></span>' +
+      '<span>F: <b>' + f(data[8]) + '</b></span>' +
+      '<span>Na: <b>' + f(data[10]) + '</b></span>' +
+      '<span>Cl: <b>' + f(data[16]) + '</b></span>' +
+      '<span>K: <b>' + f(data[18]) + '</b></span>' +
+      '<span style="flex:1 1 100%; color:var(--text-3)">' + info.note + '</span>';
+    tegn();
+  }
+  segs.addEventListener('click', e => {
+    const b = e.target.closest('.seg');
+    if(!b) return;
+    valgt = b.dataset.k;
+    segs.querySelectorAll('.seg').forEach(x => x.classList.toggle('on', x === b));
+    oppdater();
+  });
+  onRedraw(oppdater);
+})();
+
+/* ==========================================================================
+   BINDINGSTYPE AV ΔEN (2.2)
+   ========================================================================== */
+(function(){
+  const aEl = document.getElementById('enA');
+  if(!aEl) return;
+  const bEl = document.getElementById('enB'), cv = document.getElementById('enCanvas');
+  const liste = Object.keys(EN).map(Number).sort((a, b) => a - b);
+  liste.forEach(z => {
+    const tekst = ELNAMES[z-1].sym + '  ' + ELNAMES[z-1].navn + '  (' + EN[z].toFixed(1).replace('.', ',') + ')';
+    aEl.add(new Option(tekst, z));
+    bEl.add(new Option(tekst, z));
+  });
+  aEl.value = '11'; bEl.value = '17';
+
+  function type(d){
+    if(d >= 2.0) return {navn:'ionebinding', farge:'pos',
+      note:'Stor forskjell i elektronegativitet. Elektronet overføres langt på vei fullstendig, det dannes ioner, og stoffet blir et salt.'};
+    if(d >= 0.5) return {navn:'polar elektronparbinding', farge:'acc',
+      note:'Liten forskjell. Elektronparet deles, men trekkes mot det mest elektronegative atomet. Atomene får delladninger +δ og −δ.'};
+    return {navn:'ren elektronparbinding', farge:'vel',
+      note:'Ingen eller svært liten forskjell. Elektronparet sitter midt mellom atomene, og ingen av dem får ladning.'};
+  }
+
+  function tegn(d){
+    const {g, w, h} = fitCanvas(cv, 150);
+    const th = TH();
+    const L = 20, R = w - 20, y = 78;
+    const maks = 4.0;
+    const x = v => L + (v / maks) * (R - L);
+    /* soner */
+    const soner = [[0, 0.5, th.vel, 'ren'], [0.5, 2.0, th.acc, 'polar'], [2.0, maks, th.pos, 'ionebinding']];
+    soner.forEach(([a, b, col, navn]) => {
+      g.save(); g.globalAlpha = .22; g.fillStyle = col;
+      g.fillRect(x(a), y - 16, x(b) - x(a), 32); g.restore();
+      g.save(); g.strokeStyle = th.border; g.lineWidth = 1;
+      g.strokeRect(x(a), y - 16, x(b) - x(a), 32); g.restore();
+      ctext(g, navn, (x(a) + x(b))/2, y + 32, {col: col, size: 10.5, mono: true, align: 'center'});
+    });
+    [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4].forEach(v => {
+      ctext(g, v.toFixed(1).replace('.', ','), x(v), y - 24, {col: th.text3, size: 9, mono: true, align: 'center'});
+    });
+    /* markør */
+    g.save();
+    g.strokeStyle = th.text; g.lineWidth = 2.4;
+    g.beginPath(); g.moveTo(x(d), y - 24); g.lineTo(x(d), y + 20); g.stroke();
+    g.beginPath(); g.arc(x(d), y - 24, 4.5, 0, 7); g.fillStyle = th.text; g.fill();
+    g.restore();
+    ctext(g, 'ΔEN = ' + d.toFixed(1).replace('.', ','), x(d), y + 54,
+      {col: th.text, size: 11.5, mono: true, align: d > 3.2 ? 'right' : (d < 0.6 ? 'left' : 'center')});
+  }
+
+  function oppdater(){
+    const za = +aEl.value, zb = +bEl.value;
+    const ea = EN[za], eb = EN[zb];
+    const d = Math.abs(ea - eb);
+    const t = type(d);
+    document.getElementById('enVerdier').textContent =
+      ELNAMES[za-1].sym + ' ' + ea.toFixed(1).replace('.', ',') + '  ·  ' + ELNAMES[zb-1].sym + ' ' + eb.toFixed(1).replace('.', ',');
+    document.getElementById('enDiff').textContent = d.toFixed(1).replace('.', ',');
+    document.getElementById('enType').textContent = t.navn;
+    let ekstra = '';
+    const katA = elKategori(za), katB = elKategori(zb);
+    if(d >= 2.0) ekstra = ' Her møtes ' + KATNAVN[katA] + ' og ' + KATNAVN[katB] + '.';
+    else if(za === zb) ekstra = ' Samme grunnstoff — begge atomene trekker like sterkt.';
+    document.getElementById('enNote').textContent = t.note + ekstra;
+    tegn(d);
+  }
+  [aEl, bEl].forEach(el => el.addEventListener('change', oppdater));
+  document.getElementById('enPresets').addEventListener('click', e => {
+    const b = e.target.closest('.seg');
+    if(!b) return;
+    aEl.value = b.dataset.a; bEl.value = b.dataset.b;
+    document.querySelectorAll('#enPresets .seg').forEach(x => x.classList.toggle('on', x === b));
+    oppdater();
+  });
+  onRedraw(oppdater);
+})();
+
+/* ==========================================================================
+   VSEPR — MOLEKYLGEOMETRI (2.3)
+   ========================================================================== */
+const MOLEKYL = {
+  CH4:{navn:'Metan', formel:'CH₄', sentral:'C', ytre:['H','H','H','H'], val:8, vinkel:'109,5°',
+    form:'tetraeder', ledig:0, dipol:false, vinkler:[-90, 30, 150, 210], dybde:[0,0,0,1],
+    note:'Fire bindingsskyer og ingen ledige par. Skyene stiller seg maksimalt fra hverandre i et tetraeder. Senteret for de fire positive ladningene faller sammen med C-atomet, så molekylet er ingen dipol.'},
+  NH3:{navn:'Ammoniakk', formel:'NH₃', sentral:'N', ytre:['H','H','H'], val:8, vinkel:'ca. 108°',
+    form:'trekantet pyramide', ledig:1, dipol:true, vinkler:[30, 150, 90], dybde:[0,0,1],
+    note:'Det ledige elektronparet ligger nær N og frastøter de tre bindingene, som derfor presses litt sammen. Senteret for positiv ladning ligger i trekanten av H-atomer og faller ikke sammen med N — altså en dipol.'},
+  H2O:{navn:'Vann', formel:'H₂O', sentral:'O', ytre:['H','H'], val:8, vinkel:'104,5°',
+    form:'vinkelformet', ledig:2, dipol:true, vinkler:[37.75, 142.25], dybde:[0,0],
+    note:'To ledige elektronpar presser bindingsvinkelen ned til 104,5°. Senteret for negativ ladning ligger i O, senteret for positiv midt mellom H-atomene. Vann er en veldig sterk dipol.'},
+  CO2:{navn:'Karbondioksid', formel:'CO₂', sentral:'C', ytre:['O','O'], val:16, vinkel:'180°',
+    form:'lineært', ledig:0, dipol:false, vinkler:[0, 180], dybde:[0,0], dobbel:true,
+    note:'Enkeltbindinger ville krevd 20 valenselektroner, og vi har bare 16. Derfor to dobbeltbindinger. Ingen ledige par på sentralatomet gir 180°. Bindingene er polare, men ladningssentrene faller sammen i C — ingen dipol.'},
+  HCN:{navn:'Blåsyre', formel:'HCN', sentral:'C', ytre:['H','N'], val:10, vinkel:'180°',
+    form:'lineært', ledig:0, dipol:true, vinkler:[180, 0], dybde:[0,0], trippel:true,
+    note:'Enkeltbinding til hydrogen og trippelbinding til nitrogen. To elektronskyer rundt karbon gir 180°. Nitrogenenden er klart mer negativ enn hydrogenenden, så molekylet er en dipol.'},
+  NO3:{navn:'Nitrationet', formel:'NO₃⁻', sentral:'N', ytre:['O','O','O'], val:24, vinkel:'120°',
+    form:'likesidet trekant', ledig:0, dipol:false, vinkler:[-90, 30, 150], dybde:[0,0,0],
+    note:'5 + 3·6 + 1 = 24 valenselektroner. Enkeltbindinger alene ville krevd 26, så én binding må være dobbel. Den kan tegnes tre steder, og alle er like sannsynlige — det er resonans. I virkeligheten er de tre bindingene helt like.'},
+  SO3:{navn:'Svoveltrioksid', formel:'SO₃', sentral:'S', ytre:['O','O','O'], val:24, vinkel:'120°',
+    form:'likesidet trekant', ledig:0, dipol:false, vinkler:[-90, 30, 150], dybde:[0,0,0],
+    note:'Tre elektronskyer og ingen ledige par på svovel gir en likesidet trekant. Molekylet er symmetrisk, så det er ingen dipol — selv om S–O-bindingene er polare.'},
+  O3:{navn:'Ozon', formel:'O₃', sentral:'O', ytre:['O','O'], val:18, vinkel:'ca. 117°',
+    form:'vinkelformet', ledig:1, dipol:true, vinkler:[31.5, 148.5], dybde:[0,0],
+    note:'Tre elektronskyer rundt sentralatomet, men én av dem er et ledig elektronpar. Molekylet blir vinkelformet og er en dipol. Ozon har resonans, akkurat som nitrationet.'}
+};
+(function(){
+  const segs = document.getElementById('vseprSegs');
+  if(!segs) return;
+  const cv = document.getElementById('vseprCanvas');
+  let valgt = 'CH4';
+
+  function tegn(){
+    const m = MOLEKYL[valgt];
+    const {g, w, h} = fitCanvas(cv, 280);
+    const th = TH();
+    const cx = w/2, cy = h/2 + 6;
+    const R = Math.min(w, h) * 0.3;
+
+    /* ledige elektronpar tegnes bak sentralatomet */
+    for(let i = 0; i < m.ledig; i++){
+      const a = (m.ledig === 1 ? -90 : (i ? -125 : -55)) * Math.PI/180;
+      const px = cx + Math.cos(a) * R * 0.66, py = cy + Math.sin(a) * R * 0.66;
+      g.save(); g.globalAlpha = .3; g.fillStyle = th.vel;
+      g.beginPath(); g.ellipse(px, py, R*0.3, R*0.2, a, 0, 7); g.fill(); g.restore();
+      [-4, 4].forEach(d => {
+        g.beginPath();
+        g.arc(px + Math.cos(a + Math.PI/2)*d, py + Math.sin(a + Math.PI/2)*d, 2.6, 0, 7);
+        g.fillStyle = th.vel; g.fill();
+      });
+    }
+
+    /* bindinger og ytre atomer */
+    m.ytre.forEach((sym, i) => {
+      const a = m.vinkler[i] * Math.PI/180;
+      const bak = m.dybde[i] === 1;
+      const rr = bak ? R * 0.62 : R;
+      const px = cx + Math.cos(a) * rr, py = cy + Math.sin(a) * rr;
+      const linjer = (m.dobbel ? 2 : (m.trippel && sym === 'N' ? 3 : 1));
+      g.save();
+      g.strokeStyle = th.border; g.lineWidth = bak ? 2.5 : 4;
+      g.globalAlpha = bak ? .55 : 1;
+      for(let k = 0; k < linjer; k++){
+        const off = (k - (linjer-1)/2) * 5;
+        const nx = Math.cos(a + Math.PI/2) * off, ny = Math.sin(a + Math.PI/2) * off;
+        g.beginPath(); g.moveTo(cx + nx, cy + ny); g.lineTo(px + nx, py + ny); g.stroke();
+      }
+      g.restore();
+      const rad = bak ? 15 : 19;
+      g.beginPath(); g.arc(px, py, rad, 0, 7);
+      g.fillStyle = sym === 'H' ? th.surface3 : (sym === 'O' ? th.pos : th.acc);
+      g.globalAlpha = bak ? .7 : 1; g.fill(); g.globalAlpha = 1;
+      g.strokeStyle = th.border; g.lineWidth = 1; g.stroke();
+      ctext(g, sym, px, py + 4, {col: sym === 'H' ? th.text : '#fff', size: 12, mono: true, align: 'center'});
+    });
+
+    /* sentralatom */
+    g.beginPath(); g.arc(cx, cy, 24, 0, 7);
+    g.fillStyle = th.accent; g.fill();
+    ctext(g, m.sentral, cx, cy + 5, {col: '#fff', size: 14, mono: true, align: 'center'});
+
+    ctext(g, m.form + ' · ' + m.vinkel, cx, h - 12, {col: th.text3, size: 11, mono: true, align: 'center'});
+    if(m.ledig) ctext(g, 'blå sky = ledig elektronpar', 10, 18, {col: th.vel, size: 10, mono: true});
+  }
+
+  function oppdater(){
+    const m = MOLEKYL[valgt];
+    document.getElementById('vsNavnKort').textContent = m.formel;
+    document.getElementById('vsNavn').textContent = m.navn;
+    document.getElementById('vsForm').textContent = m.form;
+    document.getElementById('vsVal').textContent = m.val;
+    document.getElementById('vsVinkel').textContent = m.vinkel;
+    document.getElementById('vsLedig').textContent = m.ledig;
+    document.getElementById('vsDipol').textContent = m.dipol ? 'ja' : 'nei';
+    document.getElementById('vsNote').textContent = m.note;
+    tegn();
+  }
+  segs.addEventListener('click', e => {
+    const b = e.target.closest('.seg');
+    if(!b) return;
+    valgt = b.dataset.m;
+    segs.querySelectorAll('.seg').forEach(x => x.classList.toggle('on', x === b));
+    oppdater();
+  });
+  onRedraw(oppdater);
+})();
+
+/* ==========================================================================
+   MASSETETTHETEN TIL VANN (2.6)
+   ========================================================================== */
+(function(){
+  const cv = document.getElementById('vannCanvas');
+  if(!cv) return;
+  /* temperatur i °C og massetetthet i g/mL */
+  const D = [[0,0.99984],[1,0.99990],[2,0.99994],[3,0.99996],[3.97,0.99997],[5,0.99996],
+             [6,0.99994],[8,0.99985],[10,0.99970],[12,0.99950],[14,0.99924],[16,0.99894],
+             [18,0.99860],[20,0.99820],[22,0.99777],[25,0.99704]];
+  function tegn(){
+    const {g, w, h} = fitCanvas(cv, 300);
+    const th = TH();
+    const L = 78, R = w - 40, T = 40, B = h - 44;
+    const yMin = 0.9968, yMax = 1.00008;
+    const x = t => L + (t / 25) * (R - L);
+    const y = d => B - ((d - yMin) / (yMax - yMin)) * (B - T);
+
+    g.save(); g.strokeStyle = th.border; g.lineWidth = 1;
+    for(let k = 0; k <= 4; k++){
+      const yy = T + (k/4) * (B - T);
+      g.beginPath(); g.moveTo(L, yy); g.lineTo(R, yy); g.stroke();
+      const v = yMax - (k/4) * (yMax - yMin);
+      ctext(g, v.toFixed(4).replace('.', ','), L - 8, yy + 4, {col: th.text3, size: 10, mono: true, align: 'right'});
+    }
+    [0, 4, 10, 15, 20, 25].forEach(t => {
+      ctext(g, t + ' °C', x(t), B + 18, {col: th.text3, size: 10, mono: true, align: 'center'});
+    });
+    g.restore();
+
+    /* kurven */
+    g.save();
+    g.strokeStyle = th.vel; g.lineWidth = 2.4; g.lineJoin = 'round';
+    g.beginPath();
+    D.forEach(([t, d], i) => i ? g.lineTo(x(t), y(d)) : g.moveTo(x(t), y(d)));
+    g.stroke(); g.restore();
+
+    /* maksimum ved 3,97 grader */
+    const mx = x(3.97), my = y(0.99997);
+    g.save(); g.setLineDash([4, 4]); g.strokeStyle = th.warn; g.lineWidth = 1.4;
+    g.beginPath(); g.moveTo(mx, my); g.lineTo(mx, B); g.stroke(); g.restore();
+    g.beginPath(); g.arc(mx, my, 4.5, 0, 7); g.fillStyle = th.warn; g.fill();
+    ctext(g, 'maksimum ved 3,97 °C', mx + 8, B - 10, {col: th.warn, size: 10.5, mono: true});
+
+    ctext(g, 'massetetthet (g/mL)', 8, 18, {col: th.text3, size: 10, mono: true});
+  }
+  onRedraw(tegn);
+})();
+
+/* ==========================================================================
+   KJERNEENERGI — E = mc² (tema)
+   ========================================================================== */
+(function(){
+  const dmEl = document.getElementById('kjDm');
+  if(!dmEl) return;
+  const mEl = document.getElementById('kjM');
+  const U = 1.66054e-27, C = 2.998e8, NA = 6.022e23;
+  function eksp(x, d){
+    if(!isFinite(x) || x <= 0) return '0';
+    const e = Math.floor(Math.log10(x));
+    const m = (x / Math.pow(10, e)).toFixed(d).replace('.', ',');
+    return m + ' · 10' + (e < 0 ? '⁻' : '') + sup(Math.abs(e));
+  }
+  function oppdater(){
+    const dm = parseFloat((dmEl.value || '0').replace(',', '.'));
+    const mol = parseFloat((mEl.value || '0').replace(',', '.'));
+    const E1 = dm * U * C * C;                 /* energi per kjerne */
+    const Etot = E1 * NA * (mol > 0 ? mol : 0);
+    document.getElementById('kjE1').textContent = eksp(E1, 2) + ' J';
+    document.getElementById('kjEtot').textContent = eksp(Etot, 2) + ' J';
+    document.getElementById('kjTnt').textContent = (Etot / 4.184e9).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' tonn TNT';
+    const kWh = Etot / 3.6e6;
+    document.getElementById('kjHus').textContent = Math.round(kWh / 16000).toLocaleString('nb-NO') + ' eneboliger i ett år';
+  }
+  [dmEl, mEl].forEach(el => el.addEventListener('input', oppdater));
+  document.getElementById('kjernePresets').addEventListener('click', e => {
+    const b = e.target.closest('.seg');
+    if(!b) return;
+    dmEl.value = b.dataset.dm; mEl.value = b.dataset.n;
+    document.querySelectorAll('#kjernePresets .seg').forEach(x => x.classList.toggle('on', x === b));
+    oppdater();
+  });
+  oppdater();
+})();
+
+
+/* ==========================================================================
+   SANT ELLER USANT — påstander fra begge kapitlene
    ========================================================================== */
 const PASTANDER = [
   ['Elektronene går i faste, sirkelformede baner rundt atomkjernen.', false,
@@ -5908,7 +7994,29 @@ const PASTANDER = [
   ['Antall nøytroner i et grunnstoff påvirker de kjemiske egenskapene.', false,
    'Nøytronene påvirker massen og kjernens stabilitet, men ikke kjemien. Isotoper av samme grunnstoff reagerer likt.'],
   ['Luft veier ingenting.', false,
-   'Luft har masse. Ett kubikkmeter luft veier omtrent 1,2 kg ved vanlig trykk og temperatur.']
+   'Luft har masse. Ett kubikkmeter luft veier omtrent 1,2 kg ved vanlig trykk og temperatur.'],
+  ['Atomenes radius øker med økende antall protoner i kjernen.', false,
+   'Ikke innenfor en periode. Der fylles det samme skallet mens kjerneladningen øker, så radien <em>minker</em> mot høyre. Radien øker nedover i en gruppe, men det er fordi det kommer et nytt skall.'],
+  ['Metallene blir mer reaktive nedover i en hovedgruppe, mens ikke-metallene blir mindre reaktive nedover.', true,
+   'Metallene skal gi fra seg elektroner, og det blir lettere jo lenger ute det ytterste elektronet ligger. Ikke-metallene skal trekke til seg elektroner, og det blir vanskeligere jo større atomet blir.'],
+  ['Grunnstoffer med høy elektronegativitet er reaktive, mens grunnstoffer med lav elektronegativitet er lite reaktive.', false,
+   'Både høy og lav elektronegativitet gir reaktive grunnstoffer. Fluor (4,0) og cesium (0,7) er begge svært reaktive — de bare gjør motsatte ting. De minst reaktive er edelgassene, med fullt ytterskall.'],
+  ['Hydrogenbindingen er veldig sterk.', false,
+   'Den er den sterkeste av de <em>svake</em> bindingene, men langt svakere enn en elektronparbinding. Når vann koker, brytes hydrogenbindingene — molekylene består.'],
+  ['Store ioner har alltid sterkere tiltrekningskrefter mellom seg enn små ioner.', false,
+   'Motsatt: større ioner betyr lengre avstand mellom ladningene, og etter Coulombs lov svakere krefter. Derfor har NaCl høyere smeltepunkt enn KCl.'],
+  ['Atomradien minker mot høyre i en periode på grunn av flere protoner i kjernen.', true,
+   'Kjerneladningen øker mens elektronene fylles i det samme skallet. Kjernen trekker elektronene nærmere seg.'],
+  ['Elektronene til et atom har lavere energi jo lenger de er fra kjernen.', false,
+   'Omvendt. Elektroner lenger fra kjernen har <em>høyere</em> energi. Det er derfor det kreves energi for å eksitere et elektron utover, og det er derfor 1s fylles først.'],
+  ['Det er ingen tydelig grense mellom polar elektronparbinding og ionebinding.', true,
+   'Den ene glir jevnt over i den andre. Helt rene ionebindinger finnes ikke — elektronoverføringen er aldri helt fullstendig.'],
+  ['De ulike svake bindingene varierer i styrke avhengig av polariteten til stoffene som inngår.', true,
+   'Sterkere dipoler og kortere avstand gir sterkere svake bindinger. Det er Coulombs lov igjen.'],
+  ['Alle molekyler med polare bindinger er dipoler.', false,
+   'CO₂ og CCl₄ har polare bindinger, men er symmetriske. Ladningssentrene faller sammen, og molekylene er ikke dipoler.'],
+  ['Et ledig elektronpar på sentralatomet i et molekyl er viktig for å bestemme molekylgeometrien.', true,
+   'Ledige par tar plass og frastøter bindingene. Det er forskjellen mellom tetraederet i CH₄ (109,5°), pyramiden i NH₃ (108°) og vinkelen i H₂O (104,5°).']
 ];
 (function(){
   const wrap = document.getElementById('tfList');
@@ -5929,14 +8037,9 @@ const PASTANDER = [
       b.addEventListener('click', () => {
         if(row.dataset.done) return;
         row.dataset.done = '1';
-        const valgt = b.dataset.v === '1';
-        const ok = valgt === p[1];
+        const ok = (b.dataset.v === '1') === p[1];
         b.classList.add(ok ? 'right' : 'wrong');
-        if(!ok){
-          row.querySelectorAll('.tf__btn').forEach(x => {
-            if((x.dataset.v === '1') === p[1]) x.classList.add('right');
-          });
-        }
+        if(!ok) row.querySelectorAll('.tf__btn').forEach(x => { if((x.dataset.v === '1') === p[1]) x.classList.add('right'); });
         row.querySelector('.tf__why').hidden = false;
         svart++; if(ok) riktige++;
         document.getElementById('tfScore').textContent = riktige + ' riktig av ' + svart + ' besvart';
@@ -6038,13 +8141,14 @@ function armReveal(root){
 }
 
 /* ---------- dyplenker: #del-<fane> ---------- */
-const PANEL_HASH = /^#del-([a-z]+)$/;
+const PANEL_HASH = /^#del-([a-z0-9]+)$/;
 let hashLock = false;
 function syncHash(name){
   const want = '#del-' + name;
   if(location.hash === want) return;
   hashLock = true;
-  try{ history.pushState(null, '', want); }catch(e){ location.hash = want.slice(1); }
+  try{ history.pushState(null, '', want); }
+  catch(e){ try{ location.hash = want.slice(1); }catch(e2){} }
   hashLock = false;
 }
 function fromHash(){

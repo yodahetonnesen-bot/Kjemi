@@ -2703,7 +2703,7 @@ body.searchopen{overflow:hidden;}
       </div>
       <div class="segs" id="kjernePresets">
         <button class="seg on" data-dm="0.0304" data-n="1">fusjon til helium (1 mol He)</button>
-        <button class="seg" data-dm="0.1860" data-n="1">fisjon av uran-235 (1 mol U)</button>
+        <button class="seg" data-dm="0.2117" data-n="1">fisjon av uran-235 (1 mol U)</button>
       </div>
       <div class="pickrow">
         <label for="kjDm">Massetap per kjerne (u)</label>
@@ -4099,6 +4099,26 @@ window.__onTabChange = function(name){
   const panel = document.getElementById('panel-'+name);
   if(panel) armReveal(panel);
 };
+
+/* ---------- knapper og kort som hopper til en annen fane ---------- */
+document.querySelectorAll('[data-goto]').forEach(el=>{
+  el.addEventListener('click', ()=>{
+    activateTab(el.dataset.goto);
+    const anchor = el.dataset.anchor;
+    if(!anchor) return;
+    requestAnimationFrame(()=>{
+      const target = document.getElementById(anchor);
+      if(!target) return;
+      /* ligger målet inni en sammenslått oppgave, må den åpnes først */
+      let node = target.parentElement;
+      while(node){
+        if(node.tagName === 'DETAILS') node.open = true;
+        node = node.parentElement;
+      }
+      requestAnimationFrame(()=>target.scrollIntoView({behavior:'smooth', block:'center'}));
+    });
+  });
+});
 
 /* ---------- til toppen ---------- */
 (function(){

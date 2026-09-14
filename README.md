@@ -9,9 +9,19 @@ avhengigheter. Åpne en fil i nettleseren, eller publiser mappa.
 | `index.html` | Kapittel 1 alene: Atomer, molekyler og ioner |
 | `kapittel2.html` | Kapittel 2 alene: Kjemiske bindinger |
 
-Den samlede sida har begge kapitlene i samme sidemeny, én sjekkliste på 33 punkter, 97
-flashcards, 57 quizspørsmål og 21 påstander på tvers av kapitlene, og ett søk som dekker alt.
+Den samlede sida har begge kapitlene i samme sidemeny, én sjekkliste på 36 punkter, 131
+flashcards, 75 quizspørsmål og 21 påstander på tvers av kapitlene, og ett søk som dekker alt.
 Kapittelfilene er de samme sidene delt i to, for den som heller vil ha én fil per kapittel.
+
+Fagstoffet følger læreboka, men er utvidet med det som hører til på Kjemi 1-nivå og som boka
+tar opp senere eller ikke i det hele tatt: atommodellenes utvikling, gjennomsnittlig atommasse,
+radioaktivitet og halveringstid, massespektrometeret, isoelektroniske ioner, gruppenes typiske
+reaksjoner med likninger, sammensatte ioner, navnsetting, løselighetsregler og felling,
+balansering av reaksjonslikninger, hele det elektromagnetiske spekteret, Balmer-serien og
+energinivåene til hydrogen, orbitalformer, aufbau/Pauli/Hund, edelgassnotasjon, effektiv
+kjerneladning, elektronaffinitet, bindingsenergier, gitterenergi, elektronprikkformler,
+«likt løser likt», legeringer, vannets varmekapasitet og overflatespenning, og de fire
+stofftypene.
 
 ## Søk
 
@@ -36,12 +46,13 @@ Enter styrer trefflista. Tall skrevet med komma og punktum finner det samme.
 
 Alle oppgavene fra kapitlet med løsning, aktivitetene A 1.1–A 1.10, øvingene Ø 1.1–Ø 1.5,
 laboratoriehåndbok med feilkilder og måleusikkerhet, temasidene om grunnstoffer, formelark,
-58 flashcards, 32 quizspørsmål og 10 sant/usant-påstander med forklaring.
+77 flashcards, 42 quizspørsmål og 10 sant/usant-påstander med forklaring.
 
-**Seks interaktive verktøy:** interaktivt periodisk system med alle 118 grunnstoffene,
-skallbygger for de 20 første, isotopregner, saltbygger som balanserer ladningene,
-lysregner (λ ↔ f ↔ E) og flammeprøve med linjespekter for seks salter. I tillegg
-elektronkonfigurasjonsverktøyet og standardavviksregneren i laboratoriedelen.
+**Elleve interaktive verktøy:** interaktivt periodisk system med alle 118 grunnstoffene,
+skallbygger for de 20 første, isotopregner, isotopblander for gjennomsnittlig atommasse,
+iondriller, saltbygger med både enkle og sammensatte ioner, balanseringsverktøy for
+reaksjonslikninger, lysregner (λ ↔ f ↔ E), flammeprøve med linjespekter for seks salter og
+for hydrogen, elektronkonfigurasjonsverktøy og standardavviksregner.
 
 ## Kapittel 2 — Kjemiske bindinger
 
@@ -56,12 +67,13 @@ elektronkonfigurasjonsverktøyet og standardavviksregneren i laboratoriedelen.
 | 2.7 | Oversikt over bindingstyper og oppsummering |
 
 Alle oppgavene til 2.1–2.5 med løsning, temasidene om kjernekrefter (fisjon, fusjon, thorium
-og solenergi) og om utnyttelse av fiskeråstoff, formelark, 39 flashcards, 25 quizspørsmål og
+og solenergi) og om utnyttelse av fiskeråstoff, formelark, 54 flashcards, 33 quizspørsmål og
 11 sant/usant-påstander.
 
-**Fem interaktive verktøy:** trendgraf for atomradius, ioniseringsenergi og elektronegativitet,
+**Seks interaktive verktøy:** trendgraf for atomradius, ioniseringsenergi og elektronegativitet,
 bindingstypeverktøy som viser ΔEN på en skala, VSEPR-verktøy for åtte molekyler og ioner,
-massetetthetskurven for vann med maksimum ved 3,97 °C, og energiregner for E = mc².
+massetetthetskurven for vann med maksimum ved 3,97 °C, energiregner for E = mc², og
+stofftypedriller.
 
 ## Om oppgavetekstene
 
